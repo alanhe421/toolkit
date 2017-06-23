@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <title>toolkit</title>
+    <link rel="stylesheet" href="/public/themes/AdminLTE/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/public/themes/AdminLTE/dist/css/AdminLTE.min.css">
+    <link rel="stylesheet" href="/public/themes/AdminLTE/dist/css/skins/_all-skins.min.css">
+    <link rel="stylesheet"
+          href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet"
+          href="/css/style.css">
+
+    <script src="https://cdn.staticfile.org/jquery/1.12.4/jquery.min.js" type="text/javascript"></script>
+    <script src="/public/base64.min.js" type="text/javascript"></script>
+</head>
+<body class="skin-blue">
+<!-- Main Header -->
+<%- include layout/header.ejs %>
+<%- include layout/sidebar.ejs %>
+<div class="content-wrapper">
+    <div class="content-header">
+        <h1>
+            base64加密解密
+        </h1>
+    </div>
+    <div class="content body">
+        <div class="callout callout-danger lead">
+            <h4>注意!</h4>
+            <p>点击按钮实现<b>base64</b>加密解密</p>
+        </div>
+
+
+        <div class="row">
+            <div class="col-sm-6">
+                <textarea name="encodeCnt" id="encodeCnt" class="mtext-input" placeholder="加密内容粘贴到这里"></textarea>
+            </div>
+            <div class="col-sm-6">
+                <textarea name="decodeCnt" id="decodeCnt" class="mtext-input" placeholder="解密内容粘贴到这里"></textarea>
+            </div>
+        </div>
+        <button class="btn btn-primary" onclick="encodeContent()">加密</button>
+        <button class="btn btn-primary" onclick="decodeContent()">解密</button>
+    </div>
+</div>
+
+<script type="text/javascript">
+
+    function encodeContent() {
+        $('#decodeCnt').val(Base64.encode($('#encodeCnt').val()));
+    }
+    function decodeContent() {
+        $('#encodeCnt').val(Base64.decode($('#decodeCnt').val()));
+    }
+
+</script>
+
+</body>
+</html>
