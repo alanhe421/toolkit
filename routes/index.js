@@ -4,20 +4,19 @@
 var express = require('express');
 var router = express.Router();
 
-router.use(function (req, res, next) {
-    if (!req.session) {
-        return next(new Error('oh no')); // handle error
-    }
-    next(); // otherwise continue
-});
 router.get('/', function (req, res) {
-    res.render('index');
+    res.redirect('/tools');
 });
 
-router.get('/tools/:name', function (req, res) {
-    res.render('tools', {name: router.params['name']});
-});
+const toolsRouter = require('./tools');
 const testRouter = require('./test');
+
+router.use('/tools', toolsRouter);
 router.use('/test', testRouter);
 
+// Handle 404
+// router.use(function (req, res) {
+//     res.status(400);
+//     res.render('404');
+// });
 module.exports = router;
