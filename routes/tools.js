@@ -19,4 +19,7 @@ router.get('/json', function (req, res) {
 router.get('/pic', function (req, res) {
     res.render('pic');
 });
+router.get('/apk', function (req, res) {
+    res.render('apk');
+});
 module.exports = router;

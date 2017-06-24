@@ -13,6 +13,8 @@
 + 获取本机浏览器信息
 + 测试本机网速
 + 在线生成特定尺寸图片
++ 在线反编译APK,支持下载
++ 图表，支持下载，包括文字云常用图表
 
 ## 提新功能？
 [欢迎提Issue](https://github.com/alanhg/toolkit/issues)
