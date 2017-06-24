@@ -11,11 +11,12 @@ router.use(function (req, res, next) {
     next(); // otherwise continue
 });
 router.get('/', function (req, res) {
-    var parser = require('ua-parser-js');
-    var ua = parser(req.headers['user-agent']);
-    res.render('index', {ua: ua});
+    res.render('index');
 });
 
+router.get('/tools/:name', function (req, res) {
+    res.render('tools', {name: router.params['name']});
+});
 const testRouter = require('./test');
 router.use('/test', testRouter);
 
