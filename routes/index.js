@@ -3,14 +3,13 @@
  */
 var express = require('express');
 var router = express.Router();
-
+var upload = require('../conf/upload');
 router.get('/', function (req, res) {
     res.redirect('/tools');
 });
-
 const toolsRouter = require('./tools');
 const testRouter = require('./test');
-
+router.use('/upload', upload.fileHandler());
 router.use('/tools', toolsRouter);
 router.use('/test', testRouter);
 

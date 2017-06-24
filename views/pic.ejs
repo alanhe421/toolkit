@@ -1,0 +1,26 @@
+<%- include layout/head.ejs %>
+<body class="skin-blue">
+<!-- Main Header -->
+<%- include layout/header.ejs %>
+<%- include layout/sidebar.ejs %>
+<script src="/public/blueimp-file-upload/js/vendor/jquery.ui.widget.js" type="text/javascript"></script>
+<script src="/public/blueimp-file-upload/js/jquery.iframe-transport.js" type="text/javascript"></script>
+<script src="/public/blueimp-file-upload/js/jquery.fileupload.js" type="text/javascript"></script>
+
+<div class="content-wrapper">
+    <input id="fileupload" type="file" name="files[]" data-url="/upload" class="btn btn-primary">
+</div>
+<script type="text/javascript">
+    $(function () {
+        $('#fileupload').fileupload({
+            dataType: 'json',
+            done: function (e, data) {
+                alert('successful');
+                $.each(data.result.files, function (index, file) {
+                    $('<p/>').text(file.name).appendTo(document.body);
+                });
+            }
+        });
+    });
+</script>
+</body>

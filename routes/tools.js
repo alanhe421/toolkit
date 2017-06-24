@@ -13,4 +13,10 @@ router.get('/', function (req, res) {
 router.get('/encode', function (req, res) {
     res.render('tools');
 });
+router.get('/json', function (req, res) {
+    res.render('json');
+});
+router.get('/pic', function (req, res) {
+    res.render('pic');
+});
 module.exports = router;
