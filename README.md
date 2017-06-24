@@ -18,12 +18,3 @@
 
 ## 提新功能？
 [欢迎提Issue](https://github.com/alanhg/toolkit/issues)
-
-## 栏目规划
-+ 编码加解密
-+ JSON
-+ 正则工具
-+ 本机信息
- - IP
- - 浏览器信息
-+ 工具推荐
