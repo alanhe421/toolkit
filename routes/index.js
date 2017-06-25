@@ -9,7 +9,7 @@ router.get('/', function (req, res) {
 });
 const toolsRouter = require('./tools');
 const testRouter = require('./test');
-router.use('/uploads', upload.fileHandler());
+router.use('/uploadImg', upload.fileHandler());
 router.use('/tools', toolsRouter);
 router.use('/test', testRouter);
 

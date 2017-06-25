@@ -12,8 +12,8 @@ upload.configure({
     uploadUrl: '/uploads',
     imageVersions: {
         thumbnail: {
-            width: 80,
-            height: 80
+            width: 300,
+            height: 300
         }
     }
 });
