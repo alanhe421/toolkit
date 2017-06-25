@@ -11,15 +11,15 @@ router.get('/', function (req, res) {
     res.redirect('/tools/encode');
 });
 router.get('/encode', function (req, res) {
-    res.render('tools');
+    res.render('tools', {menu: 'encode'});
 });
 router.get('/json', function (req, res) {
-    res.render('json');
+    res.render('json', {menu: 'json'});
 });
 router.get('/pic', function (req, res) {
-    res.render('pic');
+    res.render('pic', {menu: 'pic'});
 });
 router.get('/apk', function (req, res) {
-    res.render('apk');
+    res.render('apk', {menu: 'apk'});
 });
 module.exports = router;
