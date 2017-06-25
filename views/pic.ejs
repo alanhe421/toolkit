@@ -12,6 +12,8 @@
     <div class="progress progress-striped active">
         <div class="progress-bar progress-bar-success" role="progressbar" style="width: 0;">0%</div>
     </div>
+    <div class="hide" id="thumbnail">
+    </div>
     <div class="form-control" id="pic-info">
     </div>
     <input type="hidden" id="pic-name">
@@ -42,7 +44,9 @@
             done: function (e, data) {
                 $.each(data.result.files, function (index, file) {
                     console.log(file);
-                    $('#pic-info').html('文件名称:' + file.name + ',文件大小:' + file.size / 1000000 + 'MB');
+                    $('#pic-info').html('文件名称:' + file.originalName + ',文件大小:' + file.size / 1000000 + 'MB');
+                    $('#thumbnail').html('<img src="' + file.thumbnailUrl + '" alt="已上传图片">');
+                    $('#thumbnail').toggleClass('hide');
                     $('#pic-name').val(file.name);
                 });
             }
