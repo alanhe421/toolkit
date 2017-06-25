@@ -48,5 +48,7 @@ router.get('/crop', function (req, res) {
         }
     );
 });
-
+router.get('/js', function (req, res) {
+    res.render('js', {menu: 'js'});
+});
 module.exports = router;
