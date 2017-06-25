@@ -25,9 +25,13 @@ router.get('/apk', function (req, res) {
 });
 
 router.get('/crop', function (req, res) {
-    let src = path.join(__dirname, '../static/uploads') + '/1.JPG';
-    let dst = path.join(__dirname, '../static/downloads') + '/1.JPG';
-    let fileName = '1.JPG';
+    let fileName = req.query.name;
+    let src = path.join(__dirname, '../static/uploads') + '/' + fileName;
+    let dst = path.join(__dirname, '../static/downloads') + '/' + fileName;
+    if (!fileName) {
+        res.status(404).send('缺少参数');
+    }
+    console.log(fileName);
     let width = req.query.width ? +req.query.width : 300;
     let height = req.query.height ? +req.query.height : 300;
     sharp(src).resize(width, height).toFile(dst, function (err) {
