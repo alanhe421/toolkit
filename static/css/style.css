@@ -17,3 +17,9 @@
     overflow-y: auto;
     resize: none;
 }
+
+#currentunixtime {
+    color: #ff4500 !important;
+    background-color: #fff;
+    padding: 0 5px;
+}
