@@ -9,10 +9,11 @@ router.get('/', function (req, res) {
 });
 const toolsRouter = require('./tools');
 const testRouter = require('./test');
+const apiRouter = require('./api');
 router.use('/uploadImg', upload.fileHandler());
 router.use('/tools', toolsRouter);
 router.use('/test', testRouter);
-
+router.use('/api',apiRouter);
 // Handle 404
 // router.use(function (req, res) {
 //     res.status(400);
