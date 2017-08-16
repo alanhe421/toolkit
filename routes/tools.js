@@ -51,4 +51,7 @@ router.get('/crop', function (req, res) {
 router.get('/js', function (req, res) {
     res.render('js', {menu: 'js'});
 });
+router.get('/palette', function (req, res) {
+    res.render('palette', {menu: 'palette'});
+});
 module.exports = router;
