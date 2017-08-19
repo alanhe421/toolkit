@@ -24,5 +24,8 @@
     "ua-parser-js": "^0.7.12",
     "uuid": "^3.1.0",
     "whois": "^2.3.9"
+  },
+  "devDependencies": {
+    "mark.js": "github:julmot/mark.js"
   }
 }

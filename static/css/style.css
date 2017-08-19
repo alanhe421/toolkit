@@ -23,3 +23,8 @@
     background-color: #fff;
     padding: 0 5px;
 }
+
+mark {
+    background: orange;
+    color: black;
+}
