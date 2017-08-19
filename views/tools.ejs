@@ -128,11 +128,11 @@
     }
 
     function utf8Encode() {
-        $('#utf8DecodeCnt').val(utf8.encode($('#utf8EncodeCnt').val()));
+        $("#utf8DecodeCnt").val($("#utf8EncodeCnt").val().replace(/[^\u0000-\u00FF]/g, function ($0) { return escape($0).replace(/(%u)(\w{4})/gi, "&#x$2;") }));
     }
 
     function utf8Decode() {
-        $('#utf8EncodeCnt').val(utf8.decode($('#utf8DecodeCnt').val()));
+        $("#utf8EncodeCnt").val(unescape($("#utf8DecodeCnt").val().replace(/&#x/g, '%u').replace(/;/g, '')));
     }
 
     $(document).ready(function () {
