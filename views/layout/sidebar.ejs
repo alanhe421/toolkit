@@ -2,7 +2,7 @@
 <aside class="main-sidebar">
 
     <!-- sidebar: style can be found in sidebar.less -->
-    <section class="sidebar">
+    <section class="sidebar" style="height: auto;">
 
         <!-- Sidebar user panel (optional) -->
         <div class="user-panel">
@@ -36,41 +36,36 @@
                     <% if(menu == 'encode') { %>
                     class="active"
                     <% } %>
-            ><a href="tools/encode"><i class="fa fa-link"></i> <span>加密解密</span></a></li>
+            ><a href="t/encode"><i class="fa fa-link"></i> <span>加密解密</span></a></li>
             <li
 
                     <% if(menu == 'json') { %>
                     class="active"
                     <% } %>
-            ><a href="tools/json"><i class="fa fa-link"></i> <span>JSON</span></a></li>
+            ><a href="t/json"><i class="fa fa-link"></i> <span>JSON</span></a></li>
             <li
 
                     <% if(menu == 'pic') { %>
                     class="active"
                     <% } %>
-            ><a href="tools/pic"><i class="fa fa-link"></i> <span>图片处理</span></a></li>
+            ><a href="t/pic"><i class="fa fa-link"></i> <span>图片处理</span></a></li>
             <li
                     <% if(menu == 'apk') { %>
                     class="active"
                     <% } %>
-            ><a href="tools/apk"><i class="fa fa-android"></i> <span>反编译APK</span></a></li>
+            ><a href="t/apk"><i class="fa fa-android"></i> <span>反编译APK</span></a></li>
             <li
                     <% if(menu == 'js') { %>
                     class="active"
                     <% } %>
-            ><a href="tools/js"><i class="fa fa-jsfiddle"></i> <span>JavaScript执行</span></a></li>
-            ><a href="tools/palette"><i class="fa fa-jsfiddle"></i> <span>颜色板</span></a></li>
-            <!--<li class="treeview">-->
-            <!--<a href="#"><i class="fa fa-link"></i> <span>Multilevel</span>-->
-            <!--<span class="pull-right-container">-->
-            <!--<i class="fa fa-angle-left pull-right"></i>-->
-            <!--</span>-->
-            <!--</a>-->
-            <!--<ul class="treeview-menu">-->
-            <!--<li><a href="#">Link in level 2</a></li>-->
-            <!--<li><a href="#">Link in level 2</a></li>-->
-            <!--</ul>-->
-            <!--</li>-->
+            ><a href="t/js"><i class="fa fa-jsfiddle"></i> <span>JavaScript执行</span></a></li>
+            <li
+                    <% if(menu == 'palette') { %>
+                    class="active"
+                    <% } %>
+            >
+                <a href="t/palette"><i class="fa fa-pencil"></i> <span>颜色板</span></a>
+            </li>
         </ul>
         <!-- /.sidebar-menu -->
     </section>

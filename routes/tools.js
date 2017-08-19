@@ -1,5 +1,6 @@
 /**
- * Created by heqiang on 6/24/17.
+ * Created by He on 6/24/17.
+ * 工具路由模块
  */
 const express = require('express');
 const router = express.Router();
@@ -8,9 +9,8 @@ const fs = require('fs');
 const path = require('path');
 const sharp = require('sharp');
 
-
 router.get('/', function (req, res) {
-    res.redirect('/tools/encode');
+    res.redirect('/t/encode');
 });
 router.get('/encode', function (req, res) {
     res.render('tools', {menu: 'encode'});
