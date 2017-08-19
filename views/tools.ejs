@@ -7,7 +7,7 @@
     <ul class="nav nav-tabs" id="myTabs">
         <li role="presentation" class="active"><a href="#base64">base64</a></li>
         <li role="presentation"><a href="#md5">MD5</a></li>
-        <li role="presentation"><a href="#uri">URI编码</a></li>
+        <li role="presentation"><a href="#uri">URL编码</a></li>
         <li role="presentation"><a href="#timestamp">Unix时间戳</a></li>
         <li role="presentation"><a href="#utf8">UTF-8</a></li>
     </ul>
@@ -85,18 +85,18 @@
         <div role="tabpanel" class="tab-pane" id="utf8">
             <div class="row">
                 <div class="col-sm-6">
-                <textarea name="encodeCnt" id="uriEncodeCnt" class="mtext-input form-control" rows="16"
+                <textarea name="encodeCnt" id="utf8EncodeCnt" class="mtext-input form-control" rows="16"
                           placeholder="加密内容粘贴到这里"></textarea>
                 </div>
                 <div class="col-sm-6">
-                <textarea name="decodeCnt" id="uriDecodeCnt" class="mtext-input form-control" rows="16"
+                <textarea name="decodeCnt" id="utf8DecodeCnt" class="mtext-input form-control" rows="16"
                           placeholder="解密内容粘贴到这里"></textarea>
                 </div>
             </div>
             <div class="row">
                 <div class="col-sm-12">
-                    <button class="btn btn-primary" onclick="uriEncode()">中文转UTF-8</button>
-                    <button class="btn btn-primary" onclick="uriDecode()">UTF-8转中文</button>
+                    <button class="btn btn-primary" onclick="utf8Encode()">中文转UTF-8</button>
+                    <button class="btn btn-primary" onclick="utf8Decode()">UTF-8转中文</button>
                 </div>
             </div>
         </div>
@@ -125,6 +125,14 @@
     function unixToUTC8() {
         var dateStr = moment.unix($('#timestampInput').val()).format('YYYY-MM-DD HH:mm Z');
         $('#unixtoutc8').val(dateStr);
+    }
+
+    function utf8Encode() {
+        $('#utf8DecodeCnt').val(utf8.encode($('#utf8EncodeCnt').val()));
+    }
+
+    function utf8Decode() {
+        $('#utf8EncodeCnt').val(utf8.decode($('#utf8DecodeCnt').val()));
     }
 
     $(document).ready(function () {

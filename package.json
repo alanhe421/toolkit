@@ -26,6 +26,7 @@
     "whois": "^2.3.9"
   },
   "devDependencies": {
-    "mark.js": "github:julmot/mark.js"
+    "mark.js": "github:julmot/mark.js",
+    "utf8": "^2.1.2"
   }
 }
