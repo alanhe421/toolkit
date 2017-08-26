@@ -9,5 +9,6 @@
  {{block 'content'}}
  {{/block}}
 </div>
+ {{ include './footer.art' }}
 </div>
 </body>
