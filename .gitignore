@@ -7,3 +7,5 @@ public/uploads/*
 !public/uploads/.gitkeeper
 public/downloads/*
 !public/downloads/.gitkeeper
+logs/*
+!logs/.gitkeeper

@@ -27,8 +27,8 @@ router.get('/apk', function (req, res) {
 
 router.get('/crop', function (req, res) {
     let fileName = req.query.name;
-    let src = path.join(__dirname, '../public/uploads') + '/' + fileName;
-    let dst = path.join(__dirname, '../public/downloads') + '/' + fileName;
+    let src = path.join(__dirname, '../js/uploads') + '/' + fileName;
+    let dst = path.join(__dirname, '../js/downloads') + '/' + fileName;
     if (!fileName) {
         res.status(404).send('缺少参数');
     }

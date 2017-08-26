@@ -21,7 +21,7 @@ router.get('/db', function (req, res) {
 
 router.get('/read', function (req, res) {
     console.log(__dirname);
-    fs.readFile(path.join(__dirname, '../public/file/groups.json'), function (err, data) {
+    fs.readFile(path.join(__dirname, '../js/file/groups.json'), function (err, data) {
         try {
             let rs = JSON.parse(data);//wk推荐配置
             // console.log(rs);
