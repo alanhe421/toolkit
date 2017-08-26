@@ -9,7 +9,6 @@ const cookieParser = require('cookie-parser');
 const path = require('path');
 const conf = require('./conf');
 const routes = require('./routes/index');
-
 app.engine('art', require('express-art-template'));
 app.set('view engine', 'art');
 app.set('views', __dirname + '/views');
