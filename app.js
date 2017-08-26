@@ -7,9 +7,12 @@ const app = express();
 const session = require('express-session');
 const cookieParser = require('cookie-parser');
 const path = require('path');
-const conf=require('./conf');
+const conf = require('./conf');
 const routes = require('./routes/index');
 
+app.engine('art', require('express-art-template'));
+app.set('view engine', 'art');
+app.set('views', __dirname + '/views');
 app.set('trust proxy', 1); // trust first proxy
 app.use(cookieParser());
 app.use(session({
@@ -18,8 +21,7 @@ app.use(session({
     saveUninitialized: true,
     resave: false
 }));
-app.set('view engine', 'ejs');
-app.set('views', __dirname + '/views');
+
 // mount the router on the app
 app.use('/', routes);
 app.use('/', express.static(path.join(__dirname, '/public')));

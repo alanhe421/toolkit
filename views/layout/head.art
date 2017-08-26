@@ -1,8 +1,6 @@
-<!DOCTYPE html>
-<html lang="zh-CN">
 <head>
+   <title>toolkit</title>
     <base href="/">
-    <title>Toolkit</title>
     <link href="http://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="/js/themes/AdminLTE/dist/css/AdminLTE.min.css">
     <link rel="stylesheet" href="/js/themes/AdminLTE/dist/css/skins/_all-skins.min.css">

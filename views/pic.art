@@ -1,13 +1,5 @@
-<%- include layout/head.ejs %>
-<body class="skin-blue">
-<!-- Main Header -->
-<%- include layout/header.ejs %>
-<%- include layout/sidebar.ejs %>
-<script src="/js/blueimp-file-upload/js/vendor/jquery.ui.widget.js" type="text/javascript"></script>
-<script src="/js/blueimp-file-upload/js/jquery.iframe-transport.js" type="text/javascript"></script>
-<script src="/js/blueimp-file-upload/js/jquery.fileupload.js" type="text/javascript"></script>
-
-<div class="content-wrapper">
+{{extend './layout/layout.art'}}
+{{block 'content'}}
     <input id="fileupload" type="file" name="files[]" data-url="/uploadImg" class="btn btn-primary" accept="image/*">
     <div class="progress progress-striped active">
         <div class="progress-bar progress-bar-success" role="progressbar" style="width: 0;">0%</div>
@@ -57,4 +49,7 @@
         location.href = url;
     }
 </script>
-</body>
+{{/block}}
+<script src="/js/blueimp-file-upload/js/vendor/jquery.ui.widget.js" type="text/javascript"></script>
+<script src="/js/blueimp-file-upload/js/jquery.iframe-transport.js" type="text/javascript"></script>
+<script src="/js/blueimp-file-upload/js/jquery.fileupload.js" type="text/javascript"></script>

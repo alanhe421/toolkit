@@ -1,9 +1,5 @@
-<%- include layout/head.ejs %>
-<body class="skin-blue">
-<!-- Main Header -->
-<%- include layout/header.ejs %>
-<%- include layout/sidebar.ejs %>
-<div class="content-wrapper">
+{{extend './layout/layout.art'}}
+{{block 'content'}}
     <h1>暂未实现</h1>
     <div class="tab-content">
         <div class="row">
@@ -29,4 +25,4 @@
 
     })
 </script>
-</body>
+{{/block}}

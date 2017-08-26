@@ -1,9 +1,5 @@
-<%- include layout/head.ejs %>
-<body class="skin-blue">
-<!-- Main Header -->
-<%- include layout/header.ejs %>
-<%- include layout/sidebar.ejs %>
-<div class="content-wrapper">
+{{extend './layout/layout.art'}}
+{{block 'content'}}
     <header class="content-header container-fluid">
         <input title="search" type="text" id="keyword" size="50" onkeyup="markit(this.value)" placeholder="快速检索">
     </header>
@@ -1015,4 +1011,4 @@
         }
     }
 </script>
-</body>
+{{/block}}
