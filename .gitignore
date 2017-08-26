@@ -3,7 +3,7 @@
 node_modules
 server/logs/*
 !server/logs/.gitkeeper
-static/uploads/*
-!static/uploads/.gitkeeper
-static/downloads/*
-!static/downloads/.gitkeeper
+public/uploads/*
+!public/uploads/.gitkeeper
+public/downloads/*
+!public/downloads/.gitkeeper

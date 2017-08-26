@@ -22,7 +22,7 @@ app.set('view engine', 'ejs');
 app.set('views', __dirname + '/views');
 // mount the router on the app
 app.use('/', routes);
-app.use('/', express.static(path.join(__dirname, '/static')));
+app.use('/', express.static(path.join(__dirname, '/public')));
 
 // var log = require('./conf/log');
 // log.use(app);
