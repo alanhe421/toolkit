@@ -1,99 +1,98 @@
 {{extend './layout/layout.art'}}
 {{block 'content'}}
 <ul class="nav nav-tabs" id="myTabs">
-        <li role="presentation" class="active"><a href="#base64">base64</a></li>
-        <li role="presentation"><a href="#md5">MD5</a></li>
-        <li role="presentation"><a href="#uri">URL编码</a></li>
-        <li role="presentation"><a href="#timestamp">Unix时间戳</a></li>
-        <li role="presentation"><a href="#utf8">UTF-8</a></li>
-    </ul>
-    <div class="tab-content">
-        <div role="tabpanel" class="tab-pane active" id="base64">
-            <div class="row">
-                <div class="col-sm-6">
+    <li role="presentation" class="active"><a href="#base64">base64</a></li>
+    <li role="presentation"><a href="#md5">MD5</a></li>
+    <li role="presentation"><a href="#uri">URL编码</a></li>
+    <li role="presentation"><a href="#timestamp">Unix时间戳</a></li>
+    <li role="presentation"><a href="#utf8">UTF-8</a></li>
+</ul>
+<div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="base64">
+        <div class="row">
+            <div class="col-sm-6">
                 <textarea name="encodeCnt" id="encodeCnt" class=" mtext-input form-control" rows="16"
                           placeholder="加密内容粘贴到这里"></textarea>
-                </div>
-                <div class="col-sm-6">
+            </div>
+            <div class="col-sm-6">
                 <textarea name="decodeCnt" id="decodeCnt" class="mtext-input form-control" rows="16"
                           placeholder="解密内容粘贴到这里"></textarea>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-12">
-                    <button class="btn btn-primary" onclick="encodeContent()">加密</button>
-                    <button class="btn btn-primary" onclick="decodeContent()">解密</button>
-                </div>
             </div>
         </div>
-        <div role="tabpanel" class="tab-pane" id="md5">
-            <div class="row">
-                <div class="col-sm-6">
+        <div class="row">
+            <div class="col-sm-12">
+                <button class="btn btn-primary" onclick="encodeContent()">加密</button>
+                <button class="btn btn-primary" onclick="decodeContent()">解密</button>
+            </div>
+        </div>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="md5">
+        <div class="row">
+            <div class="col-sm-6">
                 <textarea name="encodeCnt" id="md5SourceCnt" class=" mtext-input form-control" rows="16"
                           placeholder="加密内容粘贴到这里"></textarea>
-                </div>
-                <div class="col-sm-6">
-                    <textarea name="decodeCnt" id="md5GenCnt" class="mtext-input form-control" rows="16"></textarea>
-                </div>
             </div>
-            <div class="row">
-                <div class="col-sm-12">
-                    <button class="btn btn-primary" onclick="md5Content()">加密</button>
-                </div>
+            <div class="col-sm-6">
+                <textarea name="decodeCnt" id="md5GenCnt" class="mtext-input form-control" rows="16"></textarea>
             </div>
         </div>
-        <div role="tabpanel" class="tab-pane" id="uri">
-            <div class="row">
-                <div class="col-sm-6">
+        <div class="row">
+            <div class="col-sm-12">
+                <button class="btn btn-primary" onclick="md5Content()">加密</button>
+            </div>
+        </div>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="uri">
+        <div class="row">
+            <div class="col-sm-6">
                 <textarea name="encodeCnt" id="uriEncodeCnt" class=" mtext-input form-control" rows="16"
                           placeholder="加密内容粘贴到这里"></textarea>
-                </div>
-                <div class="col-sm-6">
+            </div>
+            <div class="col-sm-6">
                 <textarea name="decodeCnt" id="uriDecodeCnt" class="mtext-input form-control" rows="16"
                           placeholder="解密内容粘贴到这里"></textarea>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-12">
-                    <button class="btn btn-primary" onclick="uriEncode()">加密</button>
-                    <button class="btn btn-primary" onclick="uriDecode()">解密</button>
-                </div>
             </div>
         </div>
-        <div role="tabpanel" class="tab-pane" id="timestamp">
-            <div class="row">
-                <div class="col-sm-12">
-                    <div class="form-inline">现在的Unix时间戳(Unix timestamp)是：
-                        <span id="currentunixtime"></span></div>
-                    <div class="form-inline">
-                        <div class="form-group">
-                            <label for="exampleInputName2">Unix时间戳（Unix timestamp）</label>
-                            <input type="text" class="form-control" id="timestampInput">秒
-                        </div>
-                        <div class="form-group">
-                            <button onclick="unixToUTC8()">转换成北京时间</button>
-                            <input type="email" class="form-control" id="unixtoutc8" size="30" readonly>
-                        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <button class="btn btn-primary" onclick="uriEncode()">加密</button>
+                <button class="btn btn-primary" onclick="uriDecode()">解密</button>
+            </div>
+        </div>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="timestamp">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="form-inline">现在的Unix时间戳(Unix timestamp)是：
+                    <span id="currentunixtime"></span></div>
+                <div class="form-inline">
+                    <div class="form-group">
+                        <label for="exampleInputName2">Unix时间戳（Unix timestamp）</label>
+                        <input type="text" class="form-control" id="timestampInput">秒
+                    </div>
+                    <div class="form-group">
+                        <button onclick="unixToUTC8()">转换成北京时间</button>
+                        <input type="email" class="form-control" id="unixtoutc8" size="30" readonly>
                     </div>
                 </div>
             </div>
         </div>
-        <div role="tabpanel" class="tab-pane" id="utf8">
-            <div class="row">
-                <div class="col-sm-6">
+    </div>
+    <div role="tabpanel" class="tab-pane" id="utf8">
+        <div class="row">
+            <div class="col-sm-6">
                 <textarea name="encodeCnt" id="utf8EncodeCnt" class="mtext-input form-control" rows="16"
                           placeholder="加密内容粘贴到这里"></textarea>
-                </div>
-                <div class="col-sm-6">
+            </div>
+            <div class="col-sm-6">
                 <textarea name="decodeCnt" id="utf8DecodeCnt" class="mtext-input form-control" rows="16"
                           placeholder="解密内容粘贴到这里"></textarea>
-                </div>
             </div>
-            <div class="row">
-                <div class="col-sm-12">
-                    <button class="btn btn-primary" onclick="utf8Encode()">中文转UTF-8</button>
-                    <button class="btn btn-primary" onclick="utf8Decode()">UTF-8转中文</button>
-                </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <button class="btn btn-primary" onclick="utf8Encode()">中文转UTF-8</button>
+                <button class="btn btn-primary" onclick="utf8Decode()">UTF-8转中文</button>
             </div>
         </div>
     </div>
@@ -124,7 +123,9 @@
     }
 
     function utf8Encode() {
-        $("#utf8DecodeCnt").val($("#utf8EncodeCnt").val().replace(/[^\u0000-\u00FF]/g, function ($0) { return escape($0).replace(/(%u)(\w{4})/gi, "&#x$2;") }));
+        $("#utf8DecodeCnt").val($("#utf8EncodeCnt").val().replace(/[^\u0000-\u00FF]/g, function ($0) {
+            return escape($0).replace(/(%u)(\w{4})/gi, "&#x$2;")
+        }));
     }
 
     function utf8Decode() {

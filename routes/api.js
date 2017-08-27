@@ -24,4 +24,7 @@ router.get('/aes', function (req, res) {
         data: crypted
     });
 });
+
+
+
 module.exports = router;

@@ -1,25 +1,24 @@
 {{extend './layout/layout.art'}}
 {{block 'content'}}
-    <input id="fileupload" type="file" name="files[]" data-url="/uploadImg" class="btn btn-primary" accept="image/*">
-    <div class="progress progress-striped active">
-        <div class="progress-bar progress-bar-success" role="progressbar" style="width: 0;">0%</div>
+<input id="fileupload" type="file" name="files[]" data-url="/uploadImg" class="btn btn-primary" accept="image/*">
+<div class="progress progress-striped active">
+    <div class="progress-bar progress-bar-success" role="progressbar" style="width: 0;">0%</div>
+</div>
+<div class="hide" id="thumbnail">
+</div>
+<div class="form-control" id="pic-info">
+</div>
+<input type="hidden" id="pic-name">
+<div class="form-inline">
+    <div class="form-group">
+        <label for="exampleInputName2">宽度</label>
+        <input type="text" class="form-control" id="width">
     </div>
-    <div class="hide" id="thumbnail">
+    <div class="form-group">
+        <label for="exampleInputEmail2">高度</label>
+        <input type="text" class="form-control" id="height">
     </div>
-    <div class="form-control" id="pic-info">
-    </div>
-    <input type="hidden" id="pic-name">
-    <div class="form-inline">
-        <div class="form-group">
-            <label for="exampleInputName2">宽度</label>
-            <input type="text" class="form-control" id="width">
-        </div>
-        <div class="form-group">
-            <label for="exampleInputEmail2">高度</label>
-            <input type="text" class="form-control" id="height">
-        </div>
-        <button type="submit" class="btn btn-default" onclick="downloadFile()">下载</button>
-    </div>
+    <button type="submit" class="btn btn-default" onclick="downloadFile()">下载</button>
 </div>
 <script type="text/javascript">
     $(function () {
