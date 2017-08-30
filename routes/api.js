@@ -6,6 +6,18 @@ const express = require('express');
 const router = express.Router();
 const whois = require('whois');
 const crypto = require('crypto');
+const multer = require('multer');
+
+const storage = multer.diskStorage({
+    destination: function (req, file, cb) {
+        cb(null, 'public/uploads')
+    },
+    filename: function (req, file, cb) {
+        var fileformat = (file.originalname).split('.');
+        cb(null, file.fieldname + '-' + Date.now() + '.' + fileformat[fileformat.length - 1]);
+    }
+});
+const upload = multer({storage: storage});
 
 //whois
 router.get('/whois', function (req, res) {
@@ -24,7 +36,8 @@ router.get('/aes', function (req, res) {
         data: crypted
     });
 });
-
-
-
+// 上传
+router.post('/upload', upload.array('file', 20), function (req, res, next) {
+    res.json({status: 'ok'})
+});
 module.exports = router;
