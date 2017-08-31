@@ -8,7 +8,7 @@ const db = require('../db/schema');
 const fs = require('fs');
 const path = require('path');
 const sharp = require('sharp');
-
+const parser = require('ua-parser-js');
 router.get('/', function (req, res) {
     res.redirect('/t/encode');
 });
@@ -58,5 +58,8 @@ router.get('/palette', function (req, res) {
 router.get('/crypto', function (req, res) {
     res.render('crypto', {menu: 'crypto'});
 });
-
+router.get('/info', function (req, res) {
+    let ua = parser(req.headers['user-agent']);
+    res.render('info', {menu: 'info', ip: req.ip, ips: req.ips, ua: JSON.stringify(ua)});
+});
 module.exports = router;

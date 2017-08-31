@@ -29,6 +29,6 @@ app.use('/', express.static(path.join(__dirname, '/public')));
 // log.use(app);
 // respond with "hello world" when a GET request is made to the homepage
 
-app.listen(conf.port, function () {
+app.listen(conf.port, '0.0.0.0', function () {
     console.log(`toolkit app listening on port ${conf.port}!`);
 });

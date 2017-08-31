@@ -33,43 +33,50 @@
             <li class="header">HEADER</li>
             <!-- Optionally, you can add icons to the links -->
             <li
-                    <% if(menu == 'encode') { %>
-                    class="active"
-                    <% } %>
+            <% if(menu == 'encode') { %>
+            class="active"
+            <% } %>
             ><a href="t/encode"><i class="fa fa-link"></i> <span>编码解码</span></a></li>
             <li
-                    <% if(menu == 'crypto') { %>
-                    class="active"
-                    <% } %>
+            <% if(menu == 'crypto') { %>
+            class="active"
+            <% } %>
             ><a href="t/crypto"><i class="fa fa-link"></i> <span>加密解密</span></a></li>
             <li
 
-                    <% if(menu == 'json') { %>
-                    class="active"
-                    <% } %>
+            <% if(menu == 'json') { %>
+            class="active"
+            <% } %>
             ><a href="t/json"><i class="fa fa-link"></i> <span>JSON</span></a></li>
             <li
 
-                    <% if(menu == 'pic') { %>
-                    class="active"
-                    <% } %>
+            <% if(menu == 'pic') { %>
+            class="active"
+            <% } %>
             ><a href="t/pic"><i class="fa fa-link"></i> <span>图片处理</span></a></li>
             <li
-                    <% if(menu == 'apk') { %>
-                    class="active"
-                    <% } %>
+            <% if(menu == 'apk') { %>
+            class="active"
+            <% } %>
             ><a href="t/apk"><i class="fa fa-android"></i> <span>反编译APK</span></a></li>
             <li
-                    <% if(menu == 'js') { %>
-                    class="active"
-                    <% } %>
+            <% if(menu == 'js') { %>
+            class="active"
+            <% } %>
             ><a href="t/js"><i class="fa fa-jsfiddle"></i> <span>JavaScript执行</span></a></li>
             <li
-                    <% if(menu == 'palette') { %>
-                    class="active"
-                    <% } %>
+            <% if(menu == 'js') { %>
+            class="active"
+            <% } %>
             >
-                <a href="t/palette"><i class="fa fa-pencil"></i> <span>颜色板</span></a>
+            <a href="t/palette"><i class="fa fa-pencil"></i> <span>颜色板</span></a>
+            </li>
+            <li
+            <% if(menu == 'info') { %>
+            class="active"
+            <% } %>
+            >
+            <a href="t/info"><i class="fa fa-pencil"></i> <span>浏览器信息</span></a>
             </li>
         </ul>
         <!-- /.sidebar-menu -->
