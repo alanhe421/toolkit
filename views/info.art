@@ -1,0 +1,51 @@
+{{extend './layout/layout.art'}}
+{{block 'content'}}
+<div class="row">
+    <div class="col-md-6">
+
+        <div class="info-box">
+            <span class="info-box-icon bg-aqua"><i class="fa fa-flag-o"></i></span>
+            <div class="info-box-content">
+                <span class="info-box-text">您的IP地址</span>
+                <span class="info-box-number">    {{@ip}}</span>
+            </div><!-- /.info-box-content -->
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="info-box">
+            <span class="info-box-icon bg-green"><i class="fa fa-flag-o"></i></span>
+            <div class="info-box-content">
+                <span class="info-box-text">您的代理IP信息</span>
+                <span class="info-box-number">
+            <ol>
+               {{each ips}}
+  <li>{{$value}}</li>
+    {{/each}}
+            </ol>
+            </span>
+            </div><!-- /.info-box-content -->
+        </div>
+    </div>
+    <div class="col-md-8">
+        <h3>
+            x-forwarded-for
+        </h3>
+        <pre class="prettyprint">
+            <code class="javascript">
+            {{forwards}}
+        </code>
+        </pre>
+    </div>
+    <div class="col-md-8">
+        <h3>
+            UA信息
+        </h3>
+        <pre class="prettyprint">
+            <code class="javascript">
+            {{ua}}
+        </code>
+        </pre>
+
+    </div>
+</div>
+{{/block}}

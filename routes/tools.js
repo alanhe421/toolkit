@@ -60,6 +60,13 @@ router.get('/crypto', function (req, res) {
 });
 router.get('/info', function (req, res) {
     let ua = parser(req.headers['user-agent']);
-    res.render('info', {menu: 'info', ip: req.ip, ips: req.ips, ua: JSON.stringify(ua)});
+    let forwards = req.header('x-forwarded-for');
+    res.render('info', {
+        menu: 'info',
+        ip: req.ip,
+        ips: req.ips,
+        ua: JSON.stringify(ua),
+        forwards: JSON.stringify(forwards)
+    });
 });
 module.exports = router;
