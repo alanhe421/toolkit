@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:drawable="@drawable/vote_reward_icon_empty" />
-    <item android:drawable="@drawable/vote_reward_option_bg_pressed" />
-</layer-list>

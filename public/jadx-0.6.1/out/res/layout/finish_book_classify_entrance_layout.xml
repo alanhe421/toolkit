@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content"
-    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:id="@id/ll_content" android:background="@drawable/selector_white_button" android:clickable="true" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0700f3">
-        <ImageView android:id="@id/img_icon" android:layout_width="UNKNOWN_DATA_0x7f0700f5" android:layout_height="UNKNOWN_DATA_0x7f0700f4" android:layout_marginLeft="16dp" android:layout_marginRight="8dp" android:src="@drawable/paymonth_icon" android:scaleType="fitXY" />
-        <TextView android:textSize="@dimen/text_size_class_3" android:textColor="@color/text_color_c101" android:ellipsize="end" android:id="@id/tv_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" />
-        <TextView android:textSize="@dimen/text_size_class_3" android:textColor="@color/text_color_c103" android:ellipsize="end" android:id="@id/tv_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="6dp" android:singleLine="true" />
-        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16dp" android:src="@drawable/arrow_gray" android:scaleType="fitXY" />
-    </LinearLayout>
-</LinearLayout>

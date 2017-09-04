@@ -44,7 +44,7 @@ router.get('/dex', function (req, res) {
     exec('bin/jadx -d out ../uploads/com.qq.reader.apk',
         {
             cwd: path.join(__dirname, '../public/jadx-0.6.1'),
-            maxBuffer: 200 * 1024
+            maxBuffer: 500 * 1024
         }, (error, stdout, stderr) => {
             if (error) {
                 console.error(`exec error: ${error}`);

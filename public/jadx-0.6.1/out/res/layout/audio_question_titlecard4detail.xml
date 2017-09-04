@@ -1,2 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<com.qq.reader.module.bookstore.qnative.card.impl.CardTitle xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/card_title" android:paddingBottom="0dp" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/cardtitlestyle" />

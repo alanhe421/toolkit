@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/localstore_colcard_3books_layout" android:layout_width="match_parent" android:layout_height="wrap_content">
-    <include android:id="@id/localstore_adv_divider" layout="@layout/localstore_card_divider" />
-    <com.qq.reader.module.bookstore.qnative.card.impl.CardTitle android:id="@id/colcard_title_layout" android:paddingBottom="0dp" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/cardtitlestyle" />
-    <com.qq.reader.module.bookstore.qnative.card.impl.BookInfoType_3 android:id="@id/colcard_body_layout_1" android:background="@a/concept_card_bg" android:paddingLeft="0dp" android:paddingRight="0dp" android:paddingBottom="15dp" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/basecardStyle" />
-    <com.qq.reader.module.bookstore.qnative.card.impl.BookInfoType_3 android:id="@id/colcard_body_layout_2" android:background="@a/concept_card_bg" android:paddingLeft="0dp" android:paddingTop="0dp" android:paddingRight="0dp" android:paddingBottom="15dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/basecardStyle" />
-    <com.qq.reader.module.feed.card.view.CardMoreView android:orientation="vertical" android:id="@id/localstore_moreaction" android:layout_width="match_parent" android:layout_height="wrap_content" />
-</LinearLayout>

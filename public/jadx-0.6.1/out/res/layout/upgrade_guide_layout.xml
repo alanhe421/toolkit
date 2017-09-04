@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
-    <ImageView android:id="@id/guide_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitXY" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
-    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:id="@id/guide_btn_ll" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/upgrade_guide_fragment_button_margin_bottom" android:layout_alignParentBottom="true">
-        <Button android:textSize="@dimen/text_size_class_4" android:textColor="@a/guide_btn_right_textcolor" android:id="@id/guide_btn_left" android:background="@drawable/guide_btn_right_bg" android:layout_width="UNKNOWN_DATA_0x7c01" android:layout_height="UNKNOWN_DATA_0x2801" />
-        <Button android:textSize="@dimen/text_size_class_4" android:textColor="@a/guide_btn_left_textcolor" android:id="@id/guide_btn_right" android:background="@drawable/guide_btn_left_bg" android:layout_width="UNKNOWN_DATA_0x7c01" android:layout_height="UNKNOWN_DATA_0x2801" android:layout_marginLeft="52dp" />
-    </LinearLayout>
-</RelativeLayout>

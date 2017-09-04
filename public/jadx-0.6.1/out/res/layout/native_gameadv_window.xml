@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@e/click_layout" android:background="@a/translucent" android:layout_width="match_parent" android:layout_height="match_parent">
-    <ImageView android:id="@id/adv_img" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitXY" />
-    <ImageView android:id="@id/close_btn" android:layout_width="UNKNOWN_DATA_0x7f0701e8" android:layout_height="UNKNOWN_DATA_0x7f0701e8" android:layout_marginTop="@dimen/common_dp_10" android:layout_marginRight="@dimen/common_dp_10" android:src="@drawable/ic_close" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
-    <RelativeLayout android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0701c4" android:layout_alignParentBottom="true">
-        <com.qq.reader.module.game.card.view.GameOpenBigBtn android:id="@id/action_btn" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0701e8" android:layout_centerInParent="true" />
-    </RelativeLayout>
-</RelativeLayout>

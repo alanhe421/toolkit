@@ -1,2 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<com.qq.reader.view.EmptyView xmlns:android="http://schemas.android.com/apk/res-auto" empty:background="@a/screen_bg_color" empty:layout_width="match_parent" empty:layout_height="match_parent" empty:contentTitle="暂无笔记" empty:contentText="阅读时选中文字添加笔记" empty:mIcon="@drawable/empty06" empty:type="radial" />

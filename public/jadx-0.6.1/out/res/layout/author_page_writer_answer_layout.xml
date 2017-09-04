@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/answer_card_layout" android:layout_width="match_parent" android:layout_height="wrap_content">
-    <com.qq.reader.module.bookstore.qnative.card.impl.CardTitle android:id="@id/answer_title_layout" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/cardtitlestyle" />
-    <com.qq.reader.module.question.card.view.AudioComItemView android:id="@id/answer_body_layout" android:background="@drawable/common_card_background" android:paddingLeft="@dimen/common_dp_16" android:paddingTop="@dimen/common_dp_9" android:paddingRight="@dimen/common_dp_16" android:paddingBottom="14dp" android:layout_width="match_parent" android:layout_height="wrap_content" />
-    <View android:background="@a/concept_divider_line" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" />
-    <TextView android:textSize="@dimen/text_size_class_3" android:textColor="@a/skin_set_common_textcolor" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/ask_button_bottom" android:background="@drawable/localstore_card_bg_selector" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3201" android:text="@string/audio_quiz_pay_submit" />
-</LinearLayout>

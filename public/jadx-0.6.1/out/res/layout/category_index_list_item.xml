@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content"
-    <RelativeLayout android:background="@drawable/list_item_bg" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f07014e">
-        <ImageView android:id="@id/categrory_index_icon" android:layout_width="UNKNOWN_DATA_0x2f01" android:layout_height="UNKNOWN_DATA_0x3f01" android:layout_marginLeft="12dp" android:layout_marginRight="7dp" android:scaleType="fitXY" android:layout_centerVertical="true" android:contentDescription="0x0" />
-        <TextView android:textSize="@dimen/bookshelf_list_item_text_big_size" android:textColor="@a/common_textcolor_primary" android:ellipsize="end" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/categrory_index_name" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:layout_marginRight="12dp" android:singleLine="true" android:includeFontPadding="false" android:layout_toRightOf="@id/categrory_index_icon" />
-        <TextView android:textSize="@dimen/bookshelf_list_item_text_normal_size" android:textColor="@a/common_textcolor_secondary" android:ellipsize="end" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/categrory_index_count" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="46dp" android:layout_marginRight="12dp" android:singleLine="true" android:includeFontPadding="false" android:layout_toRightOf="@id/categrory_index_icon" />
-    </RelativeLayout>
-</RelativeLayout>

@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/search_card_bg_selector" android:paddingTop="10dp" android:paddingBottom="10dp" android:layout_width="match_parent" android:layout_height="match_parent" android:minHeight="50dp">
-    <ImageView android:id="@id/search_zone_icon" android:layout_width="UNKNOWN_DATA_0x1001" android:layout_height="UNKNOWN_DATA_0x1001" android:layout_marginLeft="16dp" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
-    <TextView android:textSize="@dimen/text_size_class_4" android:textColor="#000000" android:id="@id/search_zone_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6dp" android:text="包月专区" android:layout_toRightOf="@id/search_zone_icon" android:layout_centerVertical="true" />
-    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16dp" android:src="@drawable/stacktab_arrow" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
-</RelativeLayout>

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<com.qq.reader.view.VoiceTabItem xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x3c01">
-    <RelativeLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="match_parent" android:layout_height="match_parent">
-        <ImageView android:id="@id/voice_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="center" android:layout_centerInParent="true" />
-        <TextView android:textSize="@dimen/text_size_class_4" android:textColor="@a/tts_voice_item_textcolor" android:ellipsize="end" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/voice_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/tts_voice_select_maring" android:layout_marginRight="@dimen/tts_voice_select_maring" android:text="fsdfsdf" android:singleLine="false" android:layout_centerInParent="true" />
-        <View android:id="@id/divider" android:background="#999999" android:layout_width="UNKNOWN_DATA_0x101" android:layout_height="match_parent" android:layout_marginTop="22dp" android:layout_marginBottom="22dp" android:layout_alignParentRight="true" />
-    </RelativeLayout>
-</com.qq.reader.view.VoiceTabItem>

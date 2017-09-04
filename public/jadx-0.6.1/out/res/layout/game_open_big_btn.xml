@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content">
-    <ImageView android:id="@id/button_img" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0701e8" android:layout_marginLeft="@dimen/common_dp_86" android:layout_marginRight="@dimen/common_dp_86" android:scaleType="fitXY" />
-    <TextView android:id="@id/game_status" style="@style/button_b6_no_bg" />
-</RelativeLayout>

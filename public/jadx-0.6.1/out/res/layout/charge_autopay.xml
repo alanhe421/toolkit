@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:paddingLeft="16dp" android:paddingTop="12.5dp" android:paddingRight="16dp" android:paddingBottom="12.5dp" android:layout_width="match_parent" android:layout_height="wrap_content">
-    <TextView android:textSize="@dimen/text_size_class_3" android:textColor="@color/text_color_c301" android:id="@id/charge_help" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="年费VIP说明" android:layout_centerVertical="true" />
-    <CheckBox android:textSize="@dimen/text_size_class_3" android:textColor="@color/text_color_c103" android:id="@id/charge_autopay" android:paddingLeft="6dp" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x1901" android:checked="true" android:button="@drawable/autopay_checkbox_bg" android:layout_alignParentRight="true" />
-</RelativeLayout>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/rl_parent" android:layout_width="match_parent" android:layout_height="match_parent">
-    <com.qq.reader.view.EmptyView empty:id="@id/noresult_layout" empty:visibility="gone" empty:layout_width="match_parent" empty:layout_height="match_parent" empty:contentText="@string/empty_page_title_content_title" empty:mIcon="@drawable/empty06" empty:type="linear" />
-    <com.qq.reader.common.widget.SwipeRefreshLayout empty:id="@id/booklist_pull_down_list" empty:layout_width="match_parent" empty:layout_height="match_parent">
-        <com.qq.reader.view.pullupdownlist.XListView empty:id="@id/list_layout" empty:focusableInTouchMode="true" empty:scrollbars="UNKNOWN_DATA_0x0" empty:fadingEdge="UNKNOWN_DATA_0x0" empty:fadingEdgeLength="0dp" empty:layout_width="match_parent" empty:layout_height="match_parent" empty:listSelector="#00000000" empty:scrollingCache="false" empty:cacheColorHint="#00000000" empty:divider="0x0" empty:footerDividersEnabled="false" />
-    </com.qq.reader.common.widget.SwipeRefreshLayout>
-    <include empty:id="@e/loading_layout" empty:visibility="gone" empty:layout_width="wrap_content" empty:layout_height="wrap_content" empty:layout_marginTop="@dimen/progress_topmargin" empty:layout_alignParentTop="true" empty:layout_centerHorizontal="true" layout="@layout/localstore_loading" />
-    <include empty:id="@id/loading_failed_layout" empty:visibility="gone" empty:layout_width="match_parent" empty:layout_height="match_parent" empty:layout_below="@e/common_titler" layout="@layout/localstore_loading_failed" />
-</RelativeLayout>

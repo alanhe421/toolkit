@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="wrap_content" android:layout_height="wrap_content"
-    <RelativeLayout android:id="@id/icon_view" android:layout_width="UNKNOWN_DATA_0x2801" android:layout_height="UNKNOWN_DATA_0x2801" android:layout_alignParentTop="true" android:layout_centerHorizontal="true">
-        <ImageView android:id="@id/find_homepage_item_icon" android:layout_width="UNKNOWN_DATA_0x3501" android:layout_height="UNKNOWN_DATA_0x3501" android:src="@drawable/header_default_icon" android:layout_centerHorizontal="true" android:contentDescription="0x0" />
-        <ImageView android:id="@id/find_homepage_item_redtip" android:background="@drawable/bookshelf_news_newtip" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x801" android:layout_height="UNKNOWN_DATA_0x801" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:contentDescription="0x0" />
-    </RelativeLayout>
-    <TextView android:textSize="@dimen/text_size_class_3" android:textColor="@color/text_color_c101" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/find_homepage_item_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:layout_below="@id/icon_view" android:layout_centerHorizontal="true" />
-</RelativeLayout>

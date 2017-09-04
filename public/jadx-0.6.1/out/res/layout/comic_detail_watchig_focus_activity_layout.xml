@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:layout_width="match_parent" app:layout_height="match_parent">
-    <ImageView app:id="@id/comic_focus_bg" app:background="#ff000000" app:layout_width="match_parent" app:layout_height="match_parent" />
-    <android.support.v4.view.ViewPager app:id="@id/vp_gallery" app:layout_width="match_parent" app:layout_height="match_parent" app:layout_alignParentLeft="true" app:layout_alignParentTop="true" />
-    <com.qq.reader.view.CirclePageIndicator app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@id/vp_indicator" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginBottom="@dimen/feed_adv_indicator_margin_bottom_no_float_bar" app:layout_alignParentBottom="true" app:layout_centerHorizontal="true" app:vp_fillColor="@color/text_color_c301" />
-</RelativeLayout>

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:clipChildren="false" android:clipToPadding="false" android:layout_width="UNKNOWN_DATA_0x7f070133" android:layout_height="UNKNOWN_DATA_0x7f070132">
-    <ImageView android:id="@id/img_bookcover" android:background="@a/localstore_linecolor_divider" android:padding="1px" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitXY" />
-    <TextView android:textSize="@dimen/text_size_class_2" android:textColor="@color/text_color_c101" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@a/title" android:layout_width="UNKNOWN_DATA_0x1e01" android:layout_height="UNKNOWN_DATA_0x1101" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
-    <TextView android:textSize="@dimen/text_size_class_2" android:textColor="@color/text_color_c103" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@a/info" android:layout_width="UNKNOWN_DATA_0x1e01" android:layout_height="UNKNOWN_DATA_0x1101" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
-    <ImageView android:id="@id/img_mask" android:background="#4c000000" android:layout_width="match_parent" android:layout_height="match_parent" />
-</RelativeLayout>

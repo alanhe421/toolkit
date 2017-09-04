@@ -1,2 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<com.qq.reader.module.feed.mypreference.StickyGridHeadersGridView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/gridview" android:scrollbars="UNKNOWN_DATA_0x0" android:fadingEdge="UNKNOWN_DATA_0x0" android:layout_width="match_parent" android:layout_height="match_parent" android:listSelector="0x0" android:horizontalSpacing="0dp" android:verticalSpacing="0dp" android:stretchMode="columnWidth" android:numColumns="UNKNOWN_DATA_0x2" />

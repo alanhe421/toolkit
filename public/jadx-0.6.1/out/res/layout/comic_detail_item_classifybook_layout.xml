@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:focusable="true" app:focusableInTouchMode="true" app:layout_width="match_parent" app:layout_height="wrap_content">
-    <TextView app:textSize="@c/text_size_class_5" app:textColor="@color/text_color_c101" app:id="@id/tv_comic_four_card_title_name" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginLeft="@dimen/common_dp_16" app:layout_marginTop="@dimen/common_dp_12" app:text="同类热门书" />
-    <TextView app:textSize="@dimen/text_size_class_2" app:textColor="@color/text_color_c101" app:id="@id/tv_comic_four_card_title_face" app:paddingBottom="@dimen/common_dp_2" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_toRightOf="@id/tv_comic_four_card_title_name" app:layout_alignBottom="@id/tv_comic_four_card_title_name" />
-    <RelativeLayout app:id="@id/pics_container" app:paddingLeft="@dimen/common_dp_16" app:paddingTop="@dimen/common_dp_12" app:paddingBottom="@dimen/common_dp_12" app:focusable="true" app:focusableInTouchMode="true" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0xae01" app:layout_below="@id/tv_comic_four_card_title_name" app:layout_alignParentLeft="true">
-        <com.qq.reader.module.game.card.view.HorizontalListView app:id="@id/hlv" app:focusable="true" app:focusableInTouchMode="true" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x9201" app:dividerWidth="10dp" />
-    </RelativeLayout>
-    <View app:background="#f3f3f3" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f0701f8" app:layout_alignParentBottom="true" />
-</RelativeLayout>

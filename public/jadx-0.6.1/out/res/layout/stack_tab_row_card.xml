@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="wrap_content">
-    <FrameLayout android:id="@id/stack_tab_cell_1" android:background="@drawable/common_card_background" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x4901" android:layout_weight="1.0">
-        <include android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="16dp" android:layout_marginTop="15dp" android:layout_marginRight="9dp" android:layout_marginBottom="15dp" layout="@layout/stack_tab_cell" />
-    </FrameLayout>
-    <FrameLayout android:id="@id/stack_tab_cell_2" android:background="@drawable/common_card_background" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x4901" android:layout_weight="1.0">
-        <include android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="9dp" android:layout_marginTop="15dp" android:layout_marginRight="16dp" android:layout_marginBottom="15dp" layout="@layout/stack_tab_cell" />
-    </FrameLayout>
-</LinearLayout>
