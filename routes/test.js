@@ -39,4 +39,18 @@ router.get('/read', function (req, res) {
 
 });
 
+router.get('/dex', function (req, res) {
+    const exec = require('child_process').exec;
+    exec('bin/jadx -d out ../uploads/com.qq.reader.apk',
+        {
+            cwd: path.join(__dirname, '../public/jadx-0.6.1'),
+            maxBuffer: 200 * 1024
+        }, (error, stdout, stderr) => {
+            if (error) {
+                console.error(`exec error: ${error}`);
+                return;
+            }
+            console.log('反编译完毕!');
+        });
+});
 module.exports = router;
