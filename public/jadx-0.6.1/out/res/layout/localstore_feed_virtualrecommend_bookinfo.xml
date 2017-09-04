@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content">
-    <FrameLayout android:clipChildren="false" android:clipToPadding="false" android:layout_width="UNKNOWN_DATA_0x7f0700ff" android:layout_height="UNKNOWN_DATA_0x7f0700fe" android:layout_marginTop="14dp">
-        <com.qq.reader.view.QRImageView android:id="@id/img_book_cover" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitXY" />
-        <ImageView android:id="@id/img_book_cover_mask" android:background="@drawable/localstore_image_click_selector" android:layout_width="match_parent" android:layout_height="match_parent" />
-    </FrameLayout>
-    <TextView android:textSize="@dimen/text_size_class_3" android:textColor="@color/text_color_c101" android:ellipsize="end" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/tv_title" android:layout_width="UNKNOWN_DATA_0x7f0700ff" android:layout_height="wrap_content" android:layout_marginTop="6.5dp" android:maxLines="2" android:includeFontPadding="false" android:lineSpacingExtra="2dp" />
-</LinearLayout>

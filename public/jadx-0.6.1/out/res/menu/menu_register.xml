@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res-auto">
-    <item app:id="@e/action_settings" app:orderInCategory="100" app:title="@h/action_settings" app:showAsAction="UNKNOWN_DATA_0x0" />
-</menu>

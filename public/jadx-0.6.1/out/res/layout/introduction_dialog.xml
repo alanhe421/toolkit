@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@a/translucent" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="wrap_content">
-    <com.qq.reader.view.RoundWebView android:scrollbarThumbHorizontal="0x0" android:scrollbarThumbVertical="0x0" android:id="@e/webview" android:background="@drawable/popweb_bg" android:visibility="visible" android:scrollbars="UNKNOWN_DATA_0x0" android:layout_width="UNKNOWN_DATA_0x10401" android:layout_height="UNKNOWN_DATA_0x19301" android:layout_centerHorizontal="true" />
-    <ImageView android:id="@id/close_btn" android:layout_width="UNKNOWN_DATA_0x2201" android:layout_height="UNKNOWN_DATA_0x2201" android:layout_marginTop="@i/aj" android:src="@drawable/dialog_close_btn" android:layout_below="@e/webview" android:layout_centerHorizontal="true" />
-</RelativeLayout>

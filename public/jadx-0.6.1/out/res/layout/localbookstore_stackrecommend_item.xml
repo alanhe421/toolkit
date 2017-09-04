@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content">
-    <com.qq.reader.view.RoundImageView android:id="@e/img" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f070017" android:scaleType="fitXY" android:layout_centerVertical="true" />
-    <TextView android:textSize="@dimen/text_size_class_3" android:textColor="@color/text_color_c101" android:ellipsize="end" android:id="@a/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_centerInParent="true" android:layout_centerVertical="true" />
-    <RelativeLayout android:id="@e/click_layout" android:background="@drawable/stackrec_card_bg_selector" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f070017" /> />

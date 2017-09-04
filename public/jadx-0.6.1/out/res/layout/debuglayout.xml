@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<com.qq.reader.view.CustomDrawerLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/drawer_layout" android:layout_width="match_parent" android:layout_height="match_parent">
-    <FrameLayout android:id="@id/content_frame" android:layout_width="match_parent" android:layout_height="match_parent" />
-    <ExpandableListView android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/left_drawer" android:background="#111" android:layout_width="UNKNOWN_DATA_0xf001" android:layout_height="match_parent" android:listSelector="0x0" android:divider="0x106000d" android:dividerHeight="0dp" android:choiceMode="singleChoice" />
-</com.qq.reader.view.CustomDrawerLayout>

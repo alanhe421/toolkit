@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:paddingTop="15dp" android:layout_width="match_parent" android:layout_height="wrap_content">
-    <TextView android:textSize="@dimen/text_size_class_3" android:textColor="@a/comment_detail_content_link_color" android:ellipsize="end" android:id="@id/tv_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@id/title_container" android:layout_alignParentLeft="true" android:lineSpacingExtra="4dp" />
-</LinearLayout>

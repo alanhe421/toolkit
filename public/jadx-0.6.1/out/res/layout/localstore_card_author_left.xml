@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/author_tab_layout" android:background="#f2f2f2" android:layout_width="match_parent" android:layout_height="wrap_content">
-    <RelativeLayout android:id="@id/author_tab" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3201">
-        <View android:id="@id/author_tab_line" android:background="@drawable/card_author_left" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x401" android:layout_height="wrap_content" android:layout_alignParentLeft="true" />
-        <TextView android:textSize="@dimen/text_size_class_4" android:textColor="@a/common_textcolor_primary" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/author_tab_title" android:layout_width="match_parent" android:layout_height="match_parent" android:singleLine="true" android:includeFontPadding="false" />
-    </RelativeLayout>
-    <View android:id="@id/author_divider_line" android:background="#ffffff" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" />
-</LinearLayout>

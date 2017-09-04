@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@a/screen_bg_color" android:layout_width="match_parent" android:layout_height="match_parent">
-    <include android:id="@e/common_titler" layout="@g/common_titler" />
-    <com.qq.reader.common.widget.SwipeRefreshLayout android:id="@id/pull_down_list" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@a/title">
-        <include android:layout_width="match_parent" android:layout_height="match_parent" layout="@layout/localbookcardlistlayout" />
-    </com.qq.reader.common.widget.SwipeRefreshLayout>
-    <include android:id="@e/loading_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/progress_topmargin" android:layout_below="@e/common_titler" android:layout_centerHorizontal="true" layout="@layout/localstore_loading" />
-    <include android:id="@id/loading_failed_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@e/common_titler" layout="@layout/localstore_loading_failed" />
-</RelativeLayout>

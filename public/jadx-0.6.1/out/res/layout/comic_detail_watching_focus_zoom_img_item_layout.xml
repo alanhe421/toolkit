@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
-    <com.qq.reader.module.comic.views.PhotoView android:id="@id/small_img" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitCenter" />
-    <com.qq.reader.module.comic.views.PhotoView android:id="@id/big_img" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitCenter" />
-    <include android:id="@id/loading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" layout="@layout/chapterlist_loading" />
-</RelativeLayout>

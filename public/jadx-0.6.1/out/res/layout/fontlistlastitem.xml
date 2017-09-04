@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/fontlist_lastitem" android:background="@drawable/list_item_trans_bg" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3201">
-    <ImageView android:id="@id/fontlist_lastitem_imageView" android:background="@drawable/list_item_enter_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginRight="32dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
-    <TextView android:textSize="16sp" android:textColor="#555555" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/fontlist_lastitem_btn" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3201" android:layout_marginLeft="32dp" android:text="更多字体" android:layout_toLeftOf="@id/fontlist_lastitem_imageView" />
-</RelativeLayout>

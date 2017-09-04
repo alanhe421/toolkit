@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@a/screen_bg_color" android:layout_width="match_parent" android:layout_height="wrap_content">
-    <ImageView android:id="@id/footer_top_divider" android:background="@a/listview_divider" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" android:layout_marginBottom="21dp" android:layout_alignParentTop="true" android:contentDescription="0x0" />
-    <TextView android:textSize="@dimen/text_size_class_4" android:textColor="@color/text_color_c104" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/category_index_list_footer_btn" android:background="@drawable/bookshelf_btn" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0701e8" android:layout_marginLeft="16dp" android:layout_marginRight="16dp" android:layout_below="@id/footer_top_divider" android:layout_centerHorizontal="true" />
-</RelativeLayout>

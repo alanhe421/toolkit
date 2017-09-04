@@ -1,2 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<com.qq.reader.view.EmptyView xmlns:android="http://schemas.android.com/apk/res-auto" empty:id="@id/myfavor_empty_page" empty:layout_width="match_parent" empty:layout_height="match_parent" empty:contentText="暂无回复" empty:mIcon="@drawable/empty09" empty:autoCenterInListView="true" empty:type="linear" />

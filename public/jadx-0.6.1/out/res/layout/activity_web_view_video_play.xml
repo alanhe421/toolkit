@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="#ffffff" android:layout_width="match_parent" android:layout_height="match_parent">
-    <RelativeLayout android:id="@id/h5game_content" android:layout_width="match_parent" android:layout_height="match_parent">
-        <include android:id="@e/loading_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/progress_topmargin" android:layout_below="@e/common_titler" android:layout_centerHorizontal="true" layout="@layout/localstore_loading" />
-        <com.qq.reader.view.FixedWebView android:id="@id/h5game_webview" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@e/common_titler" />
-        <com.qq.reader.view.ProgressBar android:id="@e/webprogress" android:visibility="gone" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x201" />
-        <include android:id="@id/loading_failed_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@e/common_titler" layout="@layout/localstore_loading_failed" />
-    </RelativeLayout>
-</FrameLayout>

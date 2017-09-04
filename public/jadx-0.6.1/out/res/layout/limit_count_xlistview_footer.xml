@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/load_more" android:layout_width="match_parent" android:layout_height="wrap_content">
-    <View android:id="@id/xlistview_footer_divider" android:background="@a/common_divider" android:visibility="visible" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f07002f" />
-    <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/xlistview_footer_content" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x3201" android:layout_below="@id/xlistview_footer_divider" android:layout_centerHorizontal="true">
-        <TextView android:textSize="@dimen/listview_fopter_tips_tx_size" android:textColor="@a/listview_footer_normal_color" android:id="@id/xlistview_footer_hint_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3dp" android:text="@string/xlistview_footer_hint_nonedata" />
-    </LinearLayout>
-</RelativeLayout>

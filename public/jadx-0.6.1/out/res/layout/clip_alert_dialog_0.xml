@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:background="@drawable/select_btn_down" android:layout_width="wrap_content" android:layout_height="wrap_content">
-    <Button android:textSize="@dimen/text_size_class_4" android:textColor="@color/text_color_c104" android:id="@id/pop_clip" android:background="@drawable/pop_button_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2dp" android:layout_marginRight="2dp" android:text="裁边" android:layout_weight="1.0" />
-    <Button android:textSize="@dimen/text_size_class_4" android:textColor="@color/text_color_c104" android:id="@id/pop_cancel" android:background="@drawable/pop_button_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2dp" android:layout_marginRight="2dp" android:text="取消" android:layout_weight="1.0" />
-</LinearLayout>

@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
-    <com.qq.reader.view.EmptyView empty:id="@id/empty_questions" empty:background="@a/common_backgraound_white" empty:visibility="visible" empty:layout_width="match_parent" empty:layout_height="match_parent" empty:contentText="@string/author_center_fenda_no_waiting_questions" empty:mIcon="@drawable/empty09" empty:autoCenterInListView="true" empty:type="linear" />
-</LinearLayout>

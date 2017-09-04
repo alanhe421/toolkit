@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/container" android:background="@a/concept_divider_bg" android:layout_width="match_parent" android:layout_height="wrap_content"
-    <RelativeLayout android:id="@e/content_layout" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2201">
-        <TextView android:textSize="@dimen/text_size_class_3" android:textColor="#cccccc" android:id="@id/browse_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="上次浏览到这里" android:layout_centerInParent="true" />
-        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="9dp" android:src="@drawable/feed_last_browse_left" android:layout_toLeftOf="@id/browse_text" android:layout_centerVertical="true" />
-        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="9dp" android:src="@drawable/feed_last_browse_right" android:layout_toRightOf="@id/browse_text" android:layout_centerVertical="true" />
-    </RelativeLayout>
-</RelativeLayout>

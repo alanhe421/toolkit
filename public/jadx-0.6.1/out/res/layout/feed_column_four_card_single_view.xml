@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
-    <TextView android:id="@id/book_name" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="11" android:maxLines="2" />
-    <ImageView android:id="@id/book_image" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x2801" android:layout_marginRight="20dp" android:src="@drawable/icon" android:layout_below="@id/book_name" android:layout_alignParentRight="true" />
-    <TextView android:id="@id/book_des" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="222" android:layout_below="@id/book_name" />
-    <TextView android:id="@id/book_author" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="222" android:layout_alignBottom="@id/book_image" />
-</RelativeLayout>

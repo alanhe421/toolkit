@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:background="@d/live_audience_vip" android:layout_width="UNKNOWN_DATA_0x14601" android:layout_height="UNKNOWN_DATA_0x1801">
-    <TextView android:textSize="@dimen/text_size_class_3" android:textStyle="bold" android:textColor="@color/text_color_c104" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@e/vip_level" android:layout_width="UNKNOWN_DATA_0x3201" android:layout_height="wrap_content" />
-    <TextView android:textSize="@dimen/text_size_class_3" android:textColor="@color/text_color_c104" android:ellipsize="end" android:id="@e/content_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6dp" android:singleLine="true" />
-</LinearLayout>

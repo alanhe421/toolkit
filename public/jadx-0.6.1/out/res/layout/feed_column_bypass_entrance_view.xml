@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="UNKNOWN_DATA_0x3801" android:layout_height="wrap_content">
-    <ImageView android:id="@id/entrance_icon" android:layout_width="UNKNOWN_DATA_0x2801" android:layout_height="UNKNOWN_DATA_0x2801" android:layout_marginTop="10dp" android:scaleType="fitXY" />
-    <ImageView android:id="@id/entrance_red_dot" android:background="@drawable/bookshelf_news_newtip" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x801" android:layout_height="UNKNOWN_DATA_0x801" android:layout_alignTop="@id/entrance_icon" android:layout_alignRight="@id/entrance_icon" android:contentDescription="0x0" />
-    <TextView android:textSize="@c/text_size_class_1" android:textColor="@color/text_color_c401" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/entrance_bubble" android:background="@drawable/feed_activity_rectangle" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x1001" android:layout_marginTop="6dp" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:contentDescription="0x0" />
-    <LinearLayout android:orientation="vertical" android:layout_width="UNKNOWN_DATA_0x2a01" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:layout_marginBottom="8dp" android:layout_below="@id/entrance_icon" android:layout_alignParentLeft="true" android:layout_centerHorizontal="true">
-        <TextView android:textSize="13dp" android:textColor="@color/text_color_c102" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/entrance_text" android:layout_width="wrap_content" android:layout_height="wrap_content" />
-    </LinearLayout>
-</RelativeLayout>

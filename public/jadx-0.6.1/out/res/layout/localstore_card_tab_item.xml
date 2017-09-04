@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/localstore_card_bg_selector" android:paddingBottom="18dp" android:layout_width="match_parent" android:layout_height="match_parent">
-    <TextView android:textSize="@dimen/text_size_class_4" android:textColor="@a/localstore_textcolor_black" android:id="@a/text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="18dp" android:includeFontPadding="false" android:layout_centerHorizontal="true" />
-    <ImageView android:id="@id/hot" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2dp" android:layout_marginTop="20dp" android:src="@drawable/localstore_icon_hot" android:layout_toRightOf="@a/text" />
-</RelativeLayout>

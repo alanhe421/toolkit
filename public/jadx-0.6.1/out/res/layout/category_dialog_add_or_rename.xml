@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content">
-    <EditText android:textSize="@dimen/text_size_class_4" android:textColor="@a/textcolor_black" android:id="@id/category_add" android:background="@drawable/login_out_rect" android:paddingLeft="3dp" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2a01" android:layout_marginLeft="16dp" android:layout_marginTop="24dp" android:layout_marginRight="16dp" android:layout_marginBottom="24dp" android:maxLength="8" android:layout_centerInParent="true" />
-</RelativeLayout>

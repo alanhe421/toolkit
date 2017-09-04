@@ -9,3 +9,4 @@ public/downloads/*
 !public/downloads/.gitkeeper
 logs/*
 !logs/.gitkeeper
+public/jadx-0.6.1/out

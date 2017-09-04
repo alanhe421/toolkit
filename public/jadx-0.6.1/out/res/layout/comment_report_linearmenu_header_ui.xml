@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@a/common_backgraound_white" android:layout_width="match_parent" android:layout_height="match_parent" android:minHeight="50dp">
-    <TextView android:textSize="@dimen/text_size_class_3" android:textColor="@color/text_color_c103" android:id="@id/textView9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:text="举报" android:layout_centerVertical="true" />
-</RelativeLayout>

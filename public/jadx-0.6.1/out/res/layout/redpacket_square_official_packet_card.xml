@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:paddingLeft="8dp" android:paddingTop="8dp" android:paddingRight="8dp" android:layout_width="match_parent" android:layout_height="wrap_content"
-    <RelativeLayout android:background="@drawable/redpacket_square_packet_card_normal_shape" android:layout_width="match_parent" android:layout_height="wrap_content">
-        <ImageView android:id="@id/square_packet_icon" android:layout_width="UNKNOWN_DATA_0x4401" android:layout_height="UNKNOWN_DATA_0x5b01" android:layout_marginLeft="8dp" android:layout_marginTop="14dp" android:layout_marginBottom="14dp" android:src="@drawable/redpacket_square_official_packet_icon" android:scaleType="fitXY" android:layout_alignParentLeft="true" />
-        <TextView android:textSize="@dimen/text_size_class_2" android:textColor="@color/text_color_c103" android:id="@id/square_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="13dp" android:layout_marginRight="8dp" android:text="8分钟前" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
-        <TextView android:textSize="@dimen/text_size_class_3" android:textColor="@color/text_color_c102" android:ellipsize="end" android:id="@id/square_des" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="12dp" android:layout_marginRight="8dp" android:text="红包描述" android:maxLines="2" android:layout_toRightOf="@id/square_packet_icon" android:layout_centerVertical="true" />
-    </RelativeLayout>
-</RelativeLayout>

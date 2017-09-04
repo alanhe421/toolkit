@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@a/translucent" android:layout_width="wrap_content" android:layout_height="wrap_content">
-    <ImageView android:id="@a/title" android:background="@drawable/resign_up_ok_top" android:layout_width="UNKNOWN_DATA_0x10401" android:layout_height="UNKNOWN_DATA_0x8101" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
-    <LinearLayout android:orientation="vertical" android:id="@id/container" android:background="@a/common_backgraound_white" android:layout_width="UNKNOWN_DATA_0x10401" android:layout_height="wrap_content" android:layout_below="@a/title" android:layout_centerHorizontal="true" />
-    <LinearLayout android:orientation="vertical" android:id="@id/resign_bottom_blank" android:background="@drawable/resign_bottm_blank_bg" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x10401" android:layout_height="UNKNOWN_DATA_0xe01" android:layout_below="@id/container" android:layout_centerHorizontal="true" />
-</RelativeLayout>

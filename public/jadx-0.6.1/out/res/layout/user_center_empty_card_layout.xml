@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@a/textcolor_white" android:layout_width="match_parent" android:layout_height="wrap_content">
-    <include android:id="@id/localstore_adv_divider" layout="@layout/localstore_card_divider" />
-    <LinearLayout android:orientation="vertical" android:paddingTop="85dp" android:paddingBottom="85dp" android:layout_width="match_parent" android:layout_height="wrap_content">
-        <ImageView android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/empty06" android:scaleType="fitXY" android:contentDescription="0x0" />
-        <TextView android:textSize="@dimen/text_size_class_4" android:textColor="@color/text_color_c101" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15dp" android:text="空空如也" />
-    </LinearLayout>
-</LinearLayout>

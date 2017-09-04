@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
-    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="14dp" android:layout_marginBottom="14dp" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
-        <TextView android:textSize="@dimen/text_size_class_3" android:textColor="@color/text_color_c101" android:ellipsize="end" android:id="@id/tv_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="3dp" android:maxWidth="265dp" android:singleLine="true" />
-        <TextView android:textSize="@c/text_size_class_1" android:textColor="@color/text_color_c103" android:id="@id/tv_date" android:layout_width="wrap_content" android:layout_height="wrap_content" />
-    </LinearLayout>
-    <TextView android:textSize="@dimen/text_size_class_3" android:textColor="@color/text_color_c101" android:id="@id/tv_amount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
-</RelativeLayout>

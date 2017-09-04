@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res-auto" comic:layout_width="match_parent" comic:layout_height="match_parent">
-    <ImageView comic:id="@e/comic_img" comic:visibility="gone" comic:layout_width="match_parent" comic:layout_height="match_parent" comic:scaleType="fitXY" />
-    <com.qrcomic.widget.reader.QRComicScrollLoadingView comic:id="@e/loading_view" comic:visibility="gone" comic:layout_width="match_parent" comic:layout_height="match_parent" comic:mainTextSize="20sp" comic:mainTextColor="@color/reading_loading_color_text_main" comic:subTextSize="14sp" comic:subTextColor="@color/reading_loading_color_text_sub" />
-</FrameLayout>

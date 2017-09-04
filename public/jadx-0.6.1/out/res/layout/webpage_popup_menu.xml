@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
-    <FrameLayout android:id="@id/readpage_topbar_popup" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="48dp">
-        <com.tencent.widget.XListView android:id="@id/webpage_popupmenu_listview" android:background="@a/textcolor_white" android:scrollbars="UNKNOWN_DATA_0x0" android:fadingEdge="UNKNOWN_DATA_0x0" android:fadingEdgeLength="0dp" android:layout_width="match_parent" android:layout_height="match_parent" android:listSelector="#00000000" android:cacheColorHint="#00000000" android:divider="0x0" android:dividerHeight="0dp" android:smoothScrollbar="true" />
-    </FrameLayout>
-</FrameLayout>

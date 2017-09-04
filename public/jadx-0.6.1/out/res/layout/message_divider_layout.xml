@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content">
-    <ImageView android:id="@id/localstore_adv_divider" android:background="@a/concept_divider_line" android:visibility="visible" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x40000031" android:contentDescription="0x0" />
-    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@id/localstore_adv_divider" android:layout_centerHorizontal="true">
-        <TextView android:textColor="#b1b2b3" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@a/text" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x7f070207" android:text="以下为历史消息" android:layout_centerInParent="true" />
-        <View android:background="@drawable/feed_last_browse_left" android:layout_width="UNKNOWN_DATA_0x1201" android:layout_height="UNKNOWN_DATA_0x401" android:layout_marginRight="9dp" android:layout_toLeftOf="@a/text" android:layout_centerVertical="true" />
-        <View android:background="@drawable/feed_last_browse_right" android:layout_width="UNKNOWN_DATA_0x1201" android:layout_height="UNKNOWN_DATA_0x401" android:layout_marginLeft="9dp" android:layout_toRightOf="@a/text" android:layout_centerVertical="true" />
-    </RelativeLayout>
-</RelativeLayout>

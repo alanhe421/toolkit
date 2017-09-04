@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/column_edit_items_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
-    <TextView android:textSize="@dimen/column_item_text_size" android:textColor="#333333" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/column_tv_newstitle" android:background="@drawable/subscribe_item_bg" android:layout_width="UNKNOWN_DATA_0x7f070029" android:layout_height="UNKNOWN_DATA_0x7f0701ac" android:layout_centerInParent="true" />
-</RelativeLayout>

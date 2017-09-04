@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
-    <ImageView android:id="@id/header_icon" android:layout_width="UNKNOWN_DATA_0x7f0701fe" android:layout_height="UNKNOWN_DATA_0x7f0701fe" android:layout_marginTop="@dimen/common_dp_40" android:src="@drawable/voucher_icon" />
-    <TextView android:textSize="@c/text_size_class_5" android:textColor="@color/text_color_c101" android:id="@id/voucher_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.5dp" android:text="余额：" />
-    <TextView android:textSize="@dimen/text_size_class_2" android:textColor="@color/text_color_c103" android:id="@id/voucher_comment" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.5dp" android:layout_marginBottom="38.5dp" android:text="" />
-    <include layout="@layout/localstore_card_divider" />
-</LinearLayout>

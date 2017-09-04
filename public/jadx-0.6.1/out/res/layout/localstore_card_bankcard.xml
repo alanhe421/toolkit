@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/gen_LinearLayout" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/common_left_right_margin" android:layout_marginRight="@dimen/common_left_right_margin">
-    <com.qq.reader.module.bookstore.qnative.card.impl.CardTitle android:id="@id/title_btn" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/common_dp_16" android:layout_marginTop="@dimen/common_dp_14" />
-    <LinearLayout android:orientation="vertical" android:id="@id/container" android:layout_width="match_parent" android:layout_height="wrap_content" />
-    <View android:id="@id/last_blank" android:background="#f0f1f2" android:visibility="gone" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x801" />
-</LinearLayout>

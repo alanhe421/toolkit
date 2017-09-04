@@ -1,2 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<com.qq.reader.view.EmptyView xmlns:android="http://schemas.android.com/apk/res-auto" empty:background="@a/screen_bg_color" empty:layout_width="match_parent" empty:layout_height="match_parent" empty:contentText="本书已下架，相关内容无法查看" empty:mIcon="@drawable/empty10" empty:type="linear" />

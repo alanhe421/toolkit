@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/web_browser_content" android:background="@a/screen_bg_color" android:layout_width="match_parent" android:layout_height="match_parent">
-    <include android:id="@e/common_titler" layout="@g/common_titler" />
-    <WebView android:id="@id/vip_webview" android:background="@a/screen_bg_color" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@e/common_titler" />
-    <com.qq.reader.view.ProgressBar android:id="@id/viploadprogress" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x301" android:layout_alignParentTop="true" />
-</RelativeLayout>

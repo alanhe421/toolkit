@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:background="@color/white" app:focusable="true" app:focusableInTouchMode="true" app:layout_width="match_parent" app:layout_height="wrap_content"
-    <RelativeLayout app:id="@id/pics_container" app:background="#f3f3f3" app:paddingLeft="@dimen/common_dp_16" app:paddingTop="@dimen/common_dp_16" app:paddingBottom="@dimen/common_dp_12" app:focusable="true" app:focusableInTouchMode="true" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0xae01" app:layout_marginTop="@dimen/common_dp_55">
-        <com.qq.reader.module.game.card.view.HorizontalListView app:id="@id/hlv" app:focusable="true" app:focusableInTouchMode="true" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x9201" app:dividerWidth="12dp" />
-    </RelativeLayout>
-    <ImageView app:id="@id/title_icon" app:layout_width="UNKNOWN_DATA_0x2e01" app:layout_height="UNKNOWN_DATA_0x2e01" app:layout_marginLeft="@dimen/common_dp_16" app:layout_marginTop="@dimen/common_dp_16" app:src="@drawable/comic_boy_title_icon_big" />
-    <TextView app:textSize="@c/text_size_class_5" app:textColor="@color/text_color_c101" app:id="@id/item_title" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginLeft="8dp" app:layout_marginTop="24dp" app:text="精彩看点" app:layout_toRightOf="@id/title_icon" />
-</RelativeLayout>

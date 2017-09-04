@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/ll_condition" android:layout_width="match_parent" android:layout_height="match_parent">
-    <com.qq.reader.module.bookstore.qnative.card.impl.CardTitle android:id="@id/search_tool_card_title" android:paddingTop="18dp" android:paddingBottom="12dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginRight="16dp" />
-    <LinearLayout android:orientation="vertical" android:id="@id/ll_item_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginRight="16dp" />
-    <View android:background="@a/listview_divider" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x101" />
-    <TextView android:textSize="@dimen/text_size_class_3" android:textColor="@color/text_color_c301" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/tv_search_more" android:background="@drawable/search_tool_main_more_bg" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3201" android:text="查看更多" />
-</LinearLayout>

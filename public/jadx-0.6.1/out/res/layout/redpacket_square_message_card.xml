@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content">
-    <LinearLayout android:orientation="vertical" android:id="@id/redpacket_square_message_layout" android:background="@drawable/redpacket_square_message_background" android:layout_width="UNKNOWN_DATA_0x10001" android:layout_height="UNKNOWN_DATA_0x3301" android:layout_marginLeft="40dp" android:layout_marginRight="40dp">
-        <com.qq.reader.module.redpacket.view.RedPacketLoopVerticalViewPager android:id="@id/redpacket_square_message_viewpager" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent" />
-    </LinearLayout>
-</RelativeLayout>

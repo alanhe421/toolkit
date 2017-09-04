@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<merge xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content">
-    <RelativeLayout android:paddingLeft="48dp" android:paddingTop="@c/common_dp_8" android:layout_width="match_parent" android:layout_height="wrap_content">
-        <TextView android:textSize="@c/text_size_class_1" android:textColor="@color/text_color_c103" android:id="@id/tv_create_time" android:layout_width="wrap_content" android:layout_height="wrap_content" />
-        <TextView android:textSize="@c/text_size_class_1" android:textColor="@color/text_color_c103" android:id="@id/tv_listen_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" />
-    </RelativeLayout>
-</merge>

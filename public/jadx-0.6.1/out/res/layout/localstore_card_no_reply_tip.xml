@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
-    <View android:id="@id/card_title_div" android:background="@a/common_divider" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x801" android:contentDescription="0x0" />
-    <com.qq.reader.view.EmptyView empty:background="@a/common_backgraound_white" empty:visibility="visible" empty:layout_width="match_parent" empty:layout_height="match_parent" empty:contentText="@string/bookclub_none_comment" empty:mIcon="@drawable/empty09" empty:autoCenterInListView="true" empty:type="linear" />
-</LinearLayout>

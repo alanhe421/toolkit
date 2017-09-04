@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@a/common_backgraound_white" android:layout_width="match_parent" android:layout_height="wrap_content">
-    <TextView android:textSize="@dimen/text_size_class_4" android:textColor="@color/text_color_c104" android:id="@id/enter_btn" android:layout_marginTop="@dimen/common_dp_14" android:layout_marginBottom="@dimen/common_dp_14" android:text="@string/live_show_enter_my_room" style="@style/button_b6" />
-    <include android:id="@id/localstore_adv_divider" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" layout="@layout/localstore_card_divider" />
-</LinearLayout>

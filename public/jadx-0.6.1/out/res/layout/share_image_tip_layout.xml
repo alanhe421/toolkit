@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@drawable/share_img_tips_day" android:layout_width="UNKNOWN_DATA_0x3d01" android:layout_height="UNKNOWN_DATA_0x7f07035a">
-    <TextView android:textSize="16sp" android:textColor="@a/select_btn_textcolor_day" android:id="@id/share_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="@string/note_text_share" android:layout_centerHorizontal="true" />
-    <ImageView android:background="@drawable/img_default_note" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:layout_marginBottom="12dp" android:layout_below="@id/share_text" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
-</RelativeLayout>

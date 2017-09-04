@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content">
-    <com.qq.reader.view.AdvViewPager android:id="@id/localstore_adv_0_viewpager" android:visibility="visible" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0xd201" />
-    <LinearLayout android:orientation="horizontal" android:id="@id/localstore_adv_0_indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="138dp" android:layout_centerHorizontal="true" />
-    <LinearLayout android:orientation="vertical" android:id="@id/redpacket_square_message_layout" android:background="@drawable/redpacket_square_message_background" android:layout_width="UNKNOWN_DATA_0x10001" android:layout_height="UNKNOWN_DATA_0x3301" android:layout_marginTop="16dp" android:layout_marginBottom="1dp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
-        <com.qq.reader.module.redpacket.view.RedPacketLoopVerticalViewPager android:id="@id/redpacket_square_message_viewpager" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent" />
-    </LinearLayout>
-</RelativeLayout>

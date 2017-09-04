@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/readpage_topbar_popup" android:background="@drawable/readpage_popmenu_bg" android:layout_width="UNKNOWN_DATA_0xc301" android:layout_height="match_parent">
-    <ListView android:id="@id/menulist" android:layout_width="match_parent" android:layout_height="match_parent" android:cacheColorHint="#00000000" android:divider="0x0" android:dividerHeight="0dp" />
-</LinearLayout>
