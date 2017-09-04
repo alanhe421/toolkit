@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+    <include android:id="@id/vote_dialog_top" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/vote_dialog_common_top_layout" />
+    <LinearLayout android:orientation="vertical" android:id="@id/vote_dialog_body" android:background="@a/common_backgraound_white" android:paddingLeft="16dp" android:paddingTop="14dp" android:paddingRight="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@id/vote_dialog_top">
+        <View android:background="@a/common_divider" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f07002f" />
+        <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2901">
+            <TextView android:textSize="@c/text_size_class_5" android:textColor="@color/text_color_c101" android:id="@a/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="打赏" android:includeFontPadding="false" />
+            <TextView android:textSize="@dimen/text_size_class_3" android:textColor="@color/text_color_c103" android:id="@id/title_extra_info" android:paddingBottom="2dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/ll_vote_options" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/vote_dialog_bottom_margin_bottom">
+            <TextView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/button_one" android:text="1张" android:includeFontPadding="false" android:layout_weight="1.0" style="@style/button_b20" />
+            <View android:id="@id/divider_1" android:layout_width="UNKNOWN_DATA_0x801" android:layout_height="match_parent" />
+            <TextView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/button_two" android:text="2张" android:includeFontPadding="false" android:layout_weight="1.0" style="@style/button_b20" />
+            <View android:id="@id/divider_2" android:layout_width="UNKNOWN_DATA_0x801" android:layout_height="match_parent" />
+            <TextView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/button_three" android:text="3张" android:includeFontPadding="false" android:layout_weight="1.0" style="@style/button_b20" />
+            <View android:id="@id/divider_3" android:layout_width="UNKNOWN_DATA_0x801" android:layout_height="match_parent" />
+            <TextView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/button_all" android:text="全部" android:includeFontPadding="false" android:layout_weight="1.0" style="@style/button_b20" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

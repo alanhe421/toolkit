@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:id="@e/common_titler" layout="@g/common_titler" />
+    <ScrollView android:id="@id/book_root_container" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@e/common_titler">
+        <LinearLayout android:orientation="vertical" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ImageView android:background="@drawable/rookie_gift_page_title_bg" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0xc801" />
+                <TextView android:textSize="20dp" android:textColor="#ffffff" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/content_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/common_dp_18" android:text="@string/rookie_gift_page_content_title" android:drawableLeft="@drawable/rookie_gift_page_title_icon" android:drawableRight="@drawable/rookie_gift_page_title_icon" android:drawablePadding="@c/common_dp_8" android:layout_centerHorizontal="true" />
+                <RelativeLayout android:id="@id/header_book_container" android:clipChildren="false" android:clipToPadding="false" android:layout_width="UNKNOWN_DATA_0x9801" android:layout_height="wrap_content" android:layout_marginTop="@dimen/common_dp_30" android:layout_below="@id/content_title" android:layout_centerHorizontal="true"
+                    <RelativeLayout android:id="@id/content_header_book_container" android:clipChildren="false" android:clipToPadding="false" android:layout_width="UNKNOWN_DATA_0x9801" android:layout_height="UNKNOWN_DATA_0x9c01">
+                        <FrameLayout android:id="@id/click_layout0x0" android:clipChildren="false" android:clipToPadding="false" android:layout_width="UNKNOWN_DATA_0x5d01" android:layout_height="UNKNOWN_DATA_0x7c01" android:layout_marginBottom="@dimen/common_dp_10" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+                            <com.qq.reader.view.QRImageView android:id="@id/img_0x0" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/book_default_cover" />
+                            <View android:background="@drawable/localstore_image_click_selector" android:layout_width="match_parent" android:layout_height="match_parent" />
+                        </FrameLayout>
+                        <ImageView android:background="@drawable/rookie_gift_page_lijian" android:layout_width="match_parent" android:layout_height="match_parent" />
+                    </RelativeLayout>
+                    <TextView android:id="@id/tv_0x0" android:paddingLeft="29.5dp" android:paddingRight="29.5dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/rookie_ten_books_loading_name" android:maxLines="2" android:singleLine="false" android:layout_below="@id/content_header_book_container" style="@style/bookname_style" />
+                </RelativeLayout>
+                <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/common_dp_16" android:paddingRight="@dimen/common_dp_16" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/common_dp_20" android:layout_below="@id/header_book_container">
+                    <RelativeLayout android:paddingBottom="@dimen/common_dp_14" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:orientation="vertical" android:clipChildren="false" android:clipToPadding="false" android:layout_width="UNKNOWN_DATA_0x7f070108" android:layout_height="wrap_content">
+                            <FrameLayout android:id="@id/click_layout1x1" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                                <com.qq.reader.view.QRImageView android:id="@id/img_1x1" android:clipChildren="false" android:clipToPadding="false" android:src="@drawable/book_default_cover" style="@style/super_bigcover_style" />
+                                <View android:background="@drawable/localstore_image_click_selector" style="@style/super_bigcover_style" />
+                            </FrameLayout>
+                            <TextView android:id="@id/tv_1x1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@c/common_dp_8" android:text="@string/rookie_ten_books_loading_name" android:maxLines="2" android:singleLine="false" style="@style/bookname_style" />
+                        </LinearLayout>
+                        <LinearLayout android:orientation="vertical" android:clipChildren="false" android:clipToPadding="false" android:layout_width="UNKNOWN_DATA_0x7f070108" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+                            <FrameLayout android:id="@id/click_layout1x2" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                                <com.qq.reader.view.QRImageView android:id="@id/img_1x2" android:src="@drawable/book_default_cover" style="@style/super_bigcover_style" />
+                                <View android:background="@drawable/localstore_image_click_selector" style="@style/super_bigcover_style" />
+                            </FrameLayout>
+                            <TextView android:id="@id/tv_1x2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@c/common_dp_8" android:text="@string/rookie_ten_books_loading_name" android:maxLines="2" android:singleLine="false" style="@style/bookname_style" />
+                        </LinearLayout>
+                        <LinearLayout android:orientation="vertical" android:clipChildren="false" android:clipToPadding="false" android:layout_width="UNKNOWN_DATA_0x7f070108" android:layout_height="wrap_content" android:layout_alignParentRight="true">
+                            <FrameLayout android:id="@id/click_layout1x3" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                                <com.qq.reader.view.QRImageView android:id="@id/img_1x3" android:src="@drawable/book_default_cover" style="@style/super_bigcover_style" />
+                                <View android:background="@drawable/localstore_image_click_selector" style="@style/super_bigcover_style" />
+                            </FrameLayout>
+                            <TextView android:id="@id/tv_1x3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@c/common_dp_8" android:text="@string/rookie_ten_books_loading_name" android:maxLines="2" android:singleLine="false" style="@style/bookname_style" />
+                        </LinearLayout>
+                    </RelativeLayout>
+                    <RelativeLayout android:paddingBottom="@dimen/common_dp_14" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:orientation="vertical" android:clipChildren="false" android:clipToPadding="false" android:layout_width="UNKNOWN_DATA_0x7f070108" android:layout_height="wrap_content">
+                            <FrameLayout android:id="@id/click_layout2x1" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                                <com.qq.reader.view.QRImageView android:id="@id/img_2x1" android:src="@drawable/book_default_cover" style="@style/super_bigcover_style" />
+                                <View android:background="@drawable/localstore_image_click_selector" style="@style/super_bigcover_style" />
+                            </FrameLayout>
+                            <TextView android:id="@id/tv_2x1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@c/common_dp_8" android:text="@string/rookie_ten_books_loading_name" android:maxLines="2" android:singleLine="false" style="@style/bookname_style" />
+                        </LinearLayout>
+                        <LinearLayout android:orientation="vertical" android:clipChildren="false" android:clipToPadding="false" android:layout_width="UNKNOWN_DATA_0x7f070108" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+                            <FrameLayout android:id="@id/click_layout2x2" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                                <com.qq.reader.view.QRImageView android:id="@id/img_2x2" android:src="@drawable/book_default_cover" style="@style/super_bigcover_style" />
+                                <View android:background="@drawable/localstore_image_click_selector" style="@style/super_bigcover_style" />
+                            </FrameLayout>
+                            <TextView android:id="@id/tv_2x2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@c/common_dp_8" android:text="@string/rookie_ten_books_loading_name" android:maxLines="2" android:singleLine="false" style="@style/bookname_style" />
+                        </LinearLayout>
+                        <LinearLayout android:orientation="vertical" android:clipChildren="false" android:clipToPadding="false" android:layout_width="UNKNOWN_DATA_0x7f070108" android:layout_height="wrap_content" android:layout_alignParentRight="true">
+                            <FrameLayout android:id="@id/click_layout2x3" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                                <com.qq.reader.view.QRImageView android:id="@id/img_2x3" android:src="@drawable/book_default_cover" style="@style/super_bigcover_style" />
+                                <View android:background="@drawable/localstore_image_click_selector" style="@style/super_bigcover_style" />
+                            </FrameLayout>
+                            <TextView android:id="@id/tv_2x3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@c/common_dp_8" android:text="@string/rookie_ten_books_loading_name" android:maxLines="2" android:singleLine="false" style="@style/bookname_style" />
+                        </LinearLayout>
+                    </RelativeLayout>
+                    <RelativeLayout android:paddingBottom="@dimen/common_dp_14" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:orientation="vertical" android:clipChildren="false" android:clipToPadding="false" android:layout_width="UNKNOWN_DATA_0x7f070108" android:layout_height="wrap_content">
+                            <FrameLayout android:id="@id/click_layout3x1" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                                <com.qq.reader.view.QRImageView android:id="@id/img_3x1" android:src="@drawable/book_default_cover" style="@style/super_bigcover_style" />
+                                <View android:background="@drawable/localstore_image_click_selector" style="@style/super_bigcover_style" />
+                            </FrameLayout>
+                            <TextView android:id="@id/tv_3x1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@c/common_dp_8" android:text="@string/rookie_ten_books_loading_name" android:maxLines="2" android:singleLine="false" style="@style/bookname_style" />
+                        </LinearLayout>
+                        <LinearLayout android:orientation="vertical" android:clipChildren="false" android:clipToPadding="false" android:layout_width="UNKNOWN_DATA_0x7f070108" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+                            <FrameLayout android:id="@id/click_layout3x2" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                                <com.qq.reader.view.QRImageView android:id="@id/img_3x2" android:src="@drawable/book_default_cover" style="@style/super_bigcover_style" />
+                                <View android:background="@drawable/localstore_image_click_selector" style="@style/super_bigcover_style" />
+                            </FrameLayout>
+                            <TextView android:id="@id/tv_3x2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@c/common_dp_8" android:text="@string/rookie_ten_books_loading_name" android:maxLines="2" android:singleLine="false" style="@style/bookname_style" />
+                        </LinearLayout>
+                        <LinearLayout android:orientation="vertical" android:clipChildren="false" android:clipToPadding="false" android:layout_width="UNKNOWN_DATA_0x7f070108" android:layout_height="wrap_content" android:layout_alignParentRight="true">
+                            <FrameLayout android:id="@id/click_layout3x3" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                                <com.qq.reader.view.QRImageView android:id="@id/img_3x3" android:src="@drawable/book_default_cover" style="@style/super_bigcover_style" />
+                                <View android:background="@drawable/localstore_image_click_selector" style="@style/super_bigcover_style" />
+                            </FrameLayout>
+                            <TextView android:id="@id/tv_3x3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@c/common_dp_8" android:text="@string/rookie_ten_books_loading_name" android:maxLines="2" android:singleLine="false" style="@style/bookname_style" />
+                        </LinearLayout>
+                    </RelativeLayout>
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+    <com.qq.reader.view.EmptyView empty:id="@id/empty_view" empty:visibility="gone" empty:layout_width="match_parent" empty:layout_height="match_parent" empty:layout_below="@e/common_titler" empty:layout_centerInParent="true" empty:mIcon="@drawable/empty01" empty:type="sweep" />
+    <include empty:id="@id/progress_container" empty:layout_width="wrap_content" empty:layout_height="wrap_content" empty:layout_marginTop="200dp" empty:layout_centerHorizontal="true" layout="@layout/localstore_loading" />
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@id/rl_comic_six_card_title" android:paddingLeft="@dimen/common_dp_16" android:paddingRight="@dimen/common_dp_16" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/common_dp_12">
+        <TextView android:textSize="@c/text_size_class_5" android:textColor="@color/text_color_c401" android:id="@id/tv_comic_detail_card_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="条漫君" />
+        <TextView android:textSize="@dimen/text_size_class_2" android:textColor="@color/text_color_c401" android:id="@id/tv_comic_detail_card_face" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="(｀･ω･´)" android:layout_toRightOf="@id/tv_comic_detail_card_title" android:layout_alignBottom="@id/tv_comic_detail_card_title" />
+    </RelativeLayout>
+    <com.qq.reader.module.bookstore.qnative.card.impl.SingleBookInfo android:id="@id/ll_single_book_info" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <View android:background="#f3f3f3" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0701f8" />
+</LinearLayout>

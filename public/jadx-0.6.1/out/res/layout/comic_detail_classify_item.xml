@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <com.qq.reader.view.QRMaskImageView android:id="@id/iv_comic_cover" android:clipChildren="false" android:clipToPadding="false" android:layout_width="UNKNOWN_DATA_0x5401" android:layout_height="UNKNOWN_DATA_0x7001" android:layout_margin="@dimen/common_dp_2" android:scaleType="fitXY" />
+    <TextView android:textSize="@dimen/text_size_class_3" android:textColor="@color/text_color_c101" android:ellipsize="end" android:id="@id/tv_comic_title" android:layout_width="UNKNOWN_DATA_0x5401" android:layout_height="wrap_content" android:layout_marginTop="@dimen/common_dp_6" android:maxLines="1" android:layout_below="@id/iv_comic_cover" android:layout_alignLeft="@id/iv_comic_cover" />
+</RelativeLayout>

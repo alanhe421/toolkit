@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@e/member_bottom_layout" android:paddingLeft="12dp" android:paddingRight="12dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:id="@e/member_share_btn" android:background="@d/icon_share" android:layout_width="UNKNOWN_DATA_0x2801" android:layout_height="UNKNOWN_DATA_0x2801" android:layout_alignParentLeft="true" />
+    <TextView android:id="@e/send_good" android:background="@d/icon_like" android:layout_width="UNKNOWN_DATA_0x2801" android:layout_height="UNKNOWN_DATA_0x2801" android:layout_marginLeft="14dp" android:layout_alignParentRight="true" />
+    <TextView android:id="@e/send_gift" android:background="@d/icon_gift" android:layout_width="UNKNOWN_DATA_0x2801" android:layout_height="UNKNOWN_DATA_0x2801" android:layout_toLeftOf="@e/send_good" />
+    <TextView android:textSize="@dimen/text_size_class_4" android:textColor="@color/text_color_c104" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@e/message_input" android:background="@d/live_audience_input_bg" android:paddingLeft="12dp" android:layout_width="UNKNOWN_DATA_0x2801" android:layout_height="UNKNOWN_DATA_0x2801" android:layout_marginLeft="14dp" android:layout_marginRight="14dp" android:text="@h/input_pre_normal_text" android:layout_toLeftOf="@e/send_gift" android:layout_toRightOf="@e/member_share_btn" />
+</RelativeLayout>

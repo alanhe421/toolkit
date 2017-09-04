@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/vote_dialog_reward_default_option_margin_bottom">
+        <RelativeLayout android:id="@id/rl_item_1" android:background="@drawable/vote_reward_option_default_bg" style="@style/VoteRewardOptionRect">
+            <ImageView android:id="@id/img_gift_1" android:layout_width="match_parent" android:layout_height="match_parent" />
+            <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp">
+                <TextView android:id="@id/tv_gift_name_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" style="@style/VoteRewardConfigOptionNameText" />
+                <TextView android:id="@id/tv_sales_info_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" style="@style/VoteRewardConfigOptionGiftText" />
+            </LinearLayout>
+            <TextView android:id="@id/tv_number_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="100书币" style="@style/VoteRewardOptionUnitText" />
+        </RelativeLayout>
+        <View android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1.0" />
+        <RelativeLayout android:id="@id/rl_item_2" android:background="@drawable/vote_reward_option_default_bg" style="@style/VoteRewardOptionRect">
+            <ImageView android:id="@id/img_gift_2" android:layout_width="match_parent" android:layout_height="match_parent" />
+            <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp">
+                <TextView android:id="@id/tv_gift_name_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" style="@style/VoteRewardConfigOptionNameText" />
+                <TextView android:id="@id/tv_sales_info_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" style="@style/VoteRewardConfigOptionGiftText" />
+            </LinearLayout>
+            <TextView android:id="@id/tv_number_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="388书币" style="@style/VoteRewardOptionUnitText" />
+        </RelativeLayout>
+        <View android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1.0" />
+        <RelativeLayout android:id="@id/rl_item_3" android:background="@drawable/vote_reward_option_default_bg" style="@style/VoteRewardOptionRect">
+            <ImageView android:id="@id/img_gift_3" android:layout_width="match_parent" android:layout_height="match_parent" />
+            <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp">
+                <TextView android:id="@id/tv_gift_name_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" style="@style/VoteRewardConfigOptionNameText" />
+                <TextView android:id="@id/tv_sales_info_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" style="@style/VoteRewardConfigOptionGiftText" />
+            </LinearLayout>
+            <TextView android:id="@id/tv_number_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="588书币" style="@style/VoteRewardOptionUnitText" />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@id/rl_item_4" android:background="@drawable/vote_reward_option_default_bg" style="@style/VoteRewardOptionRect">
+            <ImageView android:id="@id/img_gift_4" android:layout_width="match_parent" android:layout_height="match_parent" />
+            <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp">
+                <TextView android:id="@id/tv_gift_name_4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" style="@style/VoteRewardConfigOptionNameText" />
+                <TextView android:id="@id/tv_sales_info_4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" style="@style/VoteRewardConfigOptionGiftText" />
+            </LinearLayout>
+            <TextView android:id="@id/tv_number_4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="999书币" style="@style/VoteRewardOptionUnitText" />
+        </RelativeLayout>
+        <View android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1.0" />
+        <RelativeLayout android:id="@id/rl_item_5" android:background="@drawable/vote_reward_option_default_bg" style="@style/VoteRewardOptionRect">
+            <ImageView android:id="@id/img_gift_5" android:layout_width="match_parent" android:layout_height="match_parent" />
+            <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp">
+                <TextView android:id="@id/tv_gift_name_5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" style="@style/VoteRewardConfigOptionNameText" />
+                <TextView android:id="@id/tv_sales_info_5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" style="@style/VoteRewardConfigOptionGiftText" />
+            </LinearLayout>
+            <TextView android:id="@id/tv_number_5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1888书币" style="@style/VoteRewardOptionUnitText" />
+        </RelativeLayout>
+        <View android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1.0" />
+        <RelativeLayout android:id="@id/rl_item_6" android:background="@drawable/vote_reward_option_default_bg" style="@style/VoteRewardOptionRect">
+            <ImageView android:id="@id/img_gift_6" android:layout_width="match_parent" android:layout_height="match_parent" />
+            <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp">
+                <TextView android:id="@id/tv_gift_name_6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" style="@style/VoteRewardConfigOptionNameText" />
+                <TextView android:id="@id/tv_sales_info_6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" style="@style/VoteRewardConfigOptionGiftText" />
+            </LinearLayout>
+            <TextView android:id="@id/tv_number_6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1万书币" style="@style/VoteRewardOptionUnitText" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

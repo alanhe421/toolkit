@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="100" android:drawable="@drawable/audio_play_floating_window_frame_1" />
+    <item android:duration="100" android:drawable="@drawable/audio_play_floating_window_frame_2" />
+    <item android:duration="100" android:drawable="@drawable/audio_play_floating_window_frame_3" />
+    <item android:duration="100" android:drawable="@drawable/audio_play_floating_window_frame_4" />
+    <item android:duration="100" android:drawable="@drawable/audio_play_floating_window_frame_5" />
+    <item android:duration="100" android:drawable="@drawable/audio_play_floating_window_frame_6" />
+    <item android:duration="100" android:drawable="@drawable/audio_play_floating_window_frame_7" />
+    <item android:duration="100" android:drawable="@drawable/audio_play_floating_window_frame_8" />
+    <item android:duration="100" android:drawable="@drawable/audio_play_floating_window_frame_9" />
+    <item android:duration="100" android:drawable="@drawable/audio_play_floating_window_frame_10" />
+    <item android:duration="100" android:drawable="@drawable/audio_play_floating_window_frame_11" />
+</animation-list>

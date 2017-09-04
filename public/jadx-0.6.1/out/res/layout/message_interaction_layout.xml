@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/concept_card_bg_selector_nonormal" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ImageView android:id="@id/localstore_adv_divider" android:visibility="visible" android:contentDescription="0x0" style="@style/line_divider_horizontal_style" />
+    <FrameLayout android:id="@id/icon_layout" android:layout_width="UNKNOWN_DATA_0x7f0700fb" android:layout_height="UNKNOWN_DATA_0x7f0700fa" android:layout_marginLeft="16dp" android:layout_marginTop="14dp" android:layout_below="@id/localstore_adv_divider" android:layout_alignParentLeft="true">
+        <com.qq.reader.widget.UserCircleImageView android:id="@a/icon" android:layout_width="UNKNOWN_DATA_0x7f0700fb" android:layout_height="UNKNOWN_DATA_0x7f0700fa" />
+        <ImageView android:id="@id/icon_mask" android:background="@drawable/bookclub_avatar_small_bg_selector" android:layout_width="UNKNOWN_DATA_0x7f0700fb" android:layout_height="UNKNOWN_DATA_0x7f0700fa" />
+    </FrameLayout>
+    <RelativeLayout android:orientation="vertical" android:id="@a/line1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6dp" android:layout_marginTop="14dp" android:layout_toRightOf="@id/icon_layout" android:layout_below="@id/localstore_adv_divider">
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:id="@id/title_label" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/text_size_class_2" android:textColor="@a/text_color_c201" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@a/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" />
+            <ImageView android:id="@id/month_icon" android:layout_width="UNKNOWN_DATA_0xc01" android:layout_height="UNKNOWN_DATA_0xc01" android:layout_marginLeft="6dp" android:scaleType="fitXY" />
+            <ImageView android:id="@id/level" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0xb01" android:layout_marginLeft="5dp" />
+            <ImageView android:id="@id/img_author_tag" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0xb01" android:layout_marginLeft="5dp" />
+        </LinearLayout>
+        <TextView android:textSize="@c/text_size_class_1" android:textColor="@color/text_color_c103" android:id="@a/time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/comment_publish_time_margin_top" android:includeFontPadding="false" android:layout_below="@id/title_label" />
+    </RelativeLayout>
+    <TextView android:textSize="@dimen/text_size_class_3" android:textColor="@color/text_color_c102" android:ellipsize="end" android:id="@id/content" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:layout_marginRight="16dp" android:maxLines="2" android:includeFontPadding="false" android:layout_below="@a/line1" android:layout_alignLeft="@a/line1" android:lineSpacingExtra="2dp" />
+    <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:id="@id/audio_containner" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:layout_marginBottom="4dp" android:layout_below="@id/content" android:layout_alignLeft="@a/line1">
+        <RelativeLayout android:background="@drawable/answer_play_btn_green_selector" android:layout_width="UNKNOWN_DATA_0xaf01" android:layout_height="UNKNOWN_DATA_0x2801">
+            <ImageView android:id="@id/iv_answer_play_btn" android:focusableInTouchMode="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/common_dp_16" android:src="@drawable/audio_play_c" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <TextView android:textSize="@dimen/text_size_class_3" android:textColor="@color/text_color_c103" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/audio_answer_duration" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@c/common_dp_8" android:singleLine="true" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/referred_outer" android:background="#f2f2f2" android:paddingLeft="8dp" android:paddingTop="8dp" android:paddingRight="8dp" android:paddingBottom="4dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:layout_marginRight="16dp" android:layout_below="@id/audio_containner" android:layout_alignLeft="@a/line1">
+        <TextView android:textSize="@dimen/text_size_class_2" android:textColor="@color/text_color_c103" android:ellipsize="end" android:id="@id/referred_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="2" android:includeFontPadding="false" android:lineSpacingExtra="4dp" />
+    </FrameLayout>
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/referred_outer" android:layout_alignLeft="@a/line1">
+        <TextView android:textSize="@c/text_size_class_1" android:textColor="@color/text_color_c103" android:ellipsize="end" android:id="@id/source" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14dp" android:layout_marginRight="16dp" android:layout_marginBottom="14dp" android:maxLines="1" android:includeFontPadding="false" />
+    </FrameLayout>
+    <ImageView android:id="@id/localstore_bottom_divider" android:visibility="gone" android:layout_alignParentBottom="true" android:contentDescription="0x0" style="@style/line_divider_horizontal_style" />
+</RelativeLayout>

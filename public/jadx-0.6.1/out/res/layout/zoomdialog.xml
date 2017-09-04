@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content"
+    <RelativeLayout android:id="@id/zoominfotextpart" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+        <TextView android:textSize="@c/text_size_class_5" android:textColor="@color/text_color_c104" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/zoominfotext" android:background="@drawable/popup_box" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <FrameLayout android:id="@id/zoom_panel" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@id/zoominfotextpart">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+            <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/just_size_buttons" android:background="@drawable/local_list_nor" android:paddingTop="13dp" android:paddingBottom="13dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <Button android:id="@id/zoominButton" android:background="@drawable/btn_zoom_in" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x2b01" android:layout_marginLeft="20dp" android:layout_weight="1.0" />
+                <Button android:id="@id/zoomoutButton" android:background="@drawable/btn_zoom_out" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x2b01" android:layout_marginRight="20dp" android:layout_weight="1.0" />
+            </LinearLayout>
+            <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/choose_linespace_rl_view" android:background="@drawable/local_list_nor" android:paddingLeft="20dp" android:paddingTop="13dp" android:paddingRight="20dp" android:paddingBottom="13dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@id/just_size_buttons">
+                <RadioGroup android:orientation="horizontal" android:id="@id/choose_linespace_radio_group" android:background="@drawable/reader_dialog_setting_radiogroup_bg" android:clickable="true" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2b01" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+                    <RadioButton android:id="@id/choose_linespace_tv_1" android:background="@drawable/linespace_radiobutton_xml1" android:clickable="true" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_margin="2dp" android:button="0x0" android:layout_weight="1.0" android:layout_centerInParent="true" />
+                    <RadioButton android:id="@id/choose_linespace_tv_2" android:background="@drawable/linespace_radiobutton_xml2" android:clickable="true" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_margin="2dp" android:button="0x0" android:layout_weight="1.0" android:layout_centerInParent="true" />
+                    <RadioButton android:id="@id/choose_linespace_tv_3" android:background="@drawable/linespace_radiobutton_xml3" android:clickable="true" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_margin="2dp" android:button="0x0" android:layout_weight="1.0" android:layout_centerInParent="true" />
+                </RadioGroup>
+            </LinearLayout>
+            <RelativeLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/choose_font_rl_view" android:background="@drawable/local_list_nor" android:paddingTop="13dp" android:paddingBottom="13dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@id/choose_linespace_rl_view">
+                <TextView android:textSize="18sp" android:textColor="#ff555555" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/choose_font_tv" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2b01" android:layout_marginLeft="20dp" android:text="当前字体:" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+                <ImageView android:background="@drawable/line_space_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+        </LinearLayout>
+    </FrameLayout>
+</RelativeLayout>

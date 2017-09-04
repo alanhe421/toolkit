@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <include android:id="@id/localstore_adv_divider" layout="@layout/localstore_card_divider" />
+    <com.qq.reader.module.bookstore.qnative.card.impl.CardTitle android:id="@id/title_layout" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/cardtitlestyle" />
+    <LinearLayout android:orientation="vertical" android:id="@id/book_topraise_list" android:background="@drawable/screenbg_colordrawable" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <View android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0xc01" />
+</LinearLayout>

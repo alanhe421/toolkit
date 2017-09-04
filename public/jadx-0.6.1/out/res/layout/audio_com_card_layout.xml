@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:focusable="false" android:focusableInTouchMode="false" android:addStatesFromChildren="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <View android:id="@id/localstore_adv_divider" android:background="@a/common_divider" android:visibility="gone" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x801" android:contentDescription="0x0" />
+    <com.qq.reader.module.question.card.view.AudioComItemView android:id="@id/audio_view" android:background="@drawable/concept_card_bg_selector" android:paddingLeft="@dimen/common_dp_16" android:paddingTop="@dimen/common_dp_14" android:paddingRight="@dimen/common_dp_16" android:paddingBottom="@dimen/common_dp_14" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <View android:id="@id/localstore_adv_bottom_divider" android:background="@a/common_divider" android:visibility="gone" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x801" android:contentDescription="0x0" />
+</LinearLayout>

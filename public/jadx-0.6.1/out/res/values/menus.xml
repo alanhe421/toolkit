@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <menu name="menu_h5_game">res/menu/menu_h5_game.xml</menu>
+    <menu name="menu_login">res/menu/menu_login.xml</menu>
+    <menu name="menu_main">res/menu/menu_main.xml</menu>
+    <menu name="menu_register">res/menu/menu_register.xml</menu>
+</resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textSize="@dimen/text_size_class_2" android:textColor="@color/text_color_c103" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/card_title_text" android:background="@a/localstore_bg" android:paddingLeft="16dp" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1e01" />
+    <com.qq.reader.view.EmptyView empty:id="@id/card_title_tip" empty:visibility="gone" empty:layout_width="match_parent" empty:layout_height="match_parent" empty:contentTitle="暂无笔记" empty:contentText="@string/bookclub_none_reply" empty:mIcon="@drawable/empty09" empty:autoCenterInListView="true" empty:type="radial" />
+</LinearLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <View android:background="@a/concept_divider_line" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" />
+    <Button android:id="@id/concept_more_button" android:background="@drawable/localstore_card_bg_selector" android:text="查看更多" style="@style/more_button_style_1" />
+</merge>

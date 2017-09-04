@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/concept_card_3bg_selector" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.qq.reader.view.QRImageView android:id="@id/column_cover" android:clipChildren="false" android:clipToPadding="false" android:layout_width="UNKNOWN_DATA_0x3201" android:layout_height="UNKNOWN_DATA_0x4301" android:layout_marginLeft="16dp" android:layout_marginTop="12dp" android:layout_marginBottom="12dp" android:src="@drawable/icon" android:scaleType="fitXY" />
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12dp" android:layout_toRightOf="@id/column_cover" android:layout_centerVertical="true">
+        <TextView android:textSize="@dimen/text_size_class_4" android:textColor="@color/text_color_c101" android:id="@id/column_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="11" />
+        <TextView android:textSize="@dimen/text_size_class_2" android:textColor="@color/text_color_c103" android:id="@id/column_des" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="11" />
+    </LinearLayout>
+</RelativeLayout>

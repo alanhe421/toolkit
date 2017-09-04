@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/concept_head_root" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.qq.reader.module.readpage.PopupLayerView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/comment_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f07031b" />
+    <LinearLayout android:orientation="vertical" android:id="@id/question_layout" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <View android:id="@id/audio_divider" android:background="@a/reader_page_divider_line_color" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" />
+        <com.qq.reader.module.question.card.view.AudioComItemView android:id="@id/answer_body_layout" android:background="@a/translucent" android:paddingTop="@dimen/common_dp_14" android:paddingBottom="@dimen/common_dp_14" android:focusable="true" android:focusableInTouchMode="true" android:visibility="gone" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <View android:id="@id/author_divider" android:background="@a/reader_page_divider_line_color" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" />
+        <com.qq.reader.module.question.card.view.AudioAuthorStateView android:id="@id/author_state_layout" android:background="@a/translucent" android:paddingTop="@dimen/common_dp_16" android:paddingBottom="@dimen/common_dp_61" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/chapter_comment_area" android:paddingTop="2dp" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f07031a">
+        <TextView android:textSize="@dimen/text_size_class_4" android:textColor="@a/skin_set_common_textcolor" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/chapter_discuss" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="加入讨论吧" android:includeFontPadding="false" android:drawableLeft="@drawable/readpage_chapter_comment_icon" android:drawablePadding="4dp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <Button android:id="@id/onlineread_debug_upload" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="上传日志" android:layout_alignParentBottom="true" />
+    <TextView android:id="@id/onlineread_debug_info" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_above="@id/onlineread_debug_upload" />
+    <ListView android:id="@id/onlineread_debug_list" android:focusableInTouchMode="true" android:fadingEdge="UNKNOWN_DATA_0x0" android:fadingEdgeLength="0dp" android:layout_width="match_parent" android:layout_height="match_parent" android:listSelector="#00000000" android:scrollingCache="false" android:layout_above="@id/onlineread_debug_info" android:fastScrollEnabled="true" style="@style/list_view_divider" />
+</RelativeLayout>

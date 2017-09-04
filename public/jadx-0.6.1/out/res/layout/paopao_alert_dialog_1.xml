@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="3.0">
+    <Button android:textSize="@dimen/text_size_class_4" android:textColor="@a/select_btn_textcolor_day" android:id="@id/pop_remark" android:background="0x0" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/text_note" android:layout_weight="1.0" />
+    <View android:id="@id/line0" android:background="@a/textcolor_black" android:layout_width="UNKNOWN_DATA_0x101" android:layout_height="match_parent" android:layout_marginTop="15dp" android:layout_marginBottom="15dp" />
+    <Button android:textSize="@dimen/text_size_class_4" android:textColor="@a/select_btn_textcolor_day" android:id="@id/pop_share" android:background="0x0" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="分享" android:layout_weight="1.0" />
+    <View android:id="@a/line1" android:background="@a/textcolor_black" android:layout_width="UNKNOWN_DATA_0x101" android:layout_height="match_parent" android:layout_marginTop="15dp" android:layout_marginBottom="15dp" />
+    <Button android:textSize="@dimen/text_size_class_4" android:textColor="@a/select_btn_textcolor_day" android:id="@id/pop_del" android:background="0x0" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="删除" android:layout_weight="1.0" />
+</LinearLayout>

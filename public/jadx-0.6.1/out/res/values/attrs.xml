@@ -1,0 +1,698 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="SwipeBackLayoutStyle">
+        <item>1</item>
+    </attr>
+    <attr name="direction">
+        <item>65536</item>
+        <item>1</item>
+        <item>2</item>
+        <item>0</item>
+        <item>3</item>
+    </attr>
+    <attr name="vp_centered">
+        <item>8</item>
+    </attr>
+    <attr name="vp_selectedColor">
+        <item>16</item>
+    </attr>
+    <attr name="vp_strokeWidth">
+        <item>64</item>
+    </attr>
+    <attr name="vp_unselectedColor">
+        <item>16</item>
+    </attr>
+    <attr name="imgsrc">
+        <item>4</item>
+    </attr>
+    <attr name="delta">
+        <item>4</item>
+    </attr>
+    <attr name="vertical_interval">
+        <item>64</item>
+    </attr>
+    <attr name="horizontal_interval">
+        <item>64</item>
+    </attr>
+    <attr name="container_border_width">
+        <item>64</item>
+    </attr>
+    <attr name="container_border_radius">
+        <item>64</item>
+    </attr>
+    <attr name="container_border_color">
+        <item>16</item>
+    </attr>
+    <attr name="container_background_color">
+        <item>16</item>
+    </attr>
+    <attr name="container_enable_drag">
+        <item>8</item>
+    </attr>
+    <attr name="container_drag_sensitivity">
+        <item>32</item>
+    </attr>
+    <attr name="container_max_lines">
+        <item>4</item>
+    </attr>
+    <attr name="container_gravity">
+        <item>65536</item>
+        <item>17</item>
+        <item>3</item>
+        <item>5</item>
+    </attr>
+    <attr name="tag_border_width">
+        <item>64</item>
+    </attr>
+    <attr name="tag_corner_radius">
+        <item>64</item>
+    </attr>
+    <attr name="tag_horizontal_padding">
+        <item>64</item>
+    </attr>
+    <attr name="tag_vertical_padding">
+        <item>64</item>
+    </attr>
+    <attr name="tag_text_size">
+        <item>64</item>
+    </attr>
+    <attr name="tag_bd_distance">
+        <item>64</item>
+    </attr>
+    <attr name="tag_text_color">
+        <item>16</item>
+    </attr>
+    <attr name="tag_press_color">
+        <item>16</item>
+    </attr>
+    <attr name="tag_border_color">
+        <item>16</item>
+    </attr>
+    <attr name="tag_background_color">
+        <item>16</item>
+    </attr>
+    <attr name="tag_text_press_color">
+        <item>16</item>
+    </attr>
+    <attr name="tag_max_length">
+        <item>4</item>
+    </attr>
+    <attr name="tag_clickable">
+        <item>8</item>
+    </attr>
+    <attr name="tag_text_direction">
+        <item>65536</item>
+        <item>3</item>
+        <item>4</item>
+    </attr>
+    <attr name="tag_ripple_color">
+        <item>16</item>
+    </attr>
+    <attr name="tag_ripple_alpha">
+        <item>4</item>
+    </attr>
+    <attr name="tag_ripple_duration">
+        <item>4</item>
+    </attr>
+    <attr name="tag_enable_cross">
+        <item>8</item>
+    </attr>
+    <attr name="tag_cross_width">
+        <item>64</item>
+    </attr>
+    <attr name="tag_cross_color">
+        <item>16</item>
+    </attr>
+    <attr name="tag_cross_line_width">
+        <item>64</item>
+    </attr>
+    <attr name="tag_cross_area_padding">
+        <item>64</item>
+    </attr>
+    <attr name="blurRadius">
+        <item>4</item>
+    </attr>
+    <attr name="downsampleFactor">
+        <item>4</item>
+    </attr>
+    <attr name="overlayColor">
+        <item>16</item>
+    </attr>
+    <attr name="border_width">
+        <item>64</item>
+    </attr>
+    <attr name="border_color">
+        <item>16</item>
+    </attr>
+    <attr name="masker_color">
+        <item>16</item>
+    </attr>
+    <attr name="vp_fillColor">
+        <item>16</item>
+    </attr>
+    <attr name="pageColor">
+        <item>16</item>
+    </attr>
+    <attr name="vp_radius">
+        <item>64</item>
+    </attr>
+    <attr name="snap">
+        <item>8</item>
+    </attr>
+    <attr name="vp_strokeColor">
+        <item>16</item>
+    </attr>
+    <attr name="maxProgress">
+        <item>32</item>
+    </attr>
+    <attr name="progressBarWidth">
+        <item>64</item>
+    </attr>
+    <attr name="progressBarColor">
+        <item>17</item>
+    </attr>
+    <attr name="progressBarBgColor">
+        <item>17</item>
+    </attr>
+    <attr name="centerDrawable">
+        <item>1</item>
+    </attr>
+    <attr name="currentProgress">
+        <item>32</item>
+    </attr>
+    <attr name="progressBarTextSize">
+        <item>64</item>
+    </attr>
+    <attr name="progressBarTextColor">
+        <item>17</item>
+    </attr>
+    <attr name="bookTitleText">
+        <item>2</item>
+    </attr>
+    <attr name="bookTitleTextColor">
+        <item>16</item>
+    </attr>
+    <attr name="bookTitleTextSize">
+        <item>64</item>
+    </attr>
+    <attr name="bookDesText">
+        <item>2</item>
+    </attr>
+    <attr name="bookDesTextColor">
+        <item>16</item>
+    </attr>
+    <attr name="bookDesTextSize">
+        <item>64</item>
+    </attr>
+    <attr name="backgroudColor">
+        <item>16</item>
+    </attr>
+    <attr name="progressColor">
+        <item>16</item>
+    </attr>
+    <attr name="progressWidth">
+        <item>64</item>
+    </attr>
+    <attr name="countTextColor">
+        <item>16</item>
+    </attr>
+    <attr name="countTextSize">
+        <item>64</item>
+    </attr>
+    <attr name="progressMax">
+        <item>4</item>
+    </attr>
+    <attr name="showProgressText">
+        <item>8</item>
+    </attr>
+    <attr name="progressStyle">
+        <item>65536</item>
+        <item>1</item>
+        <item>0</item>
+    </attr>
+    <attr name="maxLine">
+        <item>4</item>
+    </attr>
+    <attr name="reloadText">
+        <item>2</item>
+    </attr>
+    <attr name="buttonText">
+        <item>2</item>
+    </attr>
+    <attr name="contentTitle">
+        <item>2</item>
+    </attr>
+    <attr name="contentText">
+        <item>2</item>
+    </attr>
+    <attr name="mIcon">
+        <item>1</item>
+    </attr>
+    <attr name="autoCenterInListView">
+        <item>8</item>
+    </attr>
+    <attr name="type">
+        <item>65540</item>
+        <item>5</item>
+        <item>3</item>
+        <item>4</item>
+        <item>2</item>
+        <item>0</item>
+        <item>1</item>
+    </attr>
+    <attr name="unselectedAlpha">
+        <item>32</item>
+    </attr>
+    <attr name="unselectedSaturation">
+        <item>32</item>
+    </attr>
+    <attr name="unselectedScale">
+        <item>32</item>
+    </attr>
+    <attr name="maxRotation">
+        <item>4</item>
+    </attr>
+    <attr name="enableRotate">
+        <item>8</item>
+    </attr>
+    <attr name="enableAutoScroll">
+        <item>8</item>
+    </attr>
+    <attr name="scaleDownGravity">
+        <item>32</item>
+    </attr>
+    <attr name="actionDistance">
+        <item>65540</item>
+        <item>2147483647</item>
+    </attr>
+    <attr name="horizontal_spacing">
+        <item>64</item>
+    </attr>
+    <attr name="vertical_spacing">
+        <item>64</item>
+    </attr>
+    <attr name="gradientStartColor">
+        <item>17</item>
+    </attr>
+    <attr name="gradientEndColor">
+        <item>17</item>
+    </attr>
+    <attr name="shadowOffsetBottom">
+        <item>96</item>
+    </attr>
+    <attr name="solidOffsetShadow">
+        <item>96</item>
+    </attr>
+    <attr name="shadowColor">
+        <item>17</item>
+    </attr>
+    <attr name="numberSize">
+        <item>96</item>
+    </attr>
+    <attr name="numberColor">
+        <item>17</item>
+    </attr>
+    <attr name="initX">
+        <item>64</item>
+    </attr>
+    <attr name="initY">
+        <item>64</item>
+    </attr>
+    <attr name="xRand">
+        <item>64</item>
+    </attr>
+    <attr name="animLengthRand">
+        <item>64</item>
+    </attr>
+    <attr name="xPointFactor">
+        <item>64</item>
+    </attr>
+    <attr name="animLength">
+        <item>64</item>
+    </attr>
+    <attr name="heart_width">
+        <item>64</item>
+    </attr>
+    <attr name="heart_height">
+        <item>64</item>
+    </attr>
+    <attr name="bezierFactor">
+        <item>4</item>
+    </attr>
+    <attr name="anim_duration">
+        <item>4</item>
+    </attr>
+    <attr name="dividerWidth">
+        <item>64</item>
+    </attr>
+    <attr name="name">
+        <item>2</item>
+    </attr>
+    <attr name="lcontent">
+        <item>2</item>
+    </attr>
+    <attr name="isBottom">
+        <item>8</item>
+    </attr>
+    <attr name="canNav">
+        <item>8</item>
+    </attr>
+    <attr name="isSwitch">
+        <item>8</item>
+    </attr>
+    <attr name="handle">
+        <item>1</item>
+    </attr>
+    <attr name="content">
+        <item>1</item>
+    </attr>
+    <attr name="bottomOffset">
+        <item>64</item>
+    </attr>
+    <attr name="topOffset">
+        <item>64</item>
+    </attr>
+    <attr name="allowSingleTap">
+        <item>8</item>
+    </attr>
+    <attr name="animateOnClick">
+        <item>8</item>
+    </attr>
+    <attr name="progress">
+        <item>4</item>
+    </attr>
+    <attr name="maxlen">
+        <item>4</item>
+    </attr>
+    <attr name="progress_unreached_color">
+        <item>16</item>
+    </attr>
+    <attr name="progress_reached_color">
+        <item>16</item>
+    </attr>
+    <attr name="progress_reached_bar_height">
+        <item>64</item>
+    </attr>
+    <attr name="progress_unreached_bar_height">
+        <item>64</item>
+    </attr>
+    <attr name="progress_text_size">
+        <item>64</item>
+    </attr>
+    <attr name="progress_text_color">
+        <item>16</item>
+    </attr>
+    <attr name="progress_text_offset">
+        <item>64</item>
+    </attr>
+    <attr name="progress_text_visibility">
+        <item>65536</item>
+        <item>1</item>
+        <item>0</item>
+    </attr>
+    <attr name="pstsIndicatorColor">
+        <item>16</item>
+    </attr>
+    <attr name="pstsUnderlineColor">
+        <item>16</item>
+    </attr>
+    <attr name="pstsDividerColor">
+        <item>16</item>
+    </attr>
+    <attr name="pstsIndicatorHeight">
+        <item>64</item>
+    </attr>
+    <attr name="pstsIndicatorBottomPadding">
+        <item>64</item>
+    </attr>
+    <attr name="pstsUnderlineHeight">
+        <item>64</item>
+    </attr>
+    <attr name="pstsDividerPadding">
+        <item>64</item>
+    </attr>
+    <attr name="pstsTabPaddingLeftRight">
+        <item>64</item>
+    </attr>
+    <attr name="pstsScrollOffset">
+        <item>64</item>
+    </attr>
+    <attr name="pstsTabBackground">
+        <item>1</item>
+    </attr>
+    <attr name="pstsShouldExpand">
+        <item>8</item>
+    </attr>
+    <attr name="pstsTextAllCaps">
+        <item>8</item>
+    </attr>
+    <attr name="pstsTextColorState">
+        <item>16</item>
+    </attr>
+    <attr name="animationDuration">
+        <item>4</item>
+    </attr>
+    <attr name="position">
+        <item>65536</item>
+        <item>2</item>
+        <item>3</item>
+        <item>1</item>
+        <item>0</item>
+    </attr>
+    <attr name="linearFlying">
+        <item>8</item>
+    </attr>
+    <attr name="openedHandle">
+        <item>17</item>
+    </attr>
+    <attr name="closedHandle">
+        <item>17</item>
+    </attr>
+    <attr name="readerMode">
+        <item>2</item>
+    </attr>
+    <attr name="layoutManager">
+        <item>2</item>
+    </attr>
+    <attr name="spanCount">
+        <item>4</item>
+    </attr>
+    <attr name="reverseLayout">
+        <item>8</item>
+    </attr>
+    <attr name="stackFromEnd">
+        <item>8</item>
+    </attr>
+    <attr name="roundColor">
+        <item>16</item>
+    </attr>
+    <attr name="roundPressedColor">
+        <item>16</item>
+    </attr>
+    <attr name="roundProgressColor">
+        <item>16</item>
+    </attr>
+    <attr name="roundProgressPressedColor">
+        <item>16</item>
+    </attr>
+    <attr name="roundWidth">
+        <item>64</item>
+    </attr>
+    <attr name="roundTextColor">
+        <item>16</item>
+    </attr>
+    <attr name="roundTextSize">
+        <item>64</item>
+    </attr>
+    <attr name="max">
+        <item>4</item>
+    </attr>
+    <attr name="textIsDisplayable">
+        <item>8</item>
+    </attr>
+    <attr name="style">
+        <item>65536</item>
+        <item>1</item>
+        <item>0</item>
+    </attr>
+    <attr name="mainTextSize">
+        <item>64</item>
+    </attr>
+    <attr name="mainTextColor">
+        <item>16</item>
+    </attr>
+    <attr name="mainText">
+        <item>2</item>
+    </attr>
+    <attr name="subTextSize">
+        <item>64</item>
+    </attr>
+    <attr name="subTextColor">
+        <item>16</item>
+    </attr>
+    <attr name="subText">
+        <item>2</item>
+    </attr>
+    <attr name="textMargin">
+        <item>64</item>
+    </attr>
+    <attr name="mode">
+        <item>65536</item>
+        <item>0</item>
+        <item>1</item>
+    </attr>
+    <attr name="viewAbove">
+        <item>1</item>
+    </attr>
+    <attr name="viewBehind">
+        <item>1</item>
+    </attr>
+    <attr name="behindOffset">
+        <item>64</item>
+    </attr>
+    <attr name="behindWidth">
+        <item>64</item>
+    </attr>
+    <attr name="behindScrollScale">
+        <item>32</item>
+    </attr>
+    <attr name="touchModeAbove">
+        <item>65536</item>
+        <item>1</item>
+        <item>0</item>
+        <item>2</item>
+    </attr>
+    <attr name="touchModeBehind">
+        <item>65536</item>
+        <item>1</item>
+        <item>0</item>
+        <item>2</item>
+    </attr>
+    <attr name="shadowDrawable">
+        <item>1</item>
+    </attr>
+    <attr name="shadowWidth">
+        <item>64</item>
+    </attr>
+    <attr name="fadeEnabled">
+        <item>8</item>
+    </attr>
+    <attr name="fadeDegree">
+        <item>32</item>
+    </attr>
+    <attr name="selectorEnabled">
+        <item>8</item>
+    </attr>
+    <attr name="selectorDrawable">
+        <item>1</item>
+    </attr>
+    <attr name="transitionDrawable">
+        <item>1</item>
+    </attr>
+    <attr name="transitionDrawableLength">
+        <item>4</item>
+    </attr>
+    <attr name="transitionTextColorUp">
+        <item>16</item>
+    </attr>
+    <attr name="transitionTextColorDown">
+        <item>16</item>
+    </attr>
+    <attr name="height_of_width">
+        <item>32</item>
+    </attr>
+    <attr name="edge_size">
+        <item>64</item>
+    </attr>
+    <attr name="edge_flag">
+        <item>65536</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </attr>
+    <attr name="shadow_left">
+        <item>1</item>
+    </attr>
+    <attr name="shadow_right">
+        <item>1</item>
+    </attr>
+    <attr name="shadow_bottom">
+        <item>1</item>
+    </attr>
+    <attr name="numberProgressBarStyle">
+        <item>1</item>
+    </attr>
+    <attr name="vpiCirclePageIndicatorStyle">
+        <item>1</item>
+    </attr>
+    <attr name="frontWaveColor">
+        <item>17</item>
+    </attr>
+    <attr name="backWaveColor">
+        <item>17</item>
+    </attr>
+    <attr name="textTabColor">
+        <item>16</item>
+    </attr>
+    <attr name="textActiveColor">
+        <item>16</item>
+    </attr>
+    <attr name="textTabSize">
+        <item>64</item>
+    </attr>
+    <attr name="waveColor">
+        <item>16</item>
+    </attr>
+    <attr name="underlineColor">
+        <item>16</item>
+    </attr>
+    <attr name="underlineHeight">
+        <item>64</item>
+    </attr>
+    <attr name="fillColor">
+        <item>16</item>
+    </attr>
+    <attr name="strokeColor">
+        <item>16</item>
+    </attr>
+    <attr name="radius">
+        <item>64</item>
+    </attr>
+    <attr name="centered">
+        <item>8</item>
+    </attr>
+    <attr name="titlePadding">
+        <item>64</item>
+    </attr>
+    <attr name="clipPadding">
+        <item>64</item>
+    </attr>
+    <attr name="selectedColor">
+        <item>16</item>
+    </attr>
+    <attr name="selectedBold">
+        <item>8</item>
+    </attr>
+    <attr name="selectedSize">
+        <item>64</item>
+    </attr>
+    <attr name="textColor">
+        <item>16</item>
+    </attr>
+    <attr name="textSize">
+        <item>64</item>
+    </attr>
+    <attr name="footerLineHeight">
+        <item>64</item>
+    </attr>
+    <attr name="footerColor">
+        <item>16</item>
+    </attr>
+    <attr name="footerTriangleHeight">
+        <item>64</item>
+    </attr>
+    <attr name="sidebuffer">
+        <item>4</item>
+    </attr>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:id="@id/web_browser_content" android:background="@a/screen_bg_color" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:id="@e/common_titler" layout="@g/common_titler" />
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@e/common_titler">
+        <include layout="@layout/chapter_content" />
+        <include android:id="@id/layout_off_market" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" layout="@layout/audio_off_market" />
+    </RelativeLayout>
+</RelativeLayout>

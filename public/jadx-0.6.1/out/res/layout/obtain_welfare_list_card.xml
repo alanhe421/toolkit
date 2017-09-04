@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@drawable/common_card_background" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="12dp" android:layout_marginRight="16dp" android:layout_marginBottom="11dp">
+        <com.qq.reader.view.QRImageView android:id="@id/obtain_welfare_list_card_cover" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f01" android:layout_marginTop="2dp" android:scaleType="fitXY" />
+        <ImageView android:id="@id/obtain_welfare_list_card_long_term" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/obtain_welfare_list_card_long_term" />
+    </FrameLayout>
+    <TextView android:textSize="@dimen/text_size_class_4" android:textColor="@color/text_color_c101" android:ellipsize="end" android:id="@id/obtain_welfare_list_card_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginRight="16dp" android:layout_marginBottom="4dp" android:maxLines="2" android:lineSpacingExtra="4dp" />
+    <TextView android:textSize="@dimen/text_size_class_3" android:textColor="@color/text_color_c103" android:ellipsize="end" android:id="@id/obtain_welfare_list_card_description" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginRight="16dp" android:layout_marginBottom="4dp" android:maxLines="1" />
+    <View android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x701" />
+    <View android:id="@id/obtain_welfare_list_card_divider" android:background="@a/concept_divider_bg" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x801" />
+</LinearLayout>

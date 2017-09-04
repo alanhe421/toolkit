@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <View android:id="@id/card_title_div" android:background="@a/div_divider" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x801" android:contentDescription="0x0" />
+    <RelativeLayout android:paddingLeft="12dp" android:paddingRight="12dp" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3101">
+        <TextView android:id="@id/bookclub_ratingbar_text" android:text="给本书评分" android:layout_centerVertical="true" style="@style/text_13_gray_style" />
+        <com.qq.reader.common.widget.ReaderRatingBar android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/bookscore_ratingbar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxHeight="24dp" android:progressDrawable="@drawable/localstore_ratingbar_big_drawable" android:minHeight="24dp" android:numStars="5" android:stepSize="1.0" android:isIndicator="false" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <View android:background="@a/listview_divider" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" android:contentDescription="0x0" />
+</LinearLayout>

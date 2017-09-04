@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" custom:orientation="vertical" custom:layout_width="match_parent" custom:layout_height="match_parent">
+    <include layout="@layout/comic_store_card_title_layout" />
+    <LinearLayout custom:orientation="vertical" custom:layout_width="match_parent" custom:layout_height="wrap_content" custom:layout_marginLeft="@dimen/common_dp_16" custom:layout_marginTop="@dimen/common_dp_12" custom:layout_marginRight="@dimen/common_dp_16" custom:layout_marginBottom="@dimen/common_dp_12">
+        <com.qq.reader.module.comic.views.ComicStripBookView custom:id="@id/comic_six_card_0item" custom:layout_width="match_parent" custom:layout_height="wrap_content" />
+        <com.qq.reader.module.comic.views.ComicStripBookView custom:id="@id/comic_six_card_1item" custom:layout_width="match_parent" custom:layout_height="wrap_content" custom:layout_marginTop="@dimen/common_dp_13" />
+        <com.qq.reader.module.comic.views.ComicStripBookView custom:id="@id/comic_six_card_2item" custom:layout_width="match_parent" custom:layout_height="wrap_content" custom:layout_marginTop="@dimen/common_dp_13" />
+    </LinearLayout>
+    <include layout="@layout/comic_store_click_more_layout" />
+    <include layout="@layout/localstore_card_divider" />
+</LinearLayout>

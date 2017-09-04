@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.qq.reader.view.EmptyView xmlns:android="http://schemas.android.com/apk/res-auto" empty:id="@id/netdisk_error_view" empty:layout_width="match_parent" empty:layout_height="match_parent" empty:reloadText="重新加载" empty:contentText="网络不好，请检查网络设置" empty:mIcon="@drawable/empty01" empty:type="sweep" />

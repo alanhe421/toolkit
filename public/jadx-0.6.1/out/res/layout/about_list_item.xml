@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/about_list_item_view" android:layout_width="match_parent" android:layout_height="wrap_content"
+    <RelativeLayout android:background="@drawable/list_item_bg" android:paddingLeft="21dp" android:paddingRight="21dp" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3401">
+        <TextView android:textSize="16sp" android:textColor="@a/common_textcolor_primary" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/about_list_item_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/about_list_item_icon_image" android:background="@drawable/private_icon_new" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3dp" android:layout_toRightOf="@id/about_list_item_text" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/about_list_item_image" android:background="@drawable/list_item_enter_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textColor="@a/textcolor_white" android:id="@id/cmdtext" android:background="@a/textcolor_black" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <EditText android:textColor="@a/textcolor_white" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/cmdedit" android:background="@a/textcolor_black" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3201" android:text="logcat dumpsys | grep ActivityManager" android:minLines="1" android:inputType="text|textCapCharacters|textCapWords|textCapSentences|textAutoCorrect|textAutoComplete|textMultiLine|textImeMultiLine|textNoSuggestions|textUri|textEmailAddress|textEmailSubject|textShortMessage|textLongMessage|textPersonName|textPostalAddress|textPassword|textVisiblePassword|textWebEditText|textFilter|textPhonetic|textWebEmailAddress|textWebPassword|phone">
+            <requestFocus />
+        </EditText>
+    </LinearLayout>
+</ScrollView>

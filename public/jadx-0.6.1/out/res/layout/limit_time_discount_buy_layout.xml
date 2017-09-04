@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" custom:orientation="vertical" custom:background="@drawable/localstore_card_bg_selector" custom:clipChildren="false" custom:clipToPadding="false" custom:layout_width="match_parent" custom:layout_height="match_parent">
+    <include custom:id="@id/localstore_adv_divider" custom:layout_width="match_parent" custom:layout_height="UNKNOWN_DATA_0x801" layout="@layout/localstore_card_divider" />
+    <LinearLayout custom:orientation="horizontal" custom:clipChildren="false" custom:clipToPadding="false" custom:layout_width="match_parent" custom:layout_height="wrap_content" custom:layout_marginLeft="16dp" custom:layout_marginTop="14dp" custom:layout_marginRight="16dp" custom:layout_marginBottom="14dp">
+        <com.qq.reader.view.QRImageView custom:id="@id/img_book_cover" custom:clipChildren="false" custom:clipToPadding="false" custom:layout_width="UNKNOWN_DATA_0x7f0700ff" custom:layout_height="UNKNOWN_DATA_0x7f0700fe" custom:layout_marginRight="12dp" custom:scaleType="fitXY" />
+        <LinearLayout custom:orientation="vertical" custom:layout_width="match_parent" custom:layout_height="match_parent">
+            <com.qq.reader.view.CustomTailIconTextView custom:id="@id/feed_title_container" custom:clipChildren="false" custom:clipToPadding="false" custom:layout_width="match_parent" custom:layout_height="wrap_content" custom:maxLine="1">
+                <TextView custom:gravity="top|bottom|center_vertical|fill_vertical|center|fill" custom:id="@id/tv_book_name" custom:layout_width="wrap_content" custom:layout_height="wrap_content" custom:maxLines="1" custom:includeFontPadding="false" custom:layout_weight="1.0" style="@style/feed_title_style" />
+                <TextView custom:textSize="@c/text_size_class_1" custom:textColor="#a3b8cc" custom:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" custom:id="@id/tv_category" custom:background="@drawable/limit_time_discount_buy_category_bg" custom:layout_width="wrap_content" custom:layout_height="wrap_content" custom:layout_marginLeft="4dp" />
+            </com.qq.reader.view.CustomTailIconTextView>
+            <TextView custom:textSize="@dimen/text_size_class_3" custom:textColor="@color/text_color_c103" custom:ellipsize="end" custom:id="@id/tv_desc" custom:layout_width="match_parent" custom:layout_height="wrap_content" custom:layout_marginTop="2dp" custom:singleLine="true" />
+            <View custom:layout_width="match_parent" custom:layout_height="match_parent" custom:layout_weight="1.0" />
+            <LinearLayout custom:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" custom:orientation="horizontal" custom:layout_width="match_parent" custom:layout_height="wrap_content"
+                <LinearLayout custom:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" custom:orientation="vertical" custom:layout_width="match_parent" custom:layout_height="match_parent" custom:layout_weight="1.0">
+                    <TextView custom:textSize="@dimen/text_size_class_3" custom:textColor="@color/text_color_c401" custom:ellipsize="end" custom:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" custom:id="@id/tv_discount_desc" custom:layout_width="match_parent" custom:layout_height="wrap_content" custom:singleLine="true" />
+                    <TextView custom:textSize="@c/text_size_class_1" custom:textColor="@color/text_color_c103" custom:ellipsize="end" custom:id="@id/tv_origin_price" custom:layout_width="match_parent" custom:layout_height="wrap_content" custom:singleLine="true" />
+                </LinearLayout>
+                <LinearLayout custom:orientation="vertical" custom:layout_width="wrap_content" custom:layout_height="match_parent"
+                    <LinearLayout custom:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" custom:orientation="vertical" custom:layout_width="match_parent" custom:layout_height="match_parent" custom:layout_weight="1.0">
+                        <TextView custom:textColor="@color/text_color_c104" custom:id="@id/tv_buy" custom:background="@drawable/limit_time_discount_buy_item_buy_btn_bg" custom:layout_width="UNKNOWN_DATA_0x4a01" custom:width="24dp" style="@style/button_b5" />
+                    </LinearLayout>
+                    <LinearLayout custom:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" custom:orientation="horizontal" custom:id="@id/ll_progress" custom:layout_width="match_parent" custom:layout_height="wrap_content" custom:layout_marginTop="4dp">
+                        <TextView custom:textSize="@c/text_size_class_1" custom:textColor="@color/text_color_c103" custom:ellipsize="end" custom:id="@id/tv_buy_state_desc" custom:layout_width="wrap_content" custom:layout_height="wrap_content" custom:singleLine="true" />
+                        <ProgressBar custom:id="@id/pb_buy_progress" custom:layout_width="UNKNOWN_DATA_0x4a01" custom:layout_height="UNKNOWN_DATA_0x601" custom:layout_marginLeft="4dp" custom:maxHeight="6dp" custom:indeterminate="false" custom:indeterminateOnly="false" custom:progressDrawable="@drawable/limit_time_discount_buy_item_progress_bar_progress_drawable" custom:minHeight="6dp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

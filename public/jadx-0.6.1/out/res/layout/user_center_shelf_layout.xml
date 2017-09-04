@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:focusableInTouchMode="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ImageView android:id="@id/localstore_adv_divider" android:background="@drawable/feed_listview_divider" android:visibility="gone" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x801" android:contentDescription="0x0" />
+    <View android:id="@id/divider_top" android:background="@a/concept_divider_line" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x40000031" />
+    <com.qq.reader.module.bookstore.qnative.card.impl.CardTitle android:id="@id/user_center_shelf_title_layout" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/cardtitlestyle" />
+    <View android:id="@id/group_divider" android:background="@a/search_divider_line" android:paddingLeft="16dp" android:paddingRight="16dp" android:visibility="visible" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x40000031" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/ll_container" android:background="#ffffff" android:layout_width="match_parent" android:layout_height="match_parent" android:weightSum="3.0"
+        <LinearLayout android:id="@id/ll_left" android:background="@drawable/concept_card_3bg_selector" android:paddingLeft="16dp" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="1.0">
+            <include android:id="@id/include" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp" layout="@layout/user_center_book_item" />
+        </LinearLayout>
+        <View android:background="@a/search_divider_line" android:visibility="visible" android:layout_width="UNKNOWN_DATA_0x40000031" android:layout_height="match_parent" />
+        <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/ll_center" android:background="@drawable/concept_card_3bg_selector" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="1.0">
+            <include android:id="@id/include" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp" layout="@layout/user_center_book_item" />
+        </LinearLayout>
+        <View android:background="@a/search_divider_line" android:visibility="visible" android:layout_width="UNKNOWN_DATA_0x40000031" android:layout_height="match_parent" />
+        <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@e/ll_right" android:background="@drawable/concept_card_3bg_selector" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="1.0">
+            <include android:id="@id/include" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:layout_marginRight="16dp" layout="@layout/user_center_book_item" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:id="@id/divider_bottom" android:background="@a/concept_divider_line" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x40000031" />
+    <TextView android:id="@id/user_center_more_book" android:background="@drawable/more_button_bg_selector" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3201" android:text="查看全部" style="@style/more_button_style_1" />
+</LinearLayout>

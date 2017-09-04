@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="200" android:drawable="@drawable/translucent" />
+    <item android:duration="200" android:drawable="@drawable/audio_play_a" />
+    <item android:duration="200" android:drawable="@drawable/audio_play_b" />
+    <item android:duration="200" android:drawable="@drawable/audio_play_c" />
+</animation-list>

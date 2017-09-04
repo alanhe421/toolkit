@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@id/adv_root_frame" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <FrameLayout android:id="@id/adv_pager_container" android:background="@drawable/feed_adv_default_bg" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0xb901">
+            <com.qq.reader.view.HeadViewPager android:id="@id/adv_feed_adv" android:layout_width="match_parent" android:layout_height="match_parent" />
+            <com.qq.reader.view.CirclePageIndicator android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/adv_feed_indicator" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="17dp" android:layout_marginBottom="@dimen/feed_adv_indicator_margin_bottom_no_float_bar" />
+        </FrameLayout>
+        <com.qq.reader.module.feed.card.view.FeedColumnByPassEntranceHeadView android:id="@id/feed_bypass_entrance_head" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@id/adv_pager_container" />
+    </RelativeLayout>
+</FrameLayout>

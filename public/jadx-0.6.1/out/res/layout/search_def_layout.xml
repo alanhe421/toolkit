@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/search_default_page" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+    <LinearLayout android:orientation="vertical" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/text_size_class_4" android:textColor="@color/text_color_c101" android:id="@id/tv_search_hot_word_title" android:paddingLeft="@dimen/common_dp_16" android:paddingTop="@dimen/common_dp_10" android:paddingBottom="@dimen/common_dp_10" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/search_hotword_bar_title" />
+        <com.qq.reader.module.bookstore.search.SearchHotWordsHandlerView android:id="@id/search_hot_words" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <LinearLayout android:orientation="vertical" android:id="@id/search_extra_widget_layout" android:background="@a/common_divider" android:layout_width="match_parent" android:layout_height="match_parent">
+            <include android:id="@id/search_rank" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" layout="@layout/search_def_item_layout" />
+            <ImageView android:id="@id/iv_bottom_line" android:background="@a/common_divider" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f07002f" />
+            <include android:id="@id/search_tools" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="0dp" layout="@layout/search_def_item_layout" />
+            <include android:id="@id/search_adv_item" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" layout="@layout/search_def_item_layout" />
+            <include android:id="@id/search_adv_pic" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x5501" android:layout_marginLeft="16dp" android:layout_marginTop="16dp" android:layout_marginRight="16dp" layout="@layout/search_def_adv_pic_layout" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

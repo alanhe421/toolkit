@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <include android:id="@id/item0_layout" layout="@layout/localbookstore_stacklist_item" />
+    <include android:id="@id/item1_layout" layout="@layout/localbookstore_stacklist_item" />
+    <View android:id="@id/last_blank" android:background="#f0f1f2" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x801" />
+</LinearLayout>

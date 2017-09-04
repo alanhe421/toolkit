@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/rl_content_bg" android:background="@a/screen_bg_color" android:scrollbars="UNKNOWN_DATA_0x0" android:fadingEdge="UNKNOWN_DATA_0x0" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.qq.reader.module.feed.mypreference.StickyGridHeadersGridView android:id="@id/gridview" android:scrollbars="UNKNOWN_DATA_0x0" android:fadingEdge="UNKNOWN_DATA_0x0" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="16dp" android:layout_marginRight="16dp" android:horizontalSpacing="12dp" android:verticalSpacing="16dp" android:stretchMode="columnWidth" android:numColumns="UNKNOWN_DATA_0x3" android:layout_weight="1.0" android:layout_above="@id/btn_save" android:layout_below="@e/common_titler" />
+</RelativeLayout>

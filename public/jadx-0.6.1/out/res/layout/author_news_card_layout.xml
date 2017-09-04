@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@a/textcolor_white" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <include android:id="@id/localstore_adv_divider" layout="@layout/localstore_card_divider" />
+    <com.qq.reader.module.bookstore.qnative.card.impl.CardTitle android:id="@id/card_title" android:paddingBottom="0dp" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/cardtitlestyle" />
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_news_container" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <Button android:id="@id/btn_more" android:background="@drawable/more_button_bg_selector" android:visibility="gone" android:text="查看全部动态" style="@style/more_button_style_1" />
+</LinearLayout>

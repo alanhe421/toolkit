@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/music_book_list_footer" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textColor="#ffffffff" android:ellipsize="end" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/music_book_list_footer_btn" android:background="@drawable/new_button" android:padding="5dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginRight="20dp" android:text="补全其他章节，立即整本下载" android:singleLine="true" android:layout_centerVertical="true" />
+</RelativeLayout>

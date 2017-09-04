@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:id="@id/bookdetail_top_wrapper" android:background="@a/translucent" android:paddingLeft="16dp" android:paddingRight="16dp" android:paddingBottom="10dp" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content"
+        <RelativeLayout android:id="@id/bookinfo_cover_layout" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12dp" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+            <com.qq.reader.view.QRImageView android:id="@id/bookinfo_cover" style="@style/detail_header_bigcover_style" />
+            <TextView android:textSize="@i/q" android:textColor="@a/localstore_textcolor_white" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/bookinfo_status" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </RelativeLayout>
+        <TextView android:textSize="@dimen/text_size_class_4" android:textColor="@color/text_color_c101" android:ellipsize="end" android:id="@id/bookinfo_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:maxLines="2" android:includeFontPadding="false" android:layout_toRightOf="@id/bookinfo_cover_layout" />
+        <RelativeLayout android:id="@id/bookinfo_ratinglayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:layout_toRightOf="@id/bookinfo_cover_layout" android:layout_below="@id/bookinfo_name">
+            <RatingBar android:id="@id/bookinfo_ratingbar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxHeight="@i/aJ" android:progressDrawable="@drawable/detailpage_ratingbar_drawable" android:minHeight="@i/aJ" android:isIndicator="true" android:layout_centerVertical="true" />
+            <TextView android:id="@id/bookinfo_ratingbar_text" android:layout_marginLeft="4dp" android:layout_toRightOf="@id/bookinfo_ratingbar" android:layout_centerVertical="true" style="@style/text_13_gray_style" />
+            <TextView android:id="@id/bookinfo_ratingbar_text_extra" android:layout_marginLeft="6dp" android:layout_toRightOf="@id/bookinfo_ratingbar_text" android:layout_centerVertical="true" style="@style/text_13_gray_style" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/bookinfo_type_author_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:layout_toRightOf="@id/bookinfo_cover_layout" android:layout_below="@id/bookinfo_ratinglayout">
+            <TextView android:textSize="@dimen/text_size_class_2" android:textColor="@color/text_color_c301" android:id="@id/bookinfo_category" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="@dimen/text_size_class_2" android:textColor="@color/text_color_c301" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=" | " />
+            <TextView android:textSize="@dimen/text_size_class_2" android:textColor="@color/text_color_c301" android:ellipsize="end" android:id="@id/bookinfo_author" android:background="@drawable/author_name_bg_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/bookinfo_words_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.5dp" android:layout_toRightOf="@id/bookinfo_cover_layout" android:layout_below="@id/bookinfo_type_author_layout">
+            <TextView android:id="@id/bookinfo_words" style="@style/text_13_gray_style" />
+            <TextView android:id="@id/bookinfo_price" android:layout_marginLeft="5dp" style="@style/text_13_gray_style" />
+        </LinearLayout>
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:id="@id/ll_bookinfo_action" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.5dp" android:layout_toRightOf="@id/bookinfo_cover_layout" android:layout_below="@id/bookinfo_words_layout">
+            <TextView android:textSize="@dimen/text_size_class_2" android:textColor="@a/localstore_textcolor_detail_orange_selector" android:ellipsize="none" android:id="@id/bookinfo_action" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+            <ImageView android:id="@id/bookinfo_action_right_arrow" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0xc01" android:layout_height="UNKNOWN_DATA_0xf01" android:src="@drawable/arrow_right_orange" android:scaleType="center" android:contentDescription="0x0" />
+        </LinearLayout>
+    </RelativeLayout>
+</merge>

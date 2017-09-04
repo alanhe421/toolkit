@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/luck_draw_selected_bg" android:padding="1dp" android:layout_width="UNKNOWN_DATA_0x4d01" android:layout_height="UNKNOWN_DATA_0x4d01">
+    <ImageView android:id="@a/image" android:layout_width="UNKNOWN_DATA_0x2801" android:layout_height="UNKNOWN_DATA_0x2801" android:layout_marginTop="12dp" android:src="@drawable/lucky_draw_unlock" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="10sp" android:textColor="@color/text_color_c104" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@a/text" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0xe01" android:layout_marginBottom="6dp" android:text="sss" android:layout_alignParentBottom="true" />
+</RelativeLayout>

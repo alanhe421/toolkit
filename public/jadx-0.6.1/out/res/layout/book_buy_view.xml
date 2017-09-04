@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:paddingLeft="16dp" android:paddingTop="12dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="@dimen/text_size_class_4" android:textColor="@color/text_color_c101" android:id="@id/book_name" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/buy_book_name" android:includeFontPadding="false" />
+    <TextView android:textSize="@dimen/text_size_class_4" android:textColor="@color/text_color_c101" android:id="@id/book_type" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:text="@string/buy_book_type" android:includeFontPadding="false" />
+    <TextView android:textSize="@dimen/text_size_class_3" android:textColor="@color/text_color_c101" android:id="@id/book_price" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:text="@string/buy_book_price" android:includeFontPadding="false" />
+    <TextView android:textSize="16sp" android:textColor="@a/qr_buy_dialog_price_color" android:id="@id/book_discount_msg" android:paddingBottom="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp" />
+</LinearLayout>

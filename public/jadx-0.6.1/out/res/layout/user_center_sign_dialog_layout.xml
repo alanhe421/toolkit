@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="#ffffff" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3201">
+        <TextView android:textSize="@c/text_size_class_5" android:textColor="@color/text_color_c101" android:paddingLeft="16dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="编辑个性签名" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <EditText android:textSize="@dimen/text_size_class_3" android:textColorHint="@a/bookclub_textlightgray" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/user_center_sign_et" android:background="@drawable/edittext_bg" android:paddingLeft="16dp" android:paddingTop="14dp" android:paddingRight="16dp" android:paddingBottom="14dp" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x4c01" android:layout_marginLeft="16dp" android:layout_marginRight="16dp" android:layout_marginBottom="16dp" android:includeFontPadding="false" android:maxLength="30" />
+    <View android:background="#f2f2f2" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x40000031" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/btn_layout" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3201">
+        <TextView android:textSize="@dimen/text_size_class_4" android:textColor="@color/text_color_c104" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/user_center_sign_commit" android:layout_width="match_parent" android:layout_height="match_parent" android:text="提交" android:layout_weight="1.0" style="@style/button_big_blue_base" />
+        <TextView android:textSize="@dimen/text_size_class_4" android:textColor="@color/text_color_c101" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/user_center_sign_cancel" android:background="@drawable/msg_btn_cancel_bg" android:layout_width="match_parent" android:layout_height="match_parent" android:text="取消" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/contextmenu_middle_bg" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3201">
+    <TextView android:textSize="@c/text_size_class_5" android:textColor="#211300" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/contextMenuItemName" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="32dp" />
+</LinearLayout>

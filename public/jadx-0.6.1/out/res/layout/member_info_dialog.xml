@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="#ffffff" android:layout_width="UNKNOWN_DATA_0xc801" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="horizontal" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:id="@e/member_info_report" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@h/report" />
+        <TextView android:id="@e/member_info_shut_up" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:text="@h/shut_up" />
+        <TextView android:id="@e/member_info_kick_out" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:text="@h/kick_out_of_room" />
+    </LinearLayout>
+    <RelativeLayout android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp">
+        <ImageView android:id="@e/member_info_avatar" android:layout_width="UNKNOWN_DATA_0x3201" android:layout_height="UNKNOWN_DATA_0x3201" android:layout_marginLeft="20dp" android:layout_marginTop="20dp" android:layout_marginRight="20dp" android:layout_marginBottom="20dp" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="@c/h12" android:textColor="@color/colorTextBlack" android:id="@e/member_info_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="host" android:layout_below="@e/member_info_avatar" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</FrameLayout>

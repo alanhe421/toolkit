@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:id="@id/rl_top_view" android:background="@drawable/common_card_background" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.qq.reader.module.bookstore.qnative.card.impl.CardTitle android:orientation="horizontal" android:id="@id/guest_item_title" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/cardtitlestyle" />
+        <com.qq.reader.module.question.card.view.AudioComItemView android:id="@id/guest_audio_item" android:background="@drawable/common_card_background" android:paddingLeft="@dimen/common_dp_16" android:paddingTop="@dimen/common_dp_9" android:paddingRight="@dimen/common_dp_16" android:paddingBottom="@dimen/common_dp_14" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@id/guest_item_title" />
+        <com.qq.reader.module.feed.card.view.CardMoreView android:orientation="vertical" android:id="@id/more_v" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@id/guest_audio_item" />
+    </RelativeLayout>
+    <include android:id="@id/localstore_adv_divider" layout="@layout/localstore_card_divider" />
+</LinearLayout>

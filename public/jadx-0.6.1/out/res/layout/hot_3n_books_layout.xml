@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@a/common_backgraound_white" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <include android:id="@id/localstore_adv_divider" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x801" layout="@layout/localstore_card_divider" />
+    <com.qq.reader.module.bookstore.qnative.card.impl.CardTitle android:id="@id/card_title" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/cardtitlestyle" />
+    <LinearLayout android:orientation="horizontal" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp"
+        <LinearLayout android:orientation="vertical" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1.0">
+            <include android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/book_item_1" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="16dp" layout="@layout/hot_3n_books_item_layout" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1.0">
+            <include android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/book_item_2" android:layout_width="wrap_content" android:layout_height="match_parent" layout="@layout/hot_3n_books_item_layout" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1.0">
+            <include android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/book_item_3" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginRight="16dp" layout="@layout/hot_3n_books_item_layout" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

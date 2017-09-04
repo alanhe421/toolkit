@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginRight="16dp">
+    <FrameLayout android:id="@id/member_live_end_books_recommendation_cover_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.qq.reader.view.QRImageView android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/member_live_end_books_recommendation_cover" android:clipChildren="false" android:clipToPadding="false" android:layout_width="UNKNOWN_DATA_0x4401" android:layout_height="UNKNOWN_DATA_0x5b01" style="@style/smallcover_style" />
+        <View android:background="@drawable/localstore_image_click_selector" android:layout_width="UNKNOWN_DATA_0x4401" android:layout_height="UNKNOWN_DATA_0x5b01" />
+    </FrameLayout>
+    <TextView android:id="@id/member_live_end_books_recommendation_add_book_shelf" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12dp" android:text="@string/bookinfo_add2bookshelf_ok" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/button_b0" />
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12dp" android:layout_toLeftOf="@id/member_live_end_books_recommendation_add_book_shelf" android:layout_toRightOf="@id/member_live_end_books_recommendation_cover_container" android:layout_centerVertical="true">
+        <TextView android:textSize="@dimen/text_size_class_4" android:textColor="@color/text_color_c104" android:ellipsize="end" android:id="@id/member_live_end_books_recommendation_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        <TextView android:textSize="@dimen/text_size_class_3" android:textColor="@color/text_color_c104" android:ellipsize="end" android:id="@id/member_live_end_books_recommendation_des" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:maxLines="2" android:lineSpacingExtra="4dp" />
+    </LinearLayout>
+</RelativeLayout>

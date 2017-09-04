@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@a/icon" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x7f070115" android:layout_marginLeft="@dimen/common_left_right_margin" android:layout_marginRight="@dimen/common_left_right_margin"
+        <RelativeLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/icon_ll" android:layout_width="UNKNOWN_DATA_0x3201" android:layout_height="UNKNOWN_DATA_0x3201" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+            <ImageView android:id="@id/image1" android:visibility="visible" android:layout_width="UNKNOWN_DATA_0x3201" android:layout_height="UNKNOWN_DATA_0x3201" android:scaleType="fitXY" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:id="@id/text_area" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="14dp" android:layout_toRightOf="@id/icon_ll" android:layout_centerVertical="true"
+            <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
+                <TextView android:textSize="@c/text_size_class_1" android:textColor="@color/text_color_c104" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/image_week" android:background="@drawable/resign_week_coner2_bg" android:visibility="visible" android:layout_width="UNKNOWN_DATA_0x3001" android:layout_height="UNKNOWN_DATA_0xe01" android:text="补签" android:includeFontPadding="false" />
+                <TextView android:textSize="@dimen/text_size_class_4" android:textColor="@color/text_color_c102" android:ellipsize="end" android:id="@id/text1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6dp" android:text="解锁收费章节" android:singleLine="true" android:includeFontPadding="false" />
+            </LinearLayout>
+            <TextView android:textSize="@dimen/text_size_class_2" android:textColor="@color/text_color_c102" android:id="@a/text2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:includeFontPadding="false" />
+        </LinearLayout>
+        <View android:id="@id/divider" android:background="@a/common_divider" android:visibility="gone" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x40000031" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</LinearLayout>

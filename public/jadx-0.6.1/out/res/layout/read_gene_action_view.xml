@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/imageView1" android:background="@drawable/read_gene_action_top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="6dp" />
+        <TextView android:textSize="@dimen/read_gene_property_small_textSize" android:textColorHint="@a/common_textcolor_secondary" android:id="@id/tv_datetime" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/imageView2" android:background="@drawable/read_gene_action_bottom" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="2dp" android:layout_marginRight="9dp" />
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_marginBottom="10dp" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/text_size_class_2" android:textColor="@color/text_color_c104" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/tv_action_type" android:background="@drawable/read_gene_action_type_bg" android:layout_width="UNKNOWN_DATA_0x3601" android:layout_height="UNKNOWN_DATA_0x1201" android:layout_marginRight="6dp" android:includeFontPadding="false" />
+            <TextView android:textSize="@dimen/text_size_class_3" android:textColor="@color/text_color_c101" android:ellipsize="end" android:id="@id/tv_bookname" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:maxLines="1" android:includeFontPadding="false" />
+        </LinearLayout>
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@id/imageView3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="6dp" android:src="@drawable/gene_action_category" />
+            <TextView android:textSize="@dimen/text_size_class_3" android:textColor="@color/text_color_c102" android:id="@id/tv_category_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4dp" />
+            <ImageView android:id="@id/img_trend" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

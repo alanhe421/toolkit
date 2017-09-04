@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <View android:id="@id/localstore_adv_divider" android:background="@a/concept_divider_line" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" />
+    <LinearLayout android:orientation="horizontal" android:paddingLeft="16dp" android:paddingTop="24dp" android:paddingRight="16dp" android:paddingBottom="24dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/localstore_card_adv_btn_0" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x2801" android:layout_weight="1.0" style="@style/common_btn_style" />
+        <TextView android:id="@id/localstore_card_adv_btn_1" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x2801" android:layout_marginLeft="14dp" android:layout_weight="1.0" style="@style/common_btn_style" />
+        <TextView android:id="@id/localstore_card_adv_btn_2" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x2801" android:layout_marginLeft="14dp" android:layout_weight="1.0" style="@style/common_btn_style" />
+        <TextView android:id="@id/localstore_card_adv_btn_3" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x2801" android:layout_marginLeft="14dp" android:layout_weight="1.0" style="@style/common_btn_style" />
+    </LinearLayout>
+</LinearLayout>

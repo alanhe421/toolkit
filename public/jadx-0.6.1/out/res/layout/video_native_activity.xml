@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/video_container" android:background="0x106000c" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@id/video_surface_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <SurfaceView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/video_surface" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <ProgressBar android:id="@id/video_play_loading" android:layout_width="UNKNOWN_DATA_0x2801" android:layout_height="UNKNOWN_DATA_0x2801" android:maxWidth="40dp" android:maxHeight="40dp" android:indeterminateOnly="true" android:indeterminateDrawable="@drawable/video_play_progress_loading" android:indeterminateDuration="1000" android:minWidth="40dp" android:minHeight="40dp" android:layout_centerInParent="true" />
+</RelativeLayout>

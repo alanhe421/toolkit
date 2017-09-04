@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/text_size_class_3" android:textColor="#e65051" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:background="@drawable/list_item_bg" android:paddingTop="37dp" android:paddingBottom="14dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="26dp" android:text="@string/vote_choose_dialog_tip" android:layout_centerHorizontal="true" />
+        <ImageView android:id="@id/img_author_avatar" android:layout_width="UNKNOWN_DATA_0x7f0703ae" android:layout_height="UNKNOWN_DATA_0x7f0703ad" android:src="@drawable/author_head_default" android:scaleType="fitXY" android:layout_centerHorizontal="true" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/vote_dialog_author_tag_margin_top" android:src="@drawable/vote_dialog_author_tag" android:scaleType="fitXY" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <View android:background="#e3e4e6" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" />
+    <RelativeLayout android:id="@e/recommend" android:background="@drawable/list_item_bg" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3201">
+        <TextView android:textSize="@dimen/text_size_class_4" android:textColor="@a/common_textcolor_primary" android:id="@id/reward_textview" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:text="投推荐票" android:includeFontPadding="false" android:layout_centerVertical="true" />
+        <TextView android:id="@id/vote_one_ticket_button" android:layout_marginRight="16dp" android:text="投1票" android:includeFontPadding="false" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/button_b1" />
+    </RelativeLayout>
+    <View android:background="#e3e4e6" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" />
+    <RelativeLayout android:id="@id/reward" android:background="@drawable/list_item_bg" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3201">
+        <TextView android:textSize="@dimen/text_size_class_4" android:textColor="@a/common_textcolor_primary" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:text="打赏" android:includeFontPadding="false" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <View android:background="#e3e4e6" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" />
+    <RelativeLayout android:id="@id/month" android:background="@drawable/list_item_bg" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3201">
+        <TextView android:textSize="@dimen/text_size_class_4" android:textColor="@a/common_textcolor_primary" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:text="投月票" android:includeFontPadding="false" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <View android:background="#e3e4e6" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" />
+    <RelativeLayout android:id="@id/fans" android:background="@drawable/list_item_bg" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3201">
+        <TextView android:textSize="@dimen/text_size_class_4" android:textColor="@a/common_textcolor_primary" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:text="查看粉丝榜" android:includeFontPadding="false" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</LinearLayout>

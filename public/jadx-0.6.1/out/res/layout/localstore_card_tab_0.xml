@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:id="@id/localstore_adv_divider" layout="@layout/localstore_card_divider" />
+    <com.qq.reader.module.bookstore.qnative.card.impl.CardTitle android:id="@id/title_layout" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/cardtitlestyle" />
+    <View android:layout_marginTop="12dp" style="@style/line_divider_horizontal_style" />
+    <com.qq.reader.module.bookstore.qweb.channel.OtherGridView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/otherGridView_1" android:background="@a/localstore_linecolor_divider" android:layout_width="match_parent" android:layout_height="wrap_content" android:listSelector="0x106000d" android:horizontalSpacing="1px" android:verticalSpacing="1px" android:stretchMode="columnWidth" android:numColumns="UNKNOWN_DATA_0x3" />
+    <View android:layout_marginBottom="12dp" style="@style/line_divider_horizontal_style" />
+</LinearLayout>

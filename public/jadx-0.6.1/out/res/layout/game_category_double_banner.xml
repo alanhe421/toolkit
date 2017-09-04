@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <View android:id="@id/game_banner_divider" android:background="#f2f2f2" android:layout_width="UNKNOWN_DATA_0x40000031" android:layout_height="UNKNOWN_DATA_0x1e01" android:layout_centerInParent="true" />
+    <RelativeLayout android:id="@id/game_banner_a_container" android:background="@drawable/common_card_background_translate_normal" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x18c00021" android:layout_marginTop="0.5dp" android:layout_toLeftOf="@id/game_banner_divider">
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <ImageView android:id="@id/game_banner_img_a" android:layout_width="UNKNOWN_DATA_0x1801" android:layout_height="UNKNOWN_DATA_0x1801" android:src="@drawable/game_categray" />
+            <TextView android:textSize="@dimen/text_size_class_4" android:textColor="@color/text_color_c101" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/game_banner_a" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="@dimen/common_dp_6" android:text="分类精选" />
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/game_banner_b_container" android:background="@drawable/common_card_background_translate_normal" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x18c00021" android:layout_marginTop="0.5dp" android:layout_toRightOf="@id/game_banner_divider">
+        <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:id="@id/activity_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <ImageView android:id="@id/game_banner_img_b" android:layout_width="UNKNOWN_DATA_0x1801" android:layout_height="UNKNOWN_DATA_0x1801" android:src="@drawable/game_evetn" />
+            <TextView android:textSize="@dimen/text_size_class_4" android:textColor="@color/text_color_c101" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/game_banner_b" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="@dimen/common_dp_6" android:text="活动专区" />
+        </LinearLayout>
+        <TextView android:id="@id/adv_bubble" android:background="@drawable/readermenu_tips_num" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x801" android:layout_height="UNKNOWN_DATA_0x801" android:layout_marginLeft="@dimen/common_dp_6" android:layout_toRightOf="@id/activity_container" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</RelativeLayout>

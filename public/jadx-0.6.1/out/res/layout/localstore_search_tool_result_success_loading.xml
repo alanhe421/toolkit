@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@a/screen_bg_color" android:paddingTop="140dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/search_loading_second_bottom" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/search_loading_second_bottom" />
+            </LinearLayout>
+            <ProgressBar android:id="@id/default_progress" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminateOnly="true" android:indeterminateDrawable="@drawable/search_tool_result_progress_loading" android:indeterminateDuration="1000" android:minWidth="150dp" android:minHeight="150dp" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <TextView android:textSize="35dp" android:textColor="@a/search_tool_item_textcolor" android:id="@id/tv_book_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" />
+            <TextView android:textSize="@dimen/localstore_textsize_13" android:textColor="@a/search_tool_item_textcolor" android:id="@id/textView10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="本" />
+        </LinearLayout>
+    </RelativeLayout>
+    <TextView android:textSize="@dimen/localstore_textsize_13" android:textColor="@a/textcolor_gray" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/default_loading_text" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="努力找书中..." />
+</LinearLayout>

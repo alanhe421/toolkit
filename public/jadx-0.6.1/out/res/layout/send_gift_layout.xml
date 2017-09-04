@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="UNKNOWN_DATA_0x7f070356" android:layout_height="UNKNOWN_DATA_0x7f07034e"
+    <RelativeLayout android:id="@e/send_gift_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:id="@e/send_gift_bg" android:layout_width="UNKNOWN_DATA_0x7f070356" android:layout_height="UNKNOWN_DATA_0x7801" android:src="@d/gift_send_bg" android:layout_alignParentBottom="true" />
+        <ImageView android:id="@e/send_gift_icon" android:layout_width="UNKNOWN_DATA_0x7f07034d" android:layout_height="UNKNOWN_DATA_0x7f07034c" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="@dimen/text_size_class_2" android:textColor="@color/text_color_c104" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@e/send_gift_name" android:layout_width="match_parent" android:layout_height="wrap_content" android:includeFontPadding="false" android:layout_below="@e/send_gift_icon" />
+        <TextView android:textSize="@dimen/text_size_class_3" android:textColor="@color/text_color_c104" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@e/send_gift_btn" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1e01" android:text="@h/send_gift_text" android:includeFontPadding="false" android:layout_alignParentBottom="true" />
+        <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:id="@e/gift_price_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="6dp" android:layout_above="@e/send_gift_btn" android:layout_centerHorizontal="true">
+            <TextView android:textSize="@dimen/text_size_class_2" android:textColor="@color/send_gift_price" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@e/send_gift_price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" />
+            <TextView android:background="@d/live_audience_gift_icon" android:layout_width="UNKNOWN_DATA_0xd01" android:layout_height="UNKNOWN_DATA_0xd01" android:layout_marginLeft="2dp" />
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@e/count_down_layout" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x5001" android:layout_height="UNKNOWN_DATA_0x5001" android:layout_marginBottom="23dp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@e/count_down_text_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true"
+            <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="32dp" android:textColor="@color/text_color_c104" android:id="@e/count_down_second" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" />
+                <TextView android:textSize="@dimen/text_size_class_3" android:textColor="@color/text_color_c104" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="s" android:includeFontPadding="false" />
+            </LinearLayout>
+            <TextView android:textSize="@dimen/text_size_class_2" android:textColor="@color/text_color_c104" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:text="@h/multi_click_text" android:includeFontPadding="false" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

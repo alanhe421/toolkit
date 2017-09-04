@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <View android:id="@id/card_title_div" android:background="@a/common_divider" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x801" android:contentDescription="0x0" />
+    <com.qq.reader.module.bookstore.qnative.card.impl.CardTitle android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/card_title_text" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/cardtitlestyle" />
+    <com.qq.reader.view.EmptyView empty:id="@id/card_title_tip" empty:visibility="gone" empty:layout_width="match_parent" empty:layout_height="match_parent" empty:contentTitle="暂无笔记" empty:contentText="@string/bookclub_none_reply" empty:mIcon="@drawable/empty09" empty:autoCenterInListView="true" empty:type="radial" />
+</LinearLayout>

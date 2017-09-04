@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/recommend_words_view" android:background="@drawable/localstore_card_bg_selector" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="horizontal" android:id="@id/ll_editor_comment" android:background="@a/detail_download_background_color_pressed" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="16dp" android:layout_marginRight="16dp">
+        <TextView android:textSize="@dimen/common_textsize_datainfo" android:textColor="@a/common_textcolor_datainfo" android:id="@id/recommend_words_content" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="14dp" android:layout_marginTop="6dp" android:layout_marginBottom="6dp" android:layout_weight="1.0" android:lineSpacingExtra="6dp" />
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="match_parent">
+            <ImageView android:id="@id/img_press_logo" android:background="@drawable/editor_comment_conner" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="0x0" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

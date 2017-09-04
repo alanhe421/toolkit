@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.qq.reader.module.feed.head.NewHistogramView xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/feedheadadv_graphlayout" android:layout_width="UNKNOWN_DATA_0x7c01" android:layout_height="UNKNOWN_DATA_0x4601" />

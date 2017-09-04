@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:background="@drawable/concept_card_bg_selector_nonormal" android:paddingLeft="@dimen/author_news_card_item_cover_padding_left" android:paddingTop="12dp" android:paddingRight="@dimen/author_news_card_item_cover_padding_right" android:layout_width="wrap_content" android:layout_height="match_parent">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/img_news_cover" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitXY" />
+        <TextView android:textSize="@dimen/text_size_class_3" android:textColor="@color/text_color_c104" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/tv_title" android:background="#80000000" android:paddingLeft="5dp" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1901" android:text="杀快点卡刷卡打算开的卡上看到" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <TextView android:textSize="@dimen/text_size_class_3" android:textColor="@color/text_color_c102" android:id="@id/tv_content" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="7dp" />
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:layout_marginBottom="8dp">
+        <TextView android:textSize="@c/text_size_class_1" android:textColor="@color/text_color_c103" android:id="@id/tv_publishtime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="20分钟前" android:layout_centerVertical="true" />
+        <TextView android:textSize="@c/text_size_class_1" android:textColor="@a/text_color_c201" android:id="@id/tv_readtimes" android:background="@drawable/concept_bookitem_order" android:paddingLeft="4dp" android:paddingRight="4dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="是卡卡刷卡" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <ImageView style="@style/line_divider_horizontal_style" />
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x5301">
+        <FrameLayout android:id="@id/avatar_container" android:layout_width="UNKNOWN_DATA_0x3301" android:layout_height="UNKNOWN_DATA_0x3301" android:layout_marginLeft="16dp" android:layout_centerVertical="true">
+            <com.qq.reader.widget.UserCircleImageView app:id="@id/charge_avatar" app:focusable="false" app:clickable="false" app:layout_width="UNKNOWN_DATA_0x3301" app:layout_height="UNKNOWN_DATA_0x3301" app:contentDescription="0x0" app:border_width="0.5dp" app:border_color="@a/avatar_circle_mask_color" />
+            <ImageView app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@id/charge_avatar_viptag" app:visibility="visible" app:layout_width="wrap_content" app:layout_height="wrap_content" app:scaleType="center" app:contentDescription="0x0" />
+        </FrameLayout>
+        <RelativeLayout app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginLeft="12dp" app:layout_marginRight="16dp" app:layout_toRightOf="@id/avatar_container" app:layout_centerVertical="true">
+            <TextView app:textSize="@dimen/text_size_class_3" app:textColor="@color/text_color_c301" app:id="@id/charge_help" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="包月帮助" app:layout_alignParentRight="true" />
+            <TextView app:textSize="@dimen/text_size_class_4" app:textColor="@color/text_color_c101" app:ellipsize="end" app:id="@id/charge_name" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginRight="12dp" app:maxLines="1" app:layout_toLeftOf="@id/charge_help" />
+            <TextView app:textSize="@dimen/text_size_class_2" app:textColor="@color/text_color_c103" app:ellipsize="end" app:id="@id/charge_info" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginTop="5dp" app:maxLines="1" app:layout_below="@id/charge_name" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <View app:background="#f2f2f2" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x801" />
+</LinearLayout>

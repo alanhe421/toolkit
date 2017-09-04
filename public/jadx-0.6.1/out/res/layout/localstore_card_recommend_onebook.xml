@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/recommend_one_book_layout" android:background="@color/white" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <include android:id="@id/localstore_adv_divider" android:visibility="gone" layout="@layout/localstore_card_divider" />
+    <include layout="@layout/localstore_card_recommend_editor_info" />
+    <RelativeLayout android:id="@id/rl_book_intro" android:background="@drawable/concept_recommend_card_bg_selector" android:paddingLeft="16dp" android:paddingTop="14dp" android:paddingRight="16dp" android:paddingBottom="14dp" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginRight="16dp">
+        <com.qq.reader.view.QRImageView android:id="@id/img_book_cover" android:layout_width="UNKNOWN_DATA_0x7f070102" android:layout_height="UNKNOWN_DATA_0x7f070101" android:layout_marginRight="12dp" android:scaleType="fitXY" android:contentDescription="0x0" />
+        <TextView android:ellipsize="end" android:id="@id/tv_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" android:layout_toRightOf="@id/img_book_cover" style="@style/feed_title_style" />
+        <TextView android:ellipsize="end" android:id="@id/tv_content" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:maxLines="1" android:layout_toRightOf="@id/img_book_cover" android:layout_below="@id/tv_title" style="@style/feed_content_style" />
+        <TextView android:textSize="@dimen/text_size_class_2" android:textColor="@color/text_color_c103" android:id="@id/tv_author" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minEms="4" android:singleLine="true" android:drawableLeft="@drawable/card_author_icon" android:drawablePadding="4dp" android:layout_toRightOf="@id/img_book_cover" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <TextView android:textSize="@dimen/text_size_class_2" android:textColor="@color/text_color_c103" android:id="@id/tv_publish_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="11dp" android:layout_marginBottom="12.5dp" />
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:id="@e/common_titler" android:visibility="gone" layout="@g/common_titler" />
+    <ScrollView android:id="@id/haffoffame_tab_list_outer" android:background="#f2f2f2" android:visibility="invisible" android:scrollbars="UNKNOWN_DATA_0x0" android:layout_width="UNKNOWN_DATA_0x5001" android:layout_height="match_parent" android:layout_below="@e/common_titler" android:layout_alignParentLeft="true">
+        <com.qq.reader.view.LinearListView android:orientation="vertical" android:id="@id/leaderboard_list" android:layout_width="match_parent" android:layout_height="match_parent" />
+    </ScrollView>
+    <com.qq.reader.module.bookstore.qweb.WebAdViewPager android:id="@id/haffoffame_author_list_author" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_toRightOf="@id/haffoffame_tab_list_outer" android:layout_below="@e/common_titler" />
+    <include android:id="@e/loading_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/progress_topmargin" android:layout_below="@e/common_titler" android:layout_centerHorizontal="true" layout="@layout/localstore_loading" />
+    <include android:id="@id/loading_failed_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@e/common_titler" layout="@layout/localstore_loading_failed" />
+</RelativeLayout>

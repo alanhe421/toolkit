@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@e/menu_layout" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3c01">
+            <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:id="@e/ll_right" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_alignParentRight="true">
+                <ImageView android:background="@color/comic_divider_bg_color" android:layout_width="UNKNOWN_DATA_0x100" android:layout_height="UNKNOWN_DATA_0x2801" android:layout_marginLeft="20dp" />
+                <CheckBox android:id="@e/light_checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="18dp" android:button="0x0" />
+                <TextView android:id="@e/light_fit_system" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:layout_marginRight="16dp" android:text="@g/vip_light_fit_system" />
+            </LinearLayout>
+            <RelativeLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_toLeftOf="@e/ll_right">
+                <ImageView android:id="@e/night_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+                <ImageView android:id="@e/day_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                <SeekBar android:id="@e/brightness_bar" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6dp" android:maxHeight="2dp" android:minHeight="2dp" android:layout_toLeftOf="@e/day_icon" android:layout_toRightOf="@e/night_icon" android:layout_centerVertical="true" style="@h/SeekBarStyle" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <ImageView android:id="@e/reader_mode_line" android:background="@color/comic_divider_bg_color" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" />
+        <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:id="@e/reader_mode" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3c01">
+            <TextView android:textSize="@dimen/text_size_class_3" android:textColor="@color/text_color_c103" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:text="@g/read_mode_pager" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content"
+                <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@e/reader_mode_port_scroll" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="64dp">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@d/vip_comic_scroll_mode_selector" />
+                    <TextView android:textSize="@dimen/text_size_class_2" android:textColor="@color/vip_comic_border_text_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:text="@g/reader_port_scroll" />
+                </LinearLayout>
+                <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@e/reader_mode_port_pager" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="64dp">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@d/vip_comic_pager_mode_selector" />
+                    <TextView android:textSize="@dimen/text_size_class_2" android:textColor="@color/vip_comic_border_text_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:text="@g/reader_port_pager" />
+                </LinearLayout>
+                <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@e/reader_mode_land_scroll" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@d/vip_comic_land_mode_selector" />
+                    <TextView android:textSize="@dimen/text_size_class_2" android:textColor="@color/vip_comic_border_text_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:text="@g/reader_land_scroll" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <ImageView android:id="@e/reader_pay_mode_line" android:background="@color/comic_divider_bg_color" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" />
+        <RelativeLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@e/pay_mode" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3c01">
+            <TextView android:textSize="@dimen/text_size_class_3" android:textColor="@color/text_color_c103" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@g/auto_buy_next_section" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+            <RadioGroup android:orientation="horizontal" android:id="@e/reader_setting_dialog_auto_buy_next_chapter" android:clickable="true" android:layout_width="UNKNOWN_DATA_0x6a01" android:layout_height="UNKNOWN_DATA_0x2301" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+                <RadioButton android:textSize="@dimen/text_size_class_3" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@e/reader_setting_dialog_auto_buy_next_chapter_enable" android:clickable="true" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:button="0x0" android:text="开启" android:layout_weight="1.0" />
+                <RadioButton android:textSize="@dimen/text_size_class_3" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@e/reader_setting_dialog_auto_buy_next_chapter_disable" android:clickable="true" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:button="0x0" android:text="关闭" android:layout_weight="1.0" />
+            </RadioGroup>
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

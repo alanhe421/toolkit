@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/rl_comic_six_card_item" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.qq.reader.view.QRMaskImageView android:id="@id/iv_comic_cover" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" />
+    <RelativeLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:background="@a/half_translate" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3001" android:layout_alignParentBottom="true"
+        <RelativeLayout android:paddingLeft="@c/common_dp_8" android:paddingRight="@c/common_dp_8" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+            <TextView android:textSize="@dimen/text_size_class_3" android:textColor="@color/text_color_c101" android:ellipsize="end" android:id="@id/tv_comic_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+            <TextView android:textSize="@dimen/text_size_class_2" android:textColor="@color/text_color_c103" android:ellipsize="end" android:id="@id/iv_comic_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/common_dp_3" android:maxLines="1" android:layout_below="@id/tv_comic_title" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

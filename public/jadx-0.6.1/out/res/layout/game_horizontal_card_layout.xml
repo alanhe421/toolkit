@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include layout="@layout/localstore_card_divider" />
+    <com.qq.reader.module.bookstore.qnative.card.impl.CardTitle android:id="@id/title_btn" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/cardtitlestyle" />
+    <com.qq.reader.module.game.card.view.GameHorizontalView android:id="@id/game_a" android:background="@drawable/common_card_background_translate_normal" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <include android:id="@id/localstore_adv_divider" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" layout="@layout/localstore_card_divider" />
+    <com.qq.reader.module.game.card.view.GameHorizontalView android:id="@id/game_b" android:background="@drawable/common_card_background_translate_normal" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <include android:id="@id/localstore_adv_divider" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" layout="@layout/localstore_card_divider" />
+    <com.qq.reader.module.game.card.view.GameHorizontalView android:id="@id/game_c" android:background="@drawable/common_card_background_translate_normal" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <com.qq.reader.module.feed.card.view.CardMoreView android:id="@id/more_btn" android:layout_width="match_parent" android:layout_height="wrap_content" />
+</LinearLayout>

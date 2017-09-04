@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="0x1020000">
+        <inset android:insetTop="8dp" android:insetBottom="8dp">
+            <shape>
+                <solid android:color="#fe000000" />
+            </shape>
+        </inset>
+    </item>
+    <item android:id="0x102000f">
+        <clip>
+            <inset android:insetTop="8dp" android:insetBottom="8dp">
+                <shape>
+                    <solid android:color="#70ffffff" />
+                </shape>
+            </inset>
+        </clip>
+    </item>
+    <item android:id="0x102000d">
+        <clip>
+            <inset android:insetTop="8dp" android:insetBottom="8dp">
+                <shape>
+                    <solid android:color="#ffe65051" />
+                </shape>
+            </inset>
+        </clip>
+    </item>
+</layer-list>

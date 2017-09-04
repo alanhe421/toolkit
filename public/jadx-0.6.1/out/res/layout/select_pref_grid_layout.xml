@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <CheckBox android:textSize="@dimen/text_size_class_3" android:textColor="@a/select_pref_checkbox_text_color" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/cb_select" android:background="@drawable/select_pref_grid_checkbox_selector" android:clickable="false" android:layout_width="match_parent" android:layout_height="match_parent" android:checked="true" android:button="0x0" android:layout_centerInParent="true" />
+</RelativeLayout>

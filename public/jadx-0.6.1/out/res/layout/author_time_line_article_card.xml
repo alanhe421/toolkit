@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/common_card_background" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@id/icon_layout" android:layout_width="UNKNOWN_DATA_0x7f070137" android:layout_height="UNKNOWN_DATA_0x7f070137" android:layout_marginLeft="16dp" android:layout_marginTop="14dp" android:layout_below="@id/localstore_adv_divider" android:layout_alignParentLeft="true">
+        <com.qq.reader.widget.UserCircleImageView android:id="@a/icon" android:layout_width="UNKNOWN_DATA_0x7f070137" android:layout_height="UNKNOWN_DATA_0x7f070137" />
+        <ImageView android:id="@id/icon_mask" android:background="@drawable/bookclub_avatar_small_bg_selector" android:layout_width="UNKNOWN_DATA_0x7f070137" android:layout_height="UNKNOWN_DATA_0x7f070137" />
+    </FrameLayout>
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x7f070137" android:layout_marginLeft="6dp" android:layout_marginTop="14dp" android:layout_marginRight="16dp" android:layout_toRightOf="@id/icon_layout">
+        <LinearLayout android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/text_size_class_3" android:textColor="@a/text_color_c201" android:id="@id/article_card_name" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="@c/text_size_class_1" android:textColor="@color/text_color_c103" android:id="@id/article_card_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3dp" />
+        </LinearLayout>
+    </FrameLayout>
+    <RelativeLayout android:id="@id/article_card_cover" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7301" android:layout_marginLeft="@dimen/author_time_line_content_margin_left" android:layout_marginTop="6dp" android:layout_marginRight="16dp" android:layout_below="@id/icon_layout">
+        <ImageView android:id="@id/img_news_cover" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitXY" />
+        <TextView android:textSize="@dimen/text_size_class_3" android:textColor="@color/text_color_c104" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/tv_title" android:background="#80000000" android:paddingLeft="8dp" android:paddingTop="2.5dp" android:paddingRight="8dp" android:paddingBottom="2.5dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="杀快点卡刷卡打算开开打算开的卡上看到" android:layout_alignParentBottom="true" android:lineSpacingExtra="4.5dp" />
+    </RelativeLayout>
+    <TextView android:textSize="@dimen/text_size_class_3" android:textColor="@color/text_color_c102" android:ellipsize="end" android:id="@id/article_card_content" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/author_time_line_content_margin_left" android:layout_marginTop="10.5dp" android:layout_marginRight="16dp" android:maxLines="2" android:layout_below="@id/article_card_cover" android:lineSpacingExtra="4.5dp" />
+    <TextView android:textSize="@c/text_size_class_1" android:textColor="@color/text_color_c103" android:id="@id/article_card_read_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9dp" android:layout_marginRight="16dp" android:layout_below="@id/article_card_content" android:layout_alignParentRight="true" />
+    <include android:id="@id/card_divider" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x801" android:layout_marginTop="13dp" android:layout_below="@id/article_card_read_count" android:layout_alignParentBottom="true" layout="@layout/localstore_card_divider" />
+</RelativeLayout>

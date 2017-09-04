@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:paddingLeft="16dp" android:paddingRight="16dp" android:visibility="visible" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3201">
+    <ImageView android:id="@id/localstore_adv_0_text_img" android:background="@drawable/profile_ad_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="0x0" />
+    <TextView android:textSize="@dimen/text_size_class_3" android:textColor="@a/vertical_text_adv_item_textcolor_selector" android:ellipsize="end" android:id="@id/localstore_adv_0_text_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6dp" android:singleLine="true" />
+</LinearLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/profile_setting_group_divider" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <View android:background="@a/listview_divider" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" />
+    <View android:background="@a/div_divider" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0xb01" />
+</LinearLayout>

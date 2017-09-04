@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:id="@id/card_list" app:background="@a/concept_card_bg" app:layout_width="match_parent" app:layout_height="wrap_content">
+    <View app:background="@a/dind_page_zone_divider_color" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x801" />
+    <include app:id="@id/detail_common_title" app:layout_width="match_parent" app:layout_height="wrap_content" layout="@layout/detail_common_title_layout" />
+    <LinearLayout app:orientation="vertical" app:id="@id/ll_author" app:background="@drawable/concept_card_bg_selector_nonormal" app:paddingLeft="16dp" app:paddingRight="16dp" app:layout_width="match_parent" app:layout_height="wrap_content">
+        <RelativeLayout app:layout_width="match_parent" app:layout_height="wrap_content"
+            <RelativeLayout app:id="@id/left_icon" app:layout_width="UNKNOWN_DATA_0x2a01" app:layout_height="UNKNOWN_DATA_0x2a01" app:layout_alignParentLeft="true">
+                <com.qq.reader.widget.UserCircleImageView app:id="@a/icon" app:layout_width="UNKNOWN_DATA_0x2a01" app:layout_height="UNKNOWN_DATA_0x2a01" app:scaleType="centerCrop" app:border_width="0.5dp" app:border_color="@a/avatar_circle_mask_color" />
+                /&gt;
+            </RelativeLayout>
+            <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginLeft="12dp" app:layout_toRightOf="@id/left_icon" app:layout_centerVertical="true">
+                <RelativeLayout app:layout_width="wrap_content" app:layout_height="wrap_content">
+                    <TextView app:textSize="@dimen/text_size_class_4" app:textColor="@color/text_color_c101" app:id="@id/author_name" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="银瓶" app:includeFontPadding="false" app:layout_centerVertical="true" />
+                    <ImageView app:id="@id/author_label" app:layout_width="UNKNOWN_DATA_0x1a01" app:layout_height="UNKNOWN_DATA_0xe01" app:layout_marginLeft="6dp" app:scaleType="fitXY" app:layout_toRightOf="@id/author_name" app:layout_centerVertical="true" />
+                </RelativeLayout>
+                <LinearLayout app:orientation="horizontal" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="5dp" app:layout_toRightOf="@a/icon">
+                    <TextView app:textSize="@c/text_size_class_1" app:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:id="@id/fans_count" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginRight="12dp" app:text="粉丝1万" />
+                    <TextView app:textSize="@c/text_size_class_1" app:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:id="@id/status_count" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="动态19" />
+                </LinearLayout>
+            </LinearLayout>
+            <ImageView app:background="@drawable/list_item_enter_icon" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_alignParentRight="true" app:layout_centerVertical="true" />
+        </RelativeLayout>
+        <TextView app:textSize="@dimen/text_size_class_3" app:textColor="@color/text_color_c103" app:ellipsize="end" app:id="@id/author_intro" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginTop="9dp" app:text="" app:maxLines="2" app:lineSpacingExtra="6dp" />
+        <ImageView app:background="@a/common_divider" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x40000031" app:layout_marginTop="@i/ag" />
+    </LinearLayout>
+</LinearLayout>

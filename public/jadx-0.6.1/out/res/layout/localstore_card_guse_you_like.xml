@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:layout_width="match_parent" app:layout_height="match_parent">
+    <LinearLayout app:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="vertical" app:background="@color/white" app:layout_width="match_parent" app:layout_height="wrap_content">
+        <include app:id="@id/localstore_adv_divider" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x801" layout="@layout/localstore_card_divider" />
+        <com.qq.reader.module.bookstore.qnative.card.impl.CardTitle app:id="@a/title" app:layout_width="match_parent" app:layout_height="wrap_content" style="@style/cardtitlestyle" />
+        <com.qq.reader.view.TagContainerLayout app:id="@id/tag_container_layout" app:paddingLeft="16dp" app:paddingRight="16dp" app:paddingBottom="16dp" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginTop="12dp" app:vertical_interval="8dp" app:horizontal_interval="8dp" app:container_enable_drag="false" app:tag_corner_radius="2dp" app:tag_text_color="@color/text_color_c301" app:tag_press_color="@color/text_color_c301" app:tag_border_color="@color/text_color_c301" app:tag_text_press_color="@color/text_color_c104" app:tag_clickable="true" />
+    </LinearLayout>
+</FrameLayout>

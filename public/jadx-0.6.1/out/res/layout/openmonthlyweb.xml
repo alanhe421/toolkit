@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:paddingTop="2dp" android:paddingBottom="2dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/root_layout" android:background="@drawable/common_backgraound_white" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0702b5" android:layout_marginLeft="30dp" android:layout_marginRight="30dp">
+        <ImageView android:id="@id/dialog_close" android:padding="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bookcoin_charge_close" android:layout_alignParentRight="true" android:contentDescription="0x0" />
+        <TextView android:textSize="@dimen/text_size_class_4" android:textColor="@a/common_textcolor_primary" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@e/dialog_title" android:paddingBottom="4dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignBottom="@id/dialog_close" android:layout_centerHorizontal="true" />
+        <com.qq.reader.view.FixedWebView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/advwebview" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0xb401" android:layout_below="@e/dialog_title" />
+    </RelativeLayout>
+</FrameLayout>

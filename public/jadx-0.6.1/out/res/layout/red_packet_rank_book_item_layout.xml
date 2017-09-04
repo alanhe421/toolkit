@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+    <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:background="@drawable/concept_card_bg_selector" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x5f01">
+        <TextView android:textSize="@dimen/text_size_class_4" android:textColor="@color/text_color_c801" android:id="@id/tv_index" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_centerVertical="true" />
+        <FrameLayout android:id="@id/fl_icon" android:clipChildren="false" android:clipToPadding="false" android:layout_width="UNKNOWN_DATA_0x7f070102" android:layout_height="UNKNOWN_DATA_0x7f070101" android:layout_marginLeft="12dp" android:layout_toRightOf="@id/tv_index" android:layout_centerVertical="true">
+            <com.qq.reader.view.QRImageView android:id="@id/img_icon" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitXY" />
+            <ImageView android:id="@id/img_icon_mask" android:background="@drawable/localstore_image_click_selector" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent" />
+        </FrameLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="12dp" android:layout_weight="1.0" android:layout_toRightOf="@id/fl_icon" android:layout_centerVertical="true">
+            <TextView android:textSize="@dimen/text_size_class_3" android:textColor="@color/text_color_c101" android:ellipsize="end" android:id="@id/tv_book_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_centerVertical="true" />
+            <TextView android:textSize="@dimen/text_size_class_2" android:textColor="@color/text_color_c103" android:ellipsize="end" android:id="@id/tv_author_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:singleLine="true" />
+        </LinearLayout>
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12dp" android:layout_marginRight="16dp" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+            <TextView android:textSize="@dimen/text_size_class_3" android:textColor="@color/text_color_c401" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/tv_amount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+            <TextView android:textSize="@c/text_size_class_1" android:textColor="@color/text_color_c801" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1dp" android:text="@string/coin_name" />
+        </LinearLayout>
+    </LinearLayout>
+    <View style="@style/line_divider_horizontal_style" />
+</LinearLayout>

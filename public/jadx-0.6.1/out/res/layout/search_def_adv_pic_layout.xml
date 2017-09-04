@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/search_adv_pic" android:background="@drawable/search_btm_image_adv_border" android:padding="0.5dp" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x5501" android:scaleType="fitXY" />

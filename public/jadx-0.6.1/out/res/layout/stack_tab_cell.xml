@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <com.qq.reader.view.QRImageView android:id="@id/stack_cell_cover_img" android:clipChildren="false" android:layout_width="UNKNOWN_DATA_0x2201" android:layout_height="UNKNOWN_DATA_0x2e01" android:scaleType="fitXY" android:contentDescription="0x0" />
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@i/aX" android:includeFontPadding="false" android:layout_toRightOf="@id/stack_cell_cover_img" android:layout_centerVertical="true">
+        <TextView android:textSize="@dimen/text_size_class_3" android:textColor="@color/text_color_c101" android:ellipsize="none" android:id="@id/stack_cell_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false" />
+        <TextView android:textSize="@c/text_size_class_1" android:textColor="@color/text_color_c103" android:id="@id/stack_cell_des" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:singleLine="true" android:includeFontPadding="false" />
+    </LinearLayout>
+</RelativeLayout>

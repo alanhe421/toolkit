@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@id/colcard3_bookinfo" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0xa601" android:layout_marginLeft="16dp" android:layout_marginRight="16dp"
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="2dp">
+            <TextView android:textSize="@c/text_size_class_5" android:textColor="@color/text_color_c104" android:ellipsize="end" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="6dp" android:singleLine="true" />
+            <TextView android:textSize="@c/text_size_class_1" android:textColor="@color/text_color_c104" android:id="@id/tv_category" android:background="@drawable/audio_detail_category_bg" android:paddingLeft="4dp" android:paddingTop="2dp" android:paddingRight="4dp" android:paddingBottom="2dp" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/text_size_class_2" android:textColor="@color/text_color_c104" android:id="@id/tv_author" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="6dp" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="6dp">
+            <TextView android:textSize="@dimen/text_size_class_2" android:textColor="@color/text_color_c104" android:id="@id/tv_origin_price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8dp" />
+            <TextView android:textSize="@dimen/text_size_class_2" android:textColor="@color/text_color_c104" android:id="@id/tv_discount_price" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/text_size_class_2" android:textColor="@color/text_color_c104" android:id="@id/tv_price_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="12dp" />
+    </LinearLayout>
+</LinearLayout>

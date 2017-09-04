@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:id="@a/title" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@c/text_size_class_5" android:textStyle="bold" android:textColor="@color/text_color_c101" android:id="@id/cardtitle_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@a/title" android:layout_alignParentLeft="true">
+            <TextView android:textSize="@dimen/text_size_class_2" android:textColor="@color/text_color_c103" android:id="@id/cardtitle_introduction" android:paddingTop="2.5dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:lineSpacingExtra="@dimen/localstore_lineSpacingExtra_4" />
+            <TextView android:textSize="@dimen/text_size_class_2" android:textColor="@color/text_color_c103" android:id="@id/cardtitle_introduction_rightend" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" />
+        </LinearLayout>
+    </RelativeLayout>
+    <TextView android:textSize="@dimen/text_size_class_2" android:id="@id/cardtitle_introduction2" android:background="#ff0000" android:layout_marginTop="3dp" style="@style/text_13_gray_style" />
+</merge>

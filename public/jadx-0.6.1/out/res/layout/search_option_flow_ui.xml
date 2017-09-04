@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:background="@drawable/search_option_flow_bg" android:paddingTop="4dp" android:paddingBottom="4dp" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x1e01">
+    <TextView android:textSize="@dimen/localstore_textsize_13" android:textColor="@color/text_color_c301" android:id="@id/tv_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" />
+    <ImageView android:id="@id/img_delete" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:layout_marginRight="8dp" android:src="@drawable/search_option_delete" />
+</LinearLayout>

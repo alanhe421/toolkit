@@ -1,0 +1,955 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="Ancient_Affection">
+        <item>AdvCard_Circle</item>
+        <item>ColCard_Books</item>
+        <item>ColCard_3NBooks</item>
+        <item>FreeCard_3NBooks</item>
+        <item>FeedEditorRecommend4GirlCard</item>
+        <item>ColCard_Books</item>
+        <item>FreeCard_3NBooks</item>
+        <item>LabelCard_Interest</item>
+        <item>ClassifyEntranceCard</item>
+    </array>
+    <array name="AudioBookDetailNormal">
+        <item>AudioBookDetailHeaderCard</item>
+        <item>AudioDetailHeaderCard4Album</item>
+        <item>AudioBookDetailCategoryCard</item>
+        <item>AudioBookDetailIntroCard</item>
+        <item>AudioDetailRichTextCard</item>
+        <item>AudioDetailRichTextCard</item>
+        <item>AudioDetailRichTextCard</item>
+        <item>AudioDetailRichTextCard</item>
+        <item>AudioBookDetailRecommendCard</item>
+        <item>AudioBookDetailCopyrightCard</item>
+    </array>
+    <array name="AuthorPage_Boy">
+        <item>AdvCard_Recommend</item>
+        <item>AdvCard_Recommend_Simple</item>
+        <item>ColCard_Books</item>
+        <item>AdvCard_Recommend_Simple</item>
+        <item>ColCard_3NBooks</item>
+    </array>
+    <array name="AuthorPage_Girl">
+        <item>AdvCard_Recommend</item>
+        <item>AdvCard_Recommend_Simple</item>
+        <item>ColCard_Books</item>
+        <item>AdvCard_Recommend_Simple</item>
+        <item>ColCard_3NBooks</item>
+    </array>
+    <array name="AuthorPage_Publish">
+        <item>AdvCard_Recommend</item>
+        <item>AdvCard_Recommend_Simple</item>
+        <item>ColCard_Books</item>
+        <item>AdvCard_Recommend_Simple</item>
+        <item>ColCard_3NBooks</item>
+    </array>
+    <array name="Biography_Category_Publish">
+        <item>AdvCard_Circle</item>
+        <item>ColCard_Books</item>
+        <item>ColCard_3NBooks</item>
+        <item>ColCard_Books</item>
+        <item>LabelCard_Interest</item>
+        <item>ClassifyEntranceCard</item>
+    </array>
+    <array name="Bisexual_Category_Publish">
+        <item>AdvCard_Circle</item>
+        <item>ColCard_Books</item>
+        <item>ColCard_3NBooks</item>
+        <item>ColCard_Books</item>
+        <item>LabelCard_Interest</item>
+        <item>ClassifyEntranceCard</item>
+    </array>
+    <array name="BookLibTopRank_boy">
+        <item>AdvCard_Circle</item>
+        <item>RankHeadCard</item>
+        <item>RankCard</item>
+        <item>RankHorizontalCard</item>
+        <item>RankHorizontalCard</item>
+    </array>
+    <array name="BookLibTopRank_girl">
+        <item>AdvCard_Circle</item>
+        <item>RankHeadCard</item>
+        <item>RankCard</item>
+        <item>RankHorizontalCard</item>
+        <item>RankHorizontalCard</item>
+    </array>
+    <array name="BookLibTopRank_publish">
+        <item>AdvCard_Circle</item>
+        <item>RankHeadCard</item>
+        <item>RankCard</item>
+        <item>RankHorizontalCard</item>
+        <item>RankHorizontalCard</item>
+    </array>
+    <array name="Boutique_Zone_Boy">
+        <item>AdvCard_Circle</item>
+        <item>AdvCard_Circle</item>
+        <item>RecCard_3NBooks</item>
+        <item>ColCard_Books</item>
+        <item>ColCard_Books</item>
+        <item>ColCard_Books</item>
+        <item>HotListenBookListCard</item>
+    </array>
+    <array name="Boutique_Zone_Girl">
+        <item>AdvCard_Circle</item>
+        <item>AdvCard_Circle</item>
+        <item>RecCard_3NBooks</item>
+        <item>ColCard_Books</item>
+        <item>ColCard_Books</item>
+        <item>ColCard_Books</item>
+        <item>HotListenBookListCard</item>
+    </array>
+    <array name="Boutique_Zone_Publish">
+        <item>AdvCard_Circle</item>
+        <item>AdvCard_Circle</item>
+        <item>ColCard_3NBooks</item>
+        <item>ColCard_6_Vertical_Books</item>
+    </array>
+    <array name="City_Category_Boy">
+        <item>AdvCard_Circle</item>
+        <item>RecCard_3NBooks</item>
+        <item>FreeCard_3NBooks</item>
+        <item>FeedEditorRecommend4BoyCard</item>
+        <item>ColCard_Books</item>
+        <item>ColCard_3NBooks</item>
+        <item>ViewPage3DCard</item>
+        <item>FreeCard_3NBooks</item>
+        <item>LabelCard_Interest</item>
+        <item>ClassifyEntranceCard</item>
+    </array>
+    <array name="DetailPage">
+        <item>DetailBookInfoCard</item>
+        <item>DetailChapterCard</item>
+        <item>DetailDynamicInfoCard</item>
+        <item>DetailCommentCard</item>
+        <item>AdvCard_Circle</item>
+        <item>DetailListBookCard_4</item>
+        <item>DetailListBookCard_1</item>
+        <item>DetailListBookCard_2</item>
+        <item>DetailListBookCard_3</item>
+        <item>DetailCopyrightCard</item>
+    </array>
+    <array name="Economy_Category_Publish">
+        <item>AdvCard_Circle</item>
+        <item>ColCard_Books</item>
+        <item>ColCard_3NBooks</item>
+        <item>ColCard_Books</item>
+        <item>LabelCard_Interest</item>
+        <item>ClassifyEntranceCard</item>
+    </array>
+    <array name="EndPage">
+        <item>EndPageInteractionCard</item>
+        <item>EndPageRankCard</item>
+        <item>DetailCommentCard</item>
+        <item>DetailListBookCard_1</item>
+        <item>DetailListBookCard_2</item>
+    </array>
+    <array name="End_Book_Boy">
+        <item>AdvCard_Circle</item>
+        <item>FinishBookClassifyEntranceCard</item>
+        <item>FeedEditorRecommend4BoyCard</item>
+        <item>ColCard_Books</item>
+        <item>ColCard_Books</item>
+        <item>FreeCard_3NBooks</item>
+        <item>FreeCard_3ColBooks</item>
+        <item>RecCard_3NBooks</item>
+    </array>
+    <array name="End_Book_Girl">
+        <item>AdvCard_Circle</item>
+        <item>FinishBookClassifyEntranceCard</item>
+        <item>FeedEditorRecommend4BoyCard</item>
+        <item>ColCard_Books</item>
+        <item>ColCard_Books</item>
+        <item>FreeCard_3NBooks</item>
+        <item>FreeCard_3ColBooks</item>
+        <item>RecCard_3NBooks</item>
+    </array>
+    <array name="ErCiYuan_Category_Boy">
+        <item>AdvCard_Circle</item>
+        <item>RecCard_3NBooks</item>
+        <item>FeedEditorRecommend4BoyCard</item>
+        <item>ColCard_Books</item>
+        <item>FreeCard_3NBooks</item>
+        <item>RecCard_3NBooks</item>
+        <item>LabelCard_Interest</item>
+        <item>ClassifyEntranceCard</item>
+    </array>
+    <array name="Fantasy_Affection">
+        <item>AdvCard_Circle</item>
+        <item>ColCard_Books</item>
+        <item>ColCard_3NBooks</item>
+        <item>FreeCard_3NBooks</item>
+        <item>FeedEditorRecommend4GirlCard</item>
+        <item>ColCard_Books</item>
+        <item>FreeCard_3NBooks</item>
+        <item>LabelCard_Interest</item>
+        <item>ClassifyEntranceCard</item>
+    </array>
+    <array name="Find_HomePage">
+        <item>FindHomePageCard</item>
+    </array>
+    <array name="FreePage_Boy">
+        <item>AdvCard_Circle</item>
+        <item>FreeCard_3NBooks</item>
+        <item>ColCard_Books</item>
+        <item>ColCard_Books</item>
+        <item>ColCard_Books</item>
+        <item>ColCard_Books</item>
+        <item>CollectCard_0</item>
+        <item>CollectCard_1</item>
+    </array>
+    <array name="FreePage_Girl">
+        <item>AdvCard_Circle</item>
+        <item>FreeCard_3NBooks</item>
+        <item>ColCard_Books</item>
+        <item>ColCard_Books</item>
+        <item>ColCard_Books</item>
+        <item>ColCard_Books</item>
+        <item>CollectCard_0</item>
+        <item>CollectCard_1</item>
+    </array>
+    <array name="FreePage_Publish">
+        <item>AdvCard_Circle</item>
+        <item>FreeCard_3NBooks</item>
+        <item>FeedHotBookListCard</item>
+        <item>ColCard_3NBooks</item>
+        <item>FeedBookPackCard</item>
+        <item>ColCard_3NBooks</item>
+        <item>ColCard_3NBooks</item>
+        <item>ColCard_3NBooks</item>
+        <item>ColCard_3NBooks</item>
+        <item>ColCard_3NBooks</item>
+        <item>TabCard</item>
+    </array>
+    <array name="Game_Athletics">
+        <item>AdvCard_Circle</item>
+        <item>ColCard_Books</item>
+        <item>ColCard_3NBooks</item>
+        <item>FreeCard_3NBooks</item>
+        <item>FeedEditorRecommend4GirlCard</item>
+        <item>ColCard_Books</item>
+        <item>FreeCard_3NBooks</item>
+        <item>LabelCard_Interest</item>
+        <item>ClassifyEntranceCard</item>
+    </array>
+    <array name="Game_Boy">
+        <item>AdvCard_Circle</item>
+        <item>RecCard_3NBooks</item>
+        <item>FeedEditorRecommend4BoyCard</item>
+        <item>FreeCard_3NBooks</item>
+        <item>ViewPage3DCard</item>
+        <item>ColCard_Books</item>
+        <item>FreeCard_3NBooks</item>
+        <item>ColCard_Books</item>
+        <item>ColCard_3NBooks</item>
+        <item>LabelCard_Interest</item>
+        <item>ClassifyEntranceCard</item>
+    </array>
+    <array name="GoodWriter_MainPage">
+        <item>WriterIntroCard</item>
+        <item>WriterLiveShowEnterCard</item>
+        <item>WriterAnswerCard</item>
+        <item>WriterInfoCard</item>
+        <item>WriterMainPageCard</item>
+        <item>WriterQAPageCard</item>
+        <item>WriterBooksCard</item>
+        <item>CommentCard_1</item>
+        <item>AuthorNewsCard</item>
+        <item>AuthorPageEmptyCard</item>
+    </array>
+    <array name="HallOfFamePage">
+        <item>HallOfFameTabCard</item>
+    </array>
+    <array name="History_Boy">
+        <item>AdvCard_Circle</item>
+        <item>RecCard_3NBooks</item>
+        <item>FreeCard_3NBooks</item>
+        <item>ViewPage3DCard</item>
+        <item>FeedEditorRecommend4BoyCard</item>
+        <item>ColCard_Books</item>
+        <item>ColCard_3NBooks</item>
+        <item>FreeCard_3NBooks</item>
+        <item>LabelCard_Interest</item>
+        <item>ClassifyEntranceCard</item>
+    </array>
+    <array name="History_Category_Publish">
+        <item>AdvCard_Circle</item>
+        <item>ColCard_Books</item>
+        <item>ColCard_3NBooks</item>
+        <item>ColCard_Books</item>
+        <item>LabelCard_Interest</item>
+        <item>ClassifyEntranceCard</item>
+    </array>
+    <array name="Job_Boy">
+        <item>AdvCard_Circle</item>
+        <item>RecCard_3NBooks</item>
+        <item>FreeCard_3NBooks</item>
+        <item>FeedEditorRecommend4BoyCard</item>
+        <item>ColCard_Books</item>
+        <item>ColCard_3NBooks</item>
+        <item>ViewPage3DCard</item>
+        <item>FreeCard_3NBooks</item>
+        <item>LabelCard_Interest</item>
+        <item>ClassifyEntranceCard</item>
+    </array>
+    <array name="Limit_Free_Boy">
+        <item>AdvCard_Circle</item>
+        <item>FreeCard_3NBooks</item>
+        <item>Vip_FreeCard_3NBooks</item>
+        <item>RealTimeRecFreeCard_3ColBooks</item>
+        <item>ColCard_Books</item>
+        <item>Hot3NBooksCard</item>
+        <item>ColCard_Books</item>
+        <item>FreeCard_3NBooks</item>
+        <item>ColCard_Books</item>
+        <item>CollectCard_0</item>
+        <item>CollectCard_1</item>
+    </array>
+    <array name="Limit_Free_Girl">
+        <item>AdvCard_Circle</item>
+        <item>FreeCard_3NBooks</item>
+        <item>Vip_FreeCard_3NBooks</item>
+        <item>RealTimeRecFreeCard_3ColBooks</item>
+        <item>ColCard_Books</item>
+        <item>Hot3NBooksCard</item>
+        <item>ColCard_Books</item>
+        <item>FreeCard_3NBooks</item>
+        <item>ColCard_Books</item>
+        <item>CollectCard_0</item>
+        <item>CollectCard_1</item>
+    </array>
+    <array name="Limit_Free_Publish">
+        <item>AdvCard_Circle</item>
+        <item>FreeCard_3NBooks</item>
+        <item>Vip_FreeCard_3NBooks</item>
+        <item>RealTimeRecFreeCard_3ColBooks</item>
+        <item>FreeCard_3ColBooks</item>
+        <item>FeedBookPackCard</item>
+        <item>ColCard_3NBooks</item>
+        <item>CollectCard_0</item>
+        <item>CollectCard_1</item>
+    </array>
+    <array name="Listen_Book">
+        <item>AdvCard_Circle</item>
+        <item>ListenZoneRecommendRecCard_3NBooks</item>
+        <item>ColCard_Listen_Books</item>
+        <item>ColCard_Listen_Books</item>
+        <item>DiscountCard_3NBooks</item>
+        <item>DiscountCard_3NBooks</item>
+        <item>ColCard_Listen_Books</item>
+        <item>ColCard_Listen_Books</item>
+        <item>ColCard_Listen_Books</item>
+        <item>HotListenBookListCard</item>
+    </array>
+    <array name="Literature_Category_Publish">
+        <item>AdvCard_Circle</item>
+        <item>ColCard_Books</item>
+        <item>ColCard_3NBooks</item>
+        <item>ColCard_Books</item>
+        <item>LabelCard_Interest</item>
+        <item>ClassifyEntranceCard</item>
+    </array>
+    <array name="Modern_Affection">
+        <item>AdvCard_Circle</item>
+        <item>ColCard_Books</item>
+        <item>ColCard_3NBooks</item>
+        <item>FreeCard_3NBooks</item>
+        <item>FeedEditorRecommend4GirlCard</item>
+        <item>ColCard_Books</item>
+        <item>FreeCard_3NBooks</item>
+        <item>LabelCard_Interest</item>
+        <item>ClassifyEntranceCard</item>
+    </array>
+    <array name="Novel_Category_Publish">
+        <item>AdvCard_Circle</item>
+        <item>ColCard_Books</item>
+        <item>ColCard_3NBooks</item>
+        <item>ColCard_Books</item>
+        <item>LabelCard_Interest</item>
+        <item>ClassifyEntranceCard</item>
+    </array>
+    <array name="PayMonth_Boy">
+        <item>AdvCard_Circle</item>
+        <item>PayMonthGuide</item>
+        <item>ColCard_Books</item>
+        <item>RecCard_3NBooks</item>
+        <item>FeedHotBookListCard</item>
+        <item>ColCard_Charts</item>
+        <item>FeedBookPackCard</item>
+    </array>
+    <array name="PayMonth_Girl">
+        <item>AdvCard_Circle</item>
+        <item>PayMonthGuide</item>
+        <item>ColCard_Books</item>
+        <item>RecCard_3NBooks</item>
+        <item>FeedHotBookListCard</item>
+        <item>ColCard_Charts</item>
+        <item>FeedBookPackCard</item>
+    </array>
+    <array name="PayMonth_Publish">
+        <item>AdvCard_Circle</item>
+        <item>PayMonthGuide</item>
+        <item>ColCard_Books</item>
+        <item>RecCard_3NBooks</item>
+        <item>FeedHotBookListCard</item>
+        <item>ColCard_Charts</item>
+        <item>FeedBookPackCard</item>
+    </array>
+    <array name="Publish_Special_Price">
+        <item>AdvCard_Circle</item>
+        <item>FreeCard_3ColBooks</item>
+        <item>FreeRentCard_3NBooks</item>
+        <item>ColCard_3NBooks</item>
+        <item>ColCard_3NBooks</item>
+        <item>FreeCard_3ColBooks</item>
+    </array>
+    <array name="QiHuan_Category_Boy">
+        <item>AdvCard_Circle</item>
+        <item>FeedEditorRecommend4BoyCard</item>
+        <item>FreeCard_3NBooks</item>
+        <item>ColCard_Books</item>
+        <item>RecCard_3NBooks</item>
+        <item>ViewPage3DCard</item>
+        <item>RecCard_3NBooks</item>
+        <item>LabelCard_Interest</item>
+        <item>ClassifyEntranceCard</item>
+    </array>
+    <array name="Romance_Youth">
+        <item>AdvCard_Circle</item>
+        <item>ColCard_Books</item>
+        <item>ColCard_3NBooks</item>
+        <item>FreeCard_3NBooks</item>
+        <item>FeedEditorRecommend4GirlCard</item>
+        <item>ColCard_Books</item>
+        <item>FreeCard_3NBooks</item>
+        <item>LabelCard_Interest</item>
+        <item>ClassifyEntranceCard</item>
+    </array>
+    <array name="Science_Boy">
+        <item>AdvCard_Circle</item>
+        <item>FeedEditorRecommend4BoyCard</item>
+        <item>RecCard_3NBooks</item>
+        <item>ColCard_Books</item>
+        <item>FreeCard_3NBooks</item>
+        <item>ColCard_3NBooks</item>
+        <item>FreeCard_3NBooks</item>
+        <item>RecCard_3NBooks</item>
+        <item>LabelCard_Interest</item>
+        <item>ClassifyEntranceCard</item>
+    </array>
+    <array name="Science_Space">
+        <item>AdvCard_Circle</item>
+        <item>ColCard_Books</item>
+        <item>ColCard_3NBooks</item>
+        <item>FreeCard_3NBooks</item>
+        <item>FeedEditorRecommend4GirlCard</item>
+        <item>ColCard_Books</item>
+        <item>FreeCard_3NBooks</item>
+        <item>LabelCard_Interest</item>
+        <item>ClassifyEntranceCard</item>
+    </array>
+    <array name="SearchToolMain">
+        <item>SearchToolCloudCard</item>
+        <item>SearchToolConditionCard</item>
+    </array>
+    <array name="Self_Help_Category_Publish">
+        <item>AdvCard_Circle</item>
+        <item>ColCard_Books</item>
+        <item>ColCard_3NBooks</item>
+        <item>ColCard_Books</item>
+        <item>LabelCard_Interest</item>
+        <item>ClassifyEntranceCard</item>
+    </array>
+    <array name="Single_rankboard_Boy">
+        <item>RankCard</item>
+    </array>
+    <array name="Single_rankboard_Girl">
+        <item>RankCard</item>
+    </array>
+    <array name="Single_rankboard_Pub">
+        <item>RankCard</item>
+    </array>
+    <array name="SpecialColumn">
+        <item>AdvCard_Circle</item>
+        <item>ColCard_Books</item>
+        <item>RecCard_3NBooks</item>
+        <item>Horizontal2ImgAdvCard</item>
+        <item>RecCard_3NBooks</item>
+        <item>Horizontal2ImgAdvCard</item>
+        <item>RecCard_3NBooks</item>
+    </array>
+    <array name="Special_Price_Boy">
+        <item>AdvCard_Circle</item>
+        <item>FreeCard_3NBooks</item>
+        <item>FreeCard_3ColBooks</item>
+        <item>Hot3NBooksCard</item>
+        <item>FreeCard_3ColBooks</item>
+        <item>ColCard_Books</item>
+        <item>CollectCard_0</item>
+        <item>CollectCard_1</item>
+    </array>
+    <array name="Special_Price_Girl">
+        <item>AdvCard_Circle</item>
+        <item>FreeCard_3NBooks</item>
+        <item>FreeCard_3ColBooks</item>
+        <item>Hot3NBooksCard</item>
+        <item>FreeCard_3ColBooks</item>
+        <item>ColCard_Books</item>
+        <item>CollectCard_0</item>
+        <item>CollectCard_1</item>
+    </array>
+    <array name="Spiritual_Boy">
+        <item>AdvCard_Circle</item>
+        <item>RecCard_3NBooks</item>
+        <item>FeedEditorRecommend4BoyCard</item>
+        <item>FreeCard_3NBooks</item>
+        <item>FeedEditorRecommend4BoyCard</item>
+        <item>ColCard_3NBooks</item>
+        <item>ViewPage3DCard</item>
+        <item>FreeCard_3NBooks</item>
+        <item>LabelCard_Interest</item>
+        <item>ClassifyEntranceCard</item>
+    </array>
+    <array name="Sport_Boy">
+        <item>AdvCard_Circle</item>
+        <item>RecCard_3NBooks</item>
+        <item>ColCard_Books</item>
+        <item>FeedEditorRecommend4BoyCard</item>
+        <item>ColCard_3NBooks</item>
+        <item>LabelCard_Interest</item>
+        <item>ClassifyEntranceCard</item>
+    </array>
+    <array name="Suspense_Spiritual">
+        <item>AdvCard_Circle</item>
+        <item>ColCard_Books</item>
+        <item>ColCard_3NBooks</item>
+        <item>FreeCard_3NBooks</item>
+        <item>FeedEditorRecommend4GirlCard</item>
+        <item>ColCard_Books</item>
+        <item>FreeCard_3NBooks</item>
+        <item>LabelCard_Interest</item>
+        <item>ClassifyEntranceCard</item>
+    </array>
+    <array name="UserCenterPage">
+        <item>UserCenterInfoCard</item>
+        <item>UserCenterBookShelfCard</item>
+        <item>SubscribedAuthorListCard</item>
+        <item>UserCenterHisQuestionCard</item>
+        <item>UserCenterMyQuestionCard</item>
+        <item>UserCenterMyListenCard</item>
+        <item>UserCenterCommentCard</item>
+        <item>UserCenterInterActionCard</item>
+        <item>UserCenterEmptyCard</item>
+    </array>
+    <array name="War_Boy">
+        <item>AdvCard_Circle</item>
+        <item>FeedEditorRecommend4BoyCard</item>
+        <item>RecCard_3NBooks</item>
+        <item>ColCard_Books</item>
+        <item>FreeCard_3NBooks</item>
+        <item>RecCard_3NBooks</item>
+        <item>LabelCard_Interest</item>
+        <item>ClassifyEntranceCard</item>
+    </array>
+    <array name="WuXia_Category_Boy">
+        <item>AdvCard_Circle</item>
+        <item>RecCard_3NBooks</item>
+        <item>ColCard_Books</item>
+        <item>ColCard_Books</item>
+        <item>RecCard_3NBooks</item>
+        <item>FreeCard_3NBooks</item>
+        <item>LabelCard_Interest</item>
+        <item>ClassifyEntranceCard</item>
+    </array>
+    <array name="XianXia_Category_Boy">
+        <item>AdvCard_Circle</item>
+        <item>RecCard_3NBooks</item>
+        <item>FeedEditorRecommend4BoyCard</item>
+        <item>ViewPage3DCard</item>
+        <item>ColCard_Books</item>
+        <item>FreeCard_3NBooks</item>
+        <item>ColCard_3NBooks</item>
+        <item>LabelCard_Interest</item>
+        <item>ClassifyEntranceCard</item>
+    </array>
+    <array name="XianXia_QiYuan">
+        <item>AdvCard_Circle</item>
+        <item>ColCard_Books</item>
+        <item>ColCard_3NBooks</item>
+        <item>FreeCard_3NBooks</item>
+        <item>FeedEditorRecommend4GirlCard</item>
+        <item>ColCard_Books</item>
+        <item>FreeCard_3NBooks</item>
+        <item>LabelCard_Interest</item>
+        <item>ClassifyEntranceCard</item>
+    </array>
+    <array name="XuanHuan_Category_Boy">
+        <item>AdvCard_Circle</item>
+        <item>RecCard_3NBooks</item>
+        <item>FeedEditorRecommend4BoyCard</item>
+        <item>FreeCard_3NBooks</item>
+        <item>ColCard_Books</item>
+        <item>ViewPage3DCard</item>
+        <item>FreeCard_3NBooks</item>
+        <item>ColCard_3NBooks</item>
+        <item>LabelCard_Interest</item>
+        <item>ClassifyEntranceCard</item>
+    </array>
+    <array name="Youth_Literature_Category_Publish">
+        <item>AdvCard_Circle</item>
+        <item>ColCard_Books</item>
+        <item>ColCard_3NBooks</item>
+        <item>ColCard_Books</item>
+        <item>LabelCard_Interest</item>
+        <item>ClassifyEntranceCard</item>
+    </array>
+    <array name="bkStyles">
+        <item>#fff7f7f7</item>
+        <item>#ffd5efd2</item>
+        <item>@drawable/read_bg_1</item>
+        <item>#27384d</item>
+        <item>@drawable/read_bg_7</item>
+        <item>#574136</item>
+        <item>@drawable/read_bg_2</item>
+        <item>@drawable/read_bg_skin_set</item>
+        <item>#ff48859c</item>
+    </array>
+    <array name="boy">
+        <item>玄幻</item>
+        <item>仙侠</item>
+        <item>都市</item>
+        <item>历史</item>
+        <item>军事</item>
+        <item>游戏</item>
+        <item>竞技</item>
+        <item>科幻</item>
+        <item>灵异</item>
+        <item>励志</item>
+        <item>管理</item>
+        <item>生活</item>
+    </array>
+    <array name="boyid">
+        <item>20001</item>
+        <item>20014</item>
+        <item>20019</item>
+        <item>20028</item>
+        <item>20032</item>
+        <item>20050</item>
+        <item>20054</item>
+        <item>20042</item>
+        <item>10018</item>
+        <item>10070</item>
+        <item>10097</item>
+        <item>10076</item>
+    </array>
+    <array name="custom_switcher">
+        <item>@integer/query_dialog</item>
+        <item>@integer/xg_push</item>
+        <item>@integer/app_wall</item>
+        <item>@integer/app_update</item>
+    </array>
+    <array name="endpage_rating_score_intro">
+        <item>轻触添加评分</item>
+        <item>我对本书的评价：不好</item>
+        <item>我对本书的评价：一般</item>
+        <item>我对本书的评价：还行</item>
+        <item>我对本书的评价：很好</item>
+        <item>我对本书的评价：力荐</item>
+    </array>
+    <array name="fileEnding">
+        <item>.txt</item>
+        <item>.umd</item>
+        <item>.epub</item>
+        <item>.pdf</item>
+        <item>.chm</item>
+        <item>.teb</item>
+        <item>.rar</item>
+        <item>.zip</item>
+        <item>.xls</item>
+        <item>.xlsx</item>
+        <item>.doc</item>
+        <item>.docx</item>
+        <item>.ppt</item>
+        <item>.pptx</item>
+    </array>
+    <array name="fileEndingExArchive">
+        <item>.txt</item>
+        <item>.umd</item>
+        <item>.epub</item>
+        <item>.pdf</item>
+        <item>.chm</item>
+        <item>.teb</item>
+        <item>.rar</item>
+        <item>.zip</item>
+        <item>.xls</item>
+        <item>.xlsx</item>
+        <item>.doc</item>
+        <item>.docx</item>
+        <item>.ppt</item>
+        <item>.pptx</item>
+    </array>
+    <array name="girl">
+        <item>幻言</item>
+        <item>仙侠</item>
+        <item>古言</item>
+        <item>现言</item>
+        <item>科幻</item>
+        <item>灵异</item>
+        <item>青春</item>
+        <item>网游</item>
+        <item>情感</item>
+        <item>励志</item>
+        <item>管理</item>
+        <item>生活</item>
+    </array>
+    <array name="girlid">
+        <item>30001</item>
+        <item>30008</item>
+        <item>30013</item>
+        <item>30020</item>
+        <item>30042</item>
+        <item>30036</item>
+        <item>30031</item>
+        <item>30050</item>
+        <item>10011</item>
+        <item>10070</item>
+        <item>10097</item>
+        <item>10076</item>
+    </array>
+    <array name="infoStyles">
+        <item>#999999</item>
+        <item>#7fa088</item>
+        <item>#a5846c</item>
+        <item>#80a1b1c4</item>
+        <item>#839c77</item>
+        <item>#80d6a68d</item>
+        <item>#cc7e94</item>
+        <item>@color/skin_set_reading_infocolor</item>
+    </array>
+    <array name="non">
+        <item>玄幻</item>
+        <item>仙侠</item>
+        <item>都市</item>
+        <item>游戏</item>
+        <item>古言</item>
+        <item>现言</item>
+        <item>灵异</item>
+        <item>历史</item>
+        <item>科幻</item>
+        <item>励志</item>
+        <item>管理</item>
+        <item>生活</item>
+    </array>
+    <array name="nonid">
+        <item>20001</item>
+        <item>20014</item>
+        <item>20019</item>
+        <item>20050</item>
+        <item>30013</item>
+        <item>30020</item>
+        <item>30036</item>
+        <item>20028</item>
+        <item>20042</item>
+        <item>10070</item>
+        <item>10097</item>
+        <item>10076</item>
+    </array>
+    <array name="openid_list">
+    </array>
+    <array name="openkey_list">
+    </array>
+    <array name="permission_list">
+        <item>android.permission.READ_PHONE_STATE</item>
+        <item>android.permission.WRITE_EXTERNAL_STORAGE</item>
+        <item>android.permission.READ_EXTERNAL_STORAGE</item>
+        <item>android.permission.READ_SMS</item>
+        <item>android.permission.SEND_SMS</item>
+        <item>android.permission.RECORD_AUDIO</item>
+    </array>
+    <array name="permission_text_description_list">
+        <item>读取手机状态和身份</item>
+        <item>修改或删除您的SD卡中的内容</item>
+        <item>读取您的SD卡中的内容</item>
+        <item>读取短信</item>
+        <item>发送短信</item>
+        <item>录音</item>
+    </array>
+    <array name="preAuthor">
+        <item>夏忆</item>
+    </array>
+    <array name="preBooks">
+    </array>
+    <array name="preContent">
+        <item>QQ书城3月刊</item>
+    </array>
+    <array name="preImage">
+        <item>最后一个道士1.epub.p</item>
+    </array>
+    <array name="preInternalold">
+    </array>
+    <array name="prePluginDB">
+        <item>plugin.db</item>
+    </array>
+    <array name="prePluginRes">
+        <item>1_1_c.png</item>
+        <item>1_c.png</item>
+        <item>2_c.png</item>
+        <item>3_c.png</item>
+        <item>11_3_c.png</item>
+        <item>4_c.png</item>
+        <item>12_4_c.png</item>
+        <item>5_c.png</item>
+        <item>14_5_c.png</item>
+        <item>6_c.png</item>
+        <item>25_6_c.png</item>
+        <item>7_c.png</item>
+        <item>29_7_c.png</item>
+    </array>
+    <array name="preWebColumnDB">
+        <item>webcolumn.db</item>
+    </array>
+    <array name="qq_list">
+    </array>
+    <array name="rating_score_intro">
+        <item>轻触添加评分</item>
+        <item>不好</item>
+        <item>一般</item>
+        <item>还行</item>
+        <item>很好</item>
+        <item>力荐</item>
+    </array>
+    <array name="read_gene_pos_array">
+        <item>-36,150</item>
+        <item>-84,-122</item>
+        <item>137,62</item>
+        <item>113,-92</item>
+        <item>-130,80</item>
+        <item>21,-102</item>
+        <item>53,94</item>
+        <item>-101,-28</item>
+        <item>65,-21</item>
+        <item>-35,62</item>
+    </array>
+    <array name="read_gene_temp_circle_pos_array">
+        <item>-3,108</item>
+        <item>-48,-52</item>
+        <item>-142,-47</item>
+    </array>
+    <array name="recommned_url_10001">
+        <item>index.html</item>
+        <item>index_boy.html</item>
+        <item>index_girl.html</item>
+        <item>index_pub.html</item>
+    </array>
+    <array name="recommned_url_10002">
+        <item>rankIndex.html?up=0</item>
+        <item>rankIndex.html?up=1</item>
+        <item>rankIndex.html?up=2</item>
+        <item>rankIndex.html?up=3</item>
+    </array>
+    <array name="recommned_url_10003">
+        <item>vip.html?up=0</item>
+        <item>vip.html?up=1</item>
+        <item>vip.html?up=2</item>
+        <item>vip.html?up=3</item>
+    </array>
+    <array name="recommned_url_10005">
+        <item>author.html?up=0</item>
+        <item>author.html?up=1</item>
+        <item>author.html?up=2</item>
+        <item>author.html?up=3</item>
+    </array>
+    <array name="search_tool_left_items">
+        <item>分类</item>
+        <item>标签</item>
+        <item>字数</item>
+        <item>更新</item>
+        <item>其它</item>
+    </array>
+    <array name="sex">
+        <item>男</item>
+        <item>女</item>
+        <item>中性</item>
+    </array>
+    <array name="sortFormats">
+        <item>全部</item>
+        <item>Txt</item>
+        <item>EPub</item>
+        <item>Pdf</item>
+        <item>Office</item>
+        <item>其他</item>
+    </array>
+    <array name="textStyles">
+        <item>#ff262626</item>
+        <item>#ff22482c</item>
+        <item>#ff5e432e</item>
+        <item>#a1b1c4</item>
+        <item>#ff1b310e</item>
+        <item>#d6a68d</item>
+        <item>#ff801634</item>
+        <item>@color/skin_set_reading_textcolor</item>
+        <item>#ffffffff</item>
+    </array>
+    <array name="titleStyles">
+        <item>#262626</item>
+        <item>#2e4f36</item>
+        <item>#6b391e</item>
+        <item>#a1b1c4</item>
+        <item>#415932</item>
+        <item>#d6a68d</item>
+        <item>#982938</item>
+        <item>@color/skin_set_reading_titlecolor</item>
+    </array>
+    <array name="title_size_array">
+        <item>@dimen/title_font_size_0</item>
+        <item>@dimen/title_font_size_1</item>
+        <item>@dimen/title_font_size_2</item>
+        <item>@dimen/title_font_size_3</item>
+        <item>@dimen/title_font_size_4</item>
+        <item>@dimen/title_font_size_5</item>
+        <item>@dimen/title_font_size_6</item>
+        <item>@dimen/title_font_size_7</item>
+        <item>@dimen/title_font_size_8</item>
+        <item>@dimen/title_font_size_9</item>
+        <item>@dimen/title_font_size_10</item>
+        <item>@dimen/title_font_size_11</item>
+    </array>
+    <array name="ttsbid">
+        <item>345973</item>
+        <item>345972</item>
+        <item>345971</item>
+        <item>345970</item>
+        <item>345968</item>
+        <item>345969</item>
+        <item>345967</item>
+        <item>345966</item>
+        <item>345964</item>
+        <item>345965</item>
+        <item>345963</item>
+        <item>320700</item>
+        <item>320699</item>
+        <item>320698</item>
+        <item>320680</item>
+        <item>320649</item>
+        <item>320667</item>
+        <item>320665</item>
+        <item>320664</item>
+        <item>320666</item>
+        <item>320651</item>
+        <item>320650</item>
+        <item>320648</item>
+        <item>320647</item>
+        <item>320631</item>
+        <item>320630</item>
+        <item>320392</item>
+        <item>320391</item>
+        <item>316002</item>
+        <item>316003</item>
+        <item>315999</item>
+        <item>316001</item>
+        <item>315996</item>
+        <item>315998</item>
+        <item>315997</item>
+        <item>234827</item>
+    </array>
+</resources>

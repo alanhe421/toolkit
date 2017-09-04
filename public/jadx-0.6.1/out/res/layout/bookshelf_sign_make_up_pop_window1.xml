@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="#00ffffff" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <ImageView android:id="@a/title" android:background="@drawable/resign_up_ok_top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+    <RelativeLayout android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:background="@drawable/sign_bottom_img" android:layout_width="UNKNOWN_DATA_0xb501" android:layout_height="UNKNOWN_DATA_0xb501" android:layout_marginTop="10dp" android:layout_below="@a/title" android:layout_centerHorizontal="true">
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@id/text_area" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2801" android:layout_marginBottom="12dp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+            <TextView android:textSize="15dp" android:textColor="#ffe9a6" android:id="@id/text1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="解锁收费章节" />
+            <TextView android:textSize="15dp" android:textColor="#ffe9a6" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@a/text2" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="+5" />
+        </LinearLayout>
+    </RelativeLayout>
+    <ImageView android:id="@id/light" android:background="@drawable/sign_window_light" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="121dp" android:layout_centerHorizontal="true" />
+    <RelativeLayout android:id="@id/frame" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:background="@drawable/bubble_green" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x1e01" android:layout_height="UNKNOWN_DATA_0x1e01" android:layout_marginTop="188dp" android:layout_centerHorizontal="true" />
+        <ImageView android:background="@drawable/bubble_yellow" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x1e01" android:layout_height="UNKNOWN_DATA_0x1e01" android:layout_marginTop="188dp" android:layout_centerHorizontal="true" />
+        <ImageView android:background="@drawable/bubble_orange" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x1e01" android:layout_height="UNKNOWN_DATA_0x1e01" android:layout_marginTop="188dp" android:layout_centerHorizontal="true" />
+        <ImageView android:background="@drawable/bubble_purple" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x1e01" android:layout_height="UNKNOWN_DATA_0x1e01" android:layout_marginTop="188dp" android:layout_centerHorizontal="true" />
+        <ImageView android:background="@drawable/bubble_green" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x1e01" android:layout_height="UNKNOWN_DATA_0x1e01" android:layout_marginTop="188dp" android:layout_centerHorizontal="true" />
+        <ImageView android:background="@drawable/bubble_yellow" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x1e01" android:layout_height="UNKNOWN_DATA_0x1e01" android:layout_marginTop="188dp" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <ImageView android:id="@id/image1" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x5501" android:layout_height="UNKNOWN_DATA_0x5501" android:layout_marginTop="149dp" android:layout_centerHorizontal="true" />
+    <ImageView android:id="@id/image2" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x4101" android:layout_height="UNKNOWN_DATA_0x5501" android:layout_marginTop="149dp" android:layout_centerHorizontal="true" />
+</RelativeLayout>

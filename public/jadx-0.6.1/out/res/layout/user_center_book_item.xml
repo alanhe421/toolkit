@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <FrameLayout android:id="@id/cover_fl" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.qq.reader.view.QRImageView android:id="@id/iv_cover" android:layout_width="UNKNOWN_DATA_0x7f070239" android:layout_height="UNKNOWN_DATA_0x7f070238" style="@style/smallcover_style" />
+        <View android:background="@drawable/localstore_image_click_selector" android:layout_width="UNKNOWN_DATA_0x7f070239" android:layout_height="UNKNOWN_DATA_0x7f070238" style="@style/smallcover_style" />
+    </FrameLayout>
+    <TextView android:textSize="@dimen/text_size_class_3" android:id="@id/tv_bk_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:maxLines="2" android:includeFontPadding="false" android:layout_below="@id/cover_fl" android:layout_alignLeft="@id/cover_fl" android:layout_alignRight="@id/cover_fl" android:lineSpacingExtra="2dp" style="@style/feed_title_style" />
+    <TextView android:textSize="@dimen/text_size_class_2" android:id="@id/tv_bk_des" android:paddingBottom="13dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:maxLines="2" android:includeFontPadding="false" android:layout_below="@id/tv_bk_name" android:layout_alignLeft="@id/cover_fl" android:layout_alignRight="@id/cover_fl" style="@style/feed_content_style" />
+    <ImageView android:id="@id/iv_bk_type" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/listen_book_icon" android:layout_alignLeft="@id/cover_fl" android:layout_alignBottom="@id/cover_fl" />
+    <ImageView android:id="@id/iv_bk_secret" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/book_private" android:layout_alignTop="@id/cover_fl" android:layout_alignRight="@id/cover_fl" />
+</RelativeLayout>

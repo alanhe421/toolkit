@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@drawable/concept_card_bg_selector" android:paddingBottom="10dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ImageView android:id="@id/localstore_adv_divider" android:background="@drawable/feed_listview_divider" android:visibility="gone" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x801" android:contentDescription="0x0" />
+    <LinearLayout android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:id="@a/line1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="8dp">
+        <TextView android:textSize="@dimen/text_size_class_4" android:textColor="@a/skin_set_common_textcolor" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@a/title" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ImageView android:id="@id/tag" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="1dp" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/text_size_class_3" android:textColor="@color/text_color_c103" android:id="@id/intro" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="6dp" android:layout_marginRight="16dp" android:layout_below="@a/line1" android:lineSpacingExtra="3dp" />
+    <ImageView android:id="@id/divider" android:background="#e3e4e5" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x40000031" android:layout_marginLeft="16dp" android:layout_marginTop="5dp" android:layout_marginRight="16dp" android:layout_below="@id/intro" />
+    <TextView android:textSize="@dimen/text_size_class_3" android:textColor="@color/text_color_c103" android:id="@id/bookcount" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="9dp" android:layout_below="@id/divider" />
+</RelativeLayout>

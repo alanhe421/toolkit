@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="0x106000d" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <ScrollView android:id="@id/scroll" android:background="@drawable/reading_note_bg" android:paddingLeft="15dp" android:paddingRight="15dp" android:fadingEdge="UNKNOWN_DATA_0x0" android:fadingEdgeLength="0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:cacheColorHint="#00000000" android:overScrollMode="never">
+        <TextView android:textSize="@dimen/text_size_class_4" android:textColor="#4e3b10" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/note_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="false" android:lineSpacingMultiplier="1.2" />
+    </ScrollView>
+    <ImageView android:id="@id/popup_note_uparrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/arrow_up" />
+    <ImageView android:id="@id/popup_note_downarrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/arrow_down" />
+</RelativeLayout>

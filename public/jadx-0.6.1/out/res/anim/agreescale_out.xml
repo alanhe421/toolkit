@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android" android:interpolator="0x10a000b">
+    <scale android:duration="300" android:pivotX="50%" android:pivotY="50%" android:fillAfter="true" android:fromXScale="1.0" android:toXScale="1.5" android:fromYScale="1.0" android:toYScale="1.5" android:fillEnabled="true" />
+    <alpha android:duration="300" android:fromAlpha="1.0" android:toAlpha="0.2" />
+    <translate android:duration="400" android:fillAfter="true" android:repeatMode="reverse" android:fromYDelta="0.0" android:toYDelta="-10%p" />
+</set>

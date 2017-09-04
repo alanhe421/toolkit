@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <FrameLayout android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/bookinfo_cover_layout" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12dp">
+        <com.qq.reader.view.QRImageView android:id="@id/bookinfo_cover" android:layout_width="UNKNOWN_DATA_0x7f0700ff" android:layout_height="UNKNOWN_DATA_0x7f0700fe" android:contentDescription="0x0" style="@style/super_bigcover_style" />
+        <TextView android:textSize="@c/text_size_class_1" android:textColor="0x106000b" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/bookinfo_no" android:background="@drawable/localstore_icon_bookinfo_chattop" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=" 1" />
+        <View android:background="@drawable/localstore_image_click_selector" android:layout_width="UNKNOWN_DATA_0x7f0700ff" android:layout_height="UNKNOWN_DATA_0x7f0700fe" style="@style/super_bigcover_style" />
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/bookinfo_name" android:text="adsfasdf" style="@style/bookname_style" />
+        <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:id="@id/bookinfo_type_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp">
+            <TextView android:textSize="@dimen/text_size_class_3" android:id="@id/bookinfo_typeandauthor" android:singleLine="true" android:layout_weight="1.0" style="@style/text_13_gray_style" />
+            <TextView android:id="@id/bookinfo_popularity" style="@style/bookdata_style" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/text_size_class_3" android:ellipsize="end" android:id="@id/bookinfo_introduction" android:layout_marginTop="7dp" android:maxLines="2" android:lineSpacingExtra="5dp" style="@style/text_13_gray_style" />
+    </LinearLayout>
+</merge>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.qq.reader.module.bookstore.qweb.channel.OtherGridView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/otherGridView_1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:layout_marginBottom="11dp" android:listSelector="0x106000d" android:verticalSpacing="@dimen/column_service_verticalSpacing" android:stretchMode="columnWidth" android:numColumns="UNKNOWN_DATA_0x5" />
+    <TextView android:id="@id/title_divid_line" android:background="@a/localstore_linecolor_divider" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" android:layout_marginLeft="14dp" android:layout_marginRight="14dp" />
+    <LinearLayout android:orientation="vertical" android:id="@id/hideLayout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.qq.reader.module.bookstore.qweb.channel.OtherGridView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/otherGridView_2" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:layout_marginBottom="6dp" android:listSelector="0x106000d" android:stretchMode="columnWidth" android:numColumns="UNKNOWN_DATA_0x5" />
+        <include layout="@layout/localstore_card_divider" />
+    </LinearLayout>
+</LinearLayout>

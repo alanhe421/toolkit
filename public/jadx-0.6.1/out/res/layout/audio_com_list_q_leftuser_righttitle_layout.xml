@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:id="@id/rl_asker" android:layout_width="match_parent" android:layout_height="wrap_content"
+        <RelativeLayout android:id="@id/iv_asker_container" android:layout_width="UNKNOWN_DATA_0x2a01" android:layout_height="UNKNOWN_DATA_0x2a01">
+            <com.qq.reader.widget.UserCircleImageView app:id="@id/iv_asker" app:focusable="false" app:clickable="false" app:layout_width="UNKNOWN_DATA_0x2a01" app:layout_height="UNKNOWN_DATA_0x2a01" app:src="@drawable/localstore_cover_bigavatar_default" app:contentDescription="0x0" app:border_width="0.5dp" app:border_color="@a/avatar_circle_mask_color" />
+            <ImageView app:id="@id/iv_asker_month_img" app:visibility="gone" app:layout_width="UNKNOWN_DATA_0x1001" app:layout_height="UNKNOWN_DATA_0x1001" app:scaleType="fitXY" app:layout_alignParentRight="true" app:layout_alignParentBottom="true" />
+        </RelativeLayout>
+        <LinearLayout app:orientation="vertical" app:id="@id/ll_title_container" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginLeft="@dimen/common_dp_6" app:layout_toRightOf="@id/iv_asker_container" app:layout_alignTop="@id/iv_asker_container">
+            <TextView app:textSize="@dimen/text_size_class_3" app:textColor="@color/text_color_c102" app:ellipsize="end" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:id="@id/tv_asker_title" app:layout_width="match_parent" app:layout_height="wrap_content" app:minHeight="@dimen/common_dp_18" app:maxLines="3" app:lineSpacingExtra="@dimen/common_dp_4" />
+            <LinearLayout app:orientation="horizontal" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="@dimen/common_dp_2">
+                <TextView app:textSize="@c/text_size_class_1" app:textColor="@color/text_color_c103" app:id="@id/tv_listen_cost_per" app:layout_width="match_parent" app:layout_height="wrap_content" app:text="@string/qa_title_question_cost" app:singleLine="true" />
+                <TextView app:textSize="@dimen/text_size_class_2" app:textColor="@color/text_color_c401" app:id="@id/tv_listen_cost" app:layout_width="wrap_content" app:layout_height="wrap_content" app:singleLine="true" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</merge>

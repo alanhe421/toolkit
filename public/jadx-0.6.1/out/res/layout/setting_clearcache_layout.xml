@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:id="@e/common_titler" layout="@g/common_titler" />
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/clearing" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3c01" android:layout_below="@e/common_titler">
+        <ProgressBar android:layout_width="UNKNOWN_DATA_0x1001" android:layout_height="UNKNOWN_DATA_0x1001" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:maxWidth="16dp" android:maxHeight="16dp" android:indeterminateOnly="true" android:indeterminateDrawable="@d/progress_40_blue_anim" android:indeterminateDuration="1000" android:minWidth="16dp" android:minHeight="16dp" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="正在清理..." />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/content" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@e/common_titler"
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:background="@drawable/clean_cache_bg" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x59400021" android:layout_marginLeft="16dp" android:layout_marginTop="16dp" android:layout_marginRight="16dp" android:layout_marginBottom="40dp">
+            <ImageView android:background="@drawable/clearcache_flag" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="@c/text_size_class_5" android:textColor="@color/text_color_c104" android:id="@id/cache_size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="28dp" android:text="12.3MB" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/text_size_class_3" android:textColor="@color/text_color_c101" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="90%的用户已升级深度垃圾清理" />
+        <TextView android:textSize="@dimen/text_size_class_3" android:textColor="@color/text_color_c101" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="获得更健康的手机状态" />
+        <Button android:id="@id/deep_clear_btn" android:layout_marginLeft="@dimen/common_left_right_margin" android:layout_marginTop="@dimen/common_dp_20" android:layout_marginRight="@dimen/common_left_right_margin" android:layout_marginBottom="@dimen/common_dp_20" android:text="立即升级" style="@style/button_b6" />
+        <LinearLayout android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:id="@id/notice" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/login_wx">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/login_tips" />
+            <TextView android:textSize="@dimen/localstore_textsize_12" android:textColor="@a/textcolor_gray" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:text="本功能需下载腾讯管家助手" android:includeFontPadding="false" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

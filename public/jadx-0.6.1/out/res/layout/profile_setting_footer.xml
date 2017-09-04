@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/profile_footer_view" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:id="@id/divider_1" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <View android:background="@a/listview_divider" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" />
+        <View android:background="@a/div_divider" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0xb01" />
+        <View android:background="@a/listview_divider" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/common_textsize_primary" android:textColor="@a/common_textcolor_primary" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/profile_footer_view_text" android:background="@drawable/list_item_setting_bg" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f070207" android:text="退出登录" android:layout_below="@id/divider_1" />
+    <View android:id="@id/div_line_2" android:background="@a/listview_divider" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" android:layout_alignParentBottom="true" />
+</RelativeLayout>

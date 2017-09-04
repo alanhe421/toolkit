@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content">
+    <RelativeLayout app:id="@id/rl_title_bk" app:paddingLeft="16dp" app:paddingRight="16dp" app:layout_width="match_parent" app:layout_height="wrap_content">
+        <com.qq.reader.widget.UserCircleImageView app:id="@id/iv_editor_avatar" app:layout_width="UNKNOWN_DATA_0x2a01" app:layout_height="UNKNOWN_DATA_0x2a01" app:layout_marginTop="14dp" app:layout_marginBottom="14dp" app:src="@drawable/img_editor_recommend" app:scaleType="centerCrop" app:border_width="0.5dp" app:border_color="@a/avatar_circle_mask_color" />
+        <TextView app:textSize="@dimen/text_size_class_4" app:textColor="@color/text_color_c101" app:ellipsize="end" app:id="@id/tv_editor_name" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginLeft="12dp" app:layout_marginTop="14dp" app:maxLines="1" app:layout_toRightOf="@id/iv_editor_avatar" />
+        <TextView app:textSize="@dimen/text_size_class_2" app:textColor="@color/text_color_c103" app:ellipsize="end" app:id="@id/tv_editor_des" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginLeft="12dp" app:layout_marginTop="2.5dp" app:layout_marginBottom="8.5dp" app:maxLines="1" app:includeFontPadding="false" app:layout_toRightOf="@id/iv_editor_avatar" app:layout_below="@id/tv_editor_name" app:lineSpacingExtra="4dp" />
+    </RelativeLayout>
+    <View app:id="@id/divider_line" style="@style/line_divider_horizontal_style" />
+    <TextView app:textSize="@dimen/text_size_class_3" app:textColor="@color/text_color_c102" app:id="@id/tv_recommend_text" app:paddingLeft="16dp" app:paddingTop="11.5dp" app:paddingRight="16dp" app:paddingBottom="10dp" app:visibility="gone" app:layout_width="match_parent" app:layout_height="wrap_content" app:maxLines="3" app:lineSpacingExtra="@dimen/line_space_normal" />
+</LinearLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/rl_parent" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@id/fl_main" android:layout_width="match_parent" android:layout_height="match_parent">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+            <com.qq.reader.common.widget.SwipeRefreshLayout android:id="@id/booklist_pull_down_list" android:layout_width="match_parent" android:layout_height="match_parent">
+                <com.qq.reader.view.pullupdownlist.XListView android:id="@id/list_layout" android:focusableInTouchMode="true" android:scrollbars="UNKNOWN_DATA_0x0" android:fadingEdge="UNKNOWN_DATA_0x0" android:fadingEdgeLength="0dp" android:layout_width="match_parent" android:layout_height="match_parent" android:listSelector="#00000000" android:scrollingCache="false" android:cacheColorHint="#00000000" android:divider="0x0" android:footerDividersEnabled="false" />
+            </com.qq.reader.common.widget.SwipeRefreshLayout>
+            <include android:id="@e/loading_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/progress_topmargin" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" layout="@layout/localstore_loading" />
+            <include android:id="@id/loading_failed_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@e/common_titler" layout="@layout/localstore_loading_failed" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/ll_mask" android:background="@a/translucent" android:focusable="false" android:clickable="false" android:layout_width="match_parent" android:layout_height="match_parent" />
+    </FrameLayout>
+    <com.qq.reader.common.emotion.ReplyView android:id="@id/reply_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+    <LinearLayout android:orientation="vertical" android:id="@id/comment_detail_bottom_btns" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <ImageView android:id="@id/img_shadow" android:background="@d/top_shadow" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x301" />
+        <RelativeLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/comment_detail_bottom_btns_reply" android:background="@drawable/comment_detail_bottom_btns_bg" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f070207">
+            <ImageView android:id="@id/comment_detail_bottom_btns_image_reply" android:background="@drawable/comment_chapterend_detail_bottom_image_reply_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8dp" android:layout_centerVertical="true" android:contentDescription="0x0" />
+            <TextView android:textSize="@dimen/common_dp_14" android:textColor="@a/skin_set_common_textcolor" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/comment_detail_bottom_btns_text_reply" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/chapterend_reply" android:includeFontPadding="false" android:layout_toRightOf="@id/comment_detail_bottom_btns_image_reply" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

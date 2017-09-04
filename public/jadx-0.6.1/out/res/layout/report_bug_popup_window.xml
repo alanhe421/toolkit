@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="#ffffff" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_alignParentBottom="true">
+    <TextView android:textSize="@c/text_size_class_5" android:textColor="0x106000c" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/tv_report_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:minHeight="50dp" android:text="@string/report_bug_title" style="@style/feed_title_style" />
+    <View android:id="@id/divider" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x40000031" android:layout_below="@id/tv_report_title" style="@style/line_divider_horizontal_style" />
+    <RadioGroup android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@id/report_radio_button_group" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@id/divider">
+        <RadioButton android:id="@id/bug_report_0" android:layout_width="match_parent" android:text="@string/chapter_bug0" android:layout_weight="1.0" style="@style/ReportBugRadioBtn" />
+        <RadioButton android:id="@id/bug_report_1" android:layout_width="match_parent" android:text="@string/chapter_bug1" android:layout_weight="1.0" style="@style/ReportBugRadioBtn" />
+        <RadioButton android:id="@id/bug_report_2" android:layout_width="match_parent" android:text="@string/chapter_bug2" android:layout_weight="1.0" style="@style/ReportBugRadioBtn" />
+        <RadioButton android:id="@id/bug_report_3" android:layout_width="match_parent" android:text="@string/chapter_bug3" android:layout_weight="1.0" style="@style/ReportBugRadioBtn" />
+        <RadioButton android:id="@id/bug_report_4" android:layout_width="match_parent" android:layout_marginBottom="15dp" android:text="@string/chapter_bug4" android:layout_weight="1.0" style="@style/ReportBugRadioBtn" />
+    </RadioGroup>
+</RelativeLayout>

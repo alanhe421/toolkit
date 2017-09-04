@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true">
+        <layer-list>
+            <item android:drawable="@drawable/shareimage_bg_white_normal" />
+            <item android:drawable="@drawable/shareimage_bg_top_selected" />
+        </layer-list> />
+    <item android:state_pressed="true">
+        <layer-list>
+            <item android:drawable="@drawable/shareimage_bg_white_normal" />
+            <item android:drawable="@drawable/shareimage_bg_top_selected" />
+        </layer-list> />
+    <item android:drawable="@drawable/shareimage_bg_white_normal" />
+</selector>

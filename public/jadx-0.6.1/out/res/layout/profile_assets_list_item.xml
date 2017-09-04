@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/profile_assets_list_item_view" android:layout_width="match_parent" android:layout_height="wrap_content"
+    <RelativeLayout android:background="@drawable/list_item_trans_bg" android:paddingLeft="@dimen/common_left_right_margin" android:paddingRight="@dimen/common_left_right_margin" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f070207">
+        <ImageView android:id="@id/profile_assets_list_item_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12dp" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:contentDescription="0x0" />
+        <TextView android:textSize="@dimen/common_textsize_primary" android:textColor="@a/common_textcolor_primary" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/profile_assets_list_item_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/profile_assets_list_item_icon" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/profile_assets_list_item_image" android:background="@drawable/list_item_enter_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="0x0" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="20sp" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@e/livetitle" android:background="@color/btn_red_hover" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3201" android:text="@h/live_titile" />
+    <android.support.v4.widget.SwipeRefreshLayout android:id="@e/swipe_refresh_layout_list" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1.0">
+        <ListView android:id="@e/live_list" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:divider="0x0" />
+    </android.support.v4.widget.SwipeRefreshLayout>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/read_page_tts_position_change_tip" android:scaleType="fitXY" />
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="100dp" android:layout_marginBottom="300dp" android:layout_alignParentRight="true" android:layout_alignParentBottom="true">
+            <TextView android:textSize="@dimen/text_size_class_4" android:textColor="@color/text_color_c104" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="人声朗读已经搬到
+这里了，快去看看" android:lineSpacingExtra="4dp" />
+            <TextView android:textSize="@dimen/text_size_class_2" android:textColor="@color/text_color_c104" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/tv_ack" android:background="@drawable/selector_round_blue_button" android:clickable="true" android:layout_width="UNKNOWN_DATA_0x3c01" android:layout_height="UNKNOWN_DATA_0x1801" android:layout_marginTop="10dp" android:text="知道了" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

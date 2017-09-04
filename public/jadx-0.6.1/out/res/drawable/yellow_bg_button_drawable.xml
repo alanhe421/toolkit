@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false" android:drawable="@d/yellow_bg_button_unenable_drawable" />
+    <item android:state_pressed="true" android:drawable="@d/yellow_bg_button_press_drawable" />
+    <item android:drawable="@d/yellow_bg_button_common_drawable" />
+</selector>

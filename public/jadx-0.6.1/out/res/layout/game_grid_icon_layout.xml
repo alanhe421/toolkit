@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/rl_game_icon" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <ImageView android:id="@id/iv_game_icon" android:layout_width="UNKNOWN_DATA_0x4001" android:layout_height="UNKNOWN_DATA_0x4001" android:src="@drawable/game_loading" android:scaleType="fitXY" />
+    <ImageView android:layout_width="UNKNOWN_DATA_0x4001" android:layout_height="UNKNOWN_DATA_0x4001" android:src="@drawable/game_grid_icon_masker" />
+    <ImageView android:id="@id/game_left_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</RelativeLayout>

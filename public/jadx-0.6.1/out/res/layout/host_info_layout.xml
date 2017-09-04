@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@e/host_info_main_container" android:layout_width="UNKNOWN_DATA_0xc801" android:layout_height="wrap_content">
+    <RelativeLayout android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@e/host_detail_dialog_content_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp">
+        <ImageView android:id="@e/host_info_avatar" android:layout_width="UNKNOWN_DATA_0x3201" android:layout_height="UNKNOWN_DATA_0x3201" android:layout_marginLeft="20dp" android:layout_marginTop="20dp" android:layout_marginRight="20dp" android:layout_marginBottom="20dp" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="@c/h12" android:textColor="@color/colorTextBlack" android:id="@e/host_info_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="host" android:layout_below="@e/host_info_avatar" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <LinearLayout android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="47dp">
+        <TextView android:textSize="@dimen/text_size_class_2" android:id="@e/host_detail_dialog_report_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@h/report" />
+        <TextView android:textSize="@dimen/text_size_class_2" android:id="@e/host_detail_dialog_shut_up" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:text="@h/shut_up" />
+        <TextView android:textSize="@dimen/text_size_class_2" android:id="@e/host_detail_dialog_kick_out" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:text="@h/kick_out_of_room" />
+    </LinearLayout>
+    <TextView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@e/host_detail_dialog_follow_tv" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="+关注" />
+</FrameLayout>

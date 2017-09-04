@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@e/login_loading_layout" android:background="@drawable/login_loading" android:layout_width="UNKNOWN_DATA_0xfa01" android:layout_height="UNKNOWN_DATA_0x5201">
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:layout_width="UNKNOWN_DATA_0xfa01" android:layout_height="UNKNOWN_DATA_0x5201">
+        <ProgressBar android:id="@e/login_loading_progressBar" android:layout_width="UNKNOWN_DATA_0x7f070295" android:layout_height="UNKNOWN_DATA_0x7f070295" android:layout_marginRight="10dp" android:indeterminateOnly="true" android:indeterminateDrawable="@d/progress_40_blue_anim" android:indeterminateDuration="1000" />
+        <TextView android:textSize="@dimen/text_size_class_4" android:textColor="@color/text_color_c102" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@e/login_loading_msg" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x7f070295" />
+    </LinearLayout>
+</RelativeLayout>

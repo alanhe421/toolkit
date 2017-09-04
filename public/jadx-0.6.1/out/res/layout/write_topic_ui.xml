@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@a/emotion_normal_background" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include layout="@g/common_titler" />
+    <FrameLayout android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/original_titlerbar_height">
+        <LinearLayout android:orientation="vertical" android:id="@e/ll_input_area" android:layout_width="match_parent" android:layout_height="match_parent">
+            <com.qq.reader.common.widget.ReaderRatingBar android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/bookclub_ratingbar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:maxHeight="24dp" android:progressDrawable="@drawable/localstore_ratingbar_big_drawable" android:minHeight="24dp" android:numStars="5" android:stepSize="1.0" android:isIndicator="false" />
+            <TextView android:textSize="@dimen/common_textsize_secondary" android:textColor="@a/localstore_textcolor_gray" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/bookclub_ratingbar_text" android:layout_marginTop="15dp" android:layout_marginBottom="14dp" style="@style/text_13_gray_style" />
+            <View android:id="@id/bookclub_ratingbar_divider" android:background="@a/concept_divider_line" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" />
+            <EditText android:textSize="@dimen/text_size_class_4" android:textColor="0x106000c" android:textColorHint="#cccccc" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/et_input_title" android:background="@a/translucent" android:paddingLeft="14dp" android:paddingRight="14dp" android:scrollbars="UNKNOWN_DATA_0x0" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:layout_marginBottom="16dp" android:lineSpacingExtra="4dp" android:imeOptions="flagNoExtractUi">
+                <requestFocus />
+            </EditText>
+            <ImageView android:background="@a/concept_divider_line" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" />
+            <EditText android:textSize="@dimen/text_size_class_4" android:textColor="0x106000c" android:textColorHint="#cccccc" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/et_input" android:background="@a/translucent" android:paddingLeft="14dp" android:paddingRight="14dp" android:scrollbars="UNKNOWN_DATA_0x0" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:layout_weight="1.0" android:lineSpacingExtra="4dp" android:imeOptions="flagNoExtractUi" />
+        </LinearLayout>
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:orientation="vertical" android:id="@id/ll_emotion_control_panel" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+                <ImageView android:background="@d/top_shadow" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x301" />
+                <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2801">
+                    <Button android:id="@id/btn_switch" android:background="@drawable/bookclub_emotion_gray" android:layout_width="UNKNOWN_DATA_0x1801" android:layout_height="UNKNOWN_DATA_0x1801" android:layout_marginLeft="16dp" />
+                </LinearLayout>
+                <View android:orientation="vertical" android:background="@a/commit_comment_emotion_division_line_background" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" />
+                <LinearLayout android:orientation="vertical" android:id="@id/ll_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0xc801" /> />
+        </RelativeLayout>
+    </FrameLayout>
+</RelativeLayout>

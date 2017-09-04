@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res-auto" app:layout_width="match_parent" app:layout_height="wrap_content">
+    <include app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="@dimen/common_dp_14" app:layout_marginBottom="@dimen/common_dp_14" layout="@layout/game_grid_icon_layout" />
+    <RelativeLayout app:layout_width="match_parent" app:layout_height="wrap_content">
+        <com.qq.reader.module.game.card.view.GameOpenBtn app:id="@id/game_open_btn" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_alignParentRight="true" app:layout_centerVertical="true" />
+        <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="vertical" app:id="@id/ll_center" app:paddingLeft="@dimen/common_dp_12" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_toLeftOf="@id/game_open_btn" app:layout_centerVertical="true"
+            <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="wrap_content">
+                <TextView app:textSize="@dimen/text_size_class_4" app:textColor="@color/text_color_c101" app:ellipsize="end" app:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@id/game_title" app:layout_width="wrap_content" app:layout_height="wrap_content" app:maxWidth="128dp" app:maxLines="1" />
+                <LinearLayout app:layout_width="wrap_content" app:layout_height="wrap_content">
+                    <TextView app:textSize="@c/text_size_class_1" app:textColor="@color/text_color_c104" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@id/game_tag" app:background="@drawable/round_corner_rect_2dp" app:visibility="gone" app:layout_width="UNKNOWN_DATA_0x7f0701d7" app:layout_height="UNKNOWN_DATA_0x7f0701c3" app:layout_marginLeft="@dimen/common_dp_6" app:layout_marginTop="1dp" />
+                    <ImageView app:id="@id/game_gift" app:layout_width="UNKNOWN_DATA_0x7f0701c6" app:layout_height="UNKNOWN_DATA_0x7f0701c6" app:layout_marginLeft="@dimen/common_dp_6" app:src="@drawable/game_gift" />
+                </LinearLayout>
+            </LinearLayout>
+            <TextView app:textSize="@dimen/text_size_class_3" app:textColor="@color/text_color_c102" app:ellipsize="end" app:id="@id/game_describe" app:paddingTop="2.5dp" app:layout_width="match_parent" app:layout_height="wrap_content" app:maxLines="1" />
+            <TextView app:textSize="@c/text_size_class_1" app:textColor="@color/text_color_c104" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@id/game_same_name" app:background="@drawable/round_corner_rect_2dp" app:paddingLeft="@dimen/common_dp_4" app:paddingTop="-0.5dp" app:paddingRight="@dimen/common_dp_4" app:paddingBottom="0.5dp" app:visibility="gone" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="@dimen/common_dp_7" />
+        </LinearLayout>
+    </RelativeLayout>
+</merge>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/rootlayout" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:id="@e/common_titler" layout="@g/common_titler" />
+    <LinearLayout android:orientation="vertical" android:padding="@dimen/common_dp_16" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@e/common_titler">
+        <RelativeLayout android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/user_center_user_icon_relativelayout" android:layout_width="UNKNOWN_DATA_0x4401" android:layout_height="UNKNOWN_DATA_0x4401" android:layout_alignParentTop="true" android:layout_centerHorizontal="true">
+            <ImageView android:id="@id/user_icon" android:layout_width="UNKNOWN_DATA_0x4401" android:layout_height="UNKNOWN_DATA_0x4401" android:src="@drawable/user_center_default_user_icon" android:scaleType="fitXY" />
+            <ImageView android:id="@id/type_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="3dp" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+        <EditText android:textSize="@dimen/text_size_class_3" android:textColor="@color/text_color_c102" android:textColorHint="@color/text_color_c801" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/et_introduction" android:background="@drawable/author_qa_editor_stroke_bg" android:padding="@dimen/common_dp_12" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x4c01" android:layout_marginTop="@dimen/common_dp_14" android:hint="@string/author_edit_fenda_introduction_hint" android:textCursorDrawable="@drawable/edit_text_cursor_shap">
+            <requestFocus />
+        </EditText>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/common_dp_24">
+            <TextView android:textSize="@dimen/text_size_class_3" android:textColor="@color/text_color_c101" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/qa_edit_ask_to" />
+            <EditText android:textSize="@dimen/text_size_class_4" android:textColor="@color/text_color_c401" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/question_cost" android:background="@drawable/author_qa_editor_stroke_bg" android:paddingLeft="6dp" android:paddingRight="6dp" android:scrollbars="UNKNOWN_DATA_0x0" android:layout_width="UNKNOWN_DATA_0x3c01" android:layout_height="UNKNOWN_DATA_0x7f0701da" android:layout_marginLeft="@dimen/common_dp_6" android:text="100" android:inputType="number|numberSigned|numberDecimal|numberPassword|phone" android:textCursorDrawable="@drawable/edit_text_cursor_shap" />
+            <TextView android:textSize="@dimen/text_size_class_3" android:textColor="@color/text_color_c101" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/common_dp_6" android:text="@string/qa_edit_ask_bcoin" />
+        </LinearLayout>
+        <TextView android:textColor="@a/textcolor_white" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/ok_btn" android:layout_width="match_parent" android:layout_marginLeft="0dp" android:layout_marginTop="@dimen/common_dp_24" android:layout_marginRight="0dp" android:text="@string/save" style="@style/button_b6" />
+    </LinearLayout>
+    <include android:id="@e/loading_layout" layout="@layout/localstore_loading" />
+</RelativeLayout>

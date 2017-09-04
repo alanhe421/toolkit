@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:background="@d/live_audience_dm_bg" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x1801">
+    <ImageView android:id="@e/avatar_icon" android:layout_width="UNKNOWN_DATA_0x1401" android:layout_height="UNKNOWN_DATA_0x1401" android:layout_marginLeft="2dp" android:src="@d/icon_members" />
+    <TextView android:textSize="@dimen/text_size_class_3" android:textColor="@color/text_color_c801" android:id="@e/user_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6dp" />
+    <TextView android:textSize="@dimen/text_size_class_3" android:textColor="@color/text_color_c104" android:ellipsize="end" android:id="@e/content_text" android:paddingRight="6dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+</LinearLayout>

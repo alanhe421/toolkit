@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="UNKNOWN_DATA_0x5d01" android:layout_height="wrap_content">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x5d01">
+        <ImageView android:id="@id/findhome_img" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitXY" />
+        <View android:background="@drawable/localstore_image_click_selector" android:layout_width="match_parent" android:layout_height="match_parent" />
+        <FrameLayout android:id="@id/findhome_mask" android:layout_width="match_parent" android:layout_height="match_parent">
+            <ImageView android:id="@id/findhome_videolength_mask" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f070129" android:scaleType="fitXY" android:contentDescription="0x0" />
+            <TextView android:textSize="9dp" android:textColor="@color/text_color_c104" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/findhome_videolength" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:layout_marginRight="4dp" />
+            <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f070129" android:src="@drawable/audio_zone_cover_mask" android:scaleType="fitXY" android:contentDescription="0x0" />
+            <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:layout_marginBottom="3dp">
+                <ImageView android:id="@id/findhome_playtimes_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <TextView android:textSize="@c/text_size_class_1" android:textColor="@color/text_color_c104" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/findhome_playtimes" android:paddingLeft="2dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" />
+            </LinearLayout>
+        </FrameLayout>
+    </FrameLayout>
+    <TextView android:textSize="@dimen/text_size_class_3" android:textColor="@color/text_color_c101" android:ellipsize="end" android:id="@id/findhome_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:maxLines="1" />
+    <TextView android:textSize="@dimen/text_size_class_2" android:textColor="@color/text_color_c103" android:ellipsize="end" android:id="@id/findhome_desc" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:maxLines="1" />
+</LinearLayout>

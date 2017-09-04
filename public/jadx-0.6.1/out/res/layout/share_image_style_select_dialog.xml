@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@id/bottom_btn_area">
+        <ScrollView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:scrollbars="UNKNOWN_DATA_0x0" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="24dp" android:layout_marginTop="14dp" android:layout_marginRight="24dp" android:layout_marginBottom="14dp">
+            <LinearLayout android:orientation="vertical" android:id="@id/share_image_view" android:background="#f7f7f7" android:layout_width="match_parent" android:layout_height="wrap_content"
+                <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x6201" android:layout_marginRight="16dp"
+                    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="6dp">
+                        <TextView android:textSize="@dimen/text_size_class_4" android:textColor="@a/text_color_c201" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/username" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                        <TextView android:textSize="@dimen/text_size_class_2" android:textColor="@color/text_color_c103" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/date" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp" />
+                    </LinearLayout>
+                    <ImageView android:id="@id/user_icon" android:layout_width="UNKNOWN_DATA_0x2a01" android:layout_height="UNKNOWN_DATA_0x2a01" android:layout_marginRight="6dp" />
+                </LinearLayout>
+                <com.qq.reader.view.CustomlayoutTextView android:textSize="@c/text_size_class_5" android:textColor="@color/text_color_c101" android:id="@id/user_note" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginRight="20dp" android:layout_marginBottom="20dp" android:lineSpacingExtra="2dp" />
+                <LinearLayout android:orientation="horizontal" android:id="@id/quote_area" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:src="@drawable/quote" />
+                    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:layout_marginRight="24dp">
+                            <com.qq.reader.view.CustomlayoutTextView android:textSize="@dimen/text_size_class_4" android:textColor="@a/text_color_c201" android:id="@id/share_context" android:layout_width="match_parent" android:layout_height="wrap_content" android:lineSpacingExtra="4dp" />
+                            <TextView android:textSize="@dimen/text_size_class_2" android:textColor="@a/text_color_c201" android:ellipsize="end" android:id="@id/from_bookname" android:paddingTop="14dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:layout_below="@id/share_context" android:layout_alignParentRight="true" />
+                            <TextView android:textSize="@dimen/text_size_class_2" android:textColor="@a/text_color_c201" android:ellipsize="end" android:id="@id/from_chapter" android:paddingTop="4dp" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:layout_below="@id/from_bookname" android:layout_alignParentRight="true" />
+                        </RelativeLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <View android:id="@id/divider" android:background="#66b58d77" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x40000031" android:layout_marginLeft="24dp" android:layout_marginTop="22dp" android:layout_marginRight="24dp" android:layout_below="@id/from_chapter" />
+                <ImageView android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/bookdetail_QR_code" android:layout_width="UNKNOWN_DATA_0x7f070357" android:layout_height="UNKNOWN_DATA_0x7f070357" android:layout_marginTop="14dp" android:scaleType="fitXY" android:layout_below="@id/divider" />
+                <TextView android:textSize="@c/text_size_class_1" android:textColor="@a/text_color_c201" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/QR_tip" android:paddingTop="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/share_QR_code_tip" android:layout_below="@id/bookdetail_QR_code" />
+                <TextView android:textSize="@c/text_size_class_1" android:textColor="@color/text_color_c102" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:paddingTop="6dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="20dp" android:text="@string/app_name" android:layout_below="@id/QR_tip" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/bottom_btn_area" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true"
+        <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:background="0x106000b" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3c01">
+            <TextView android:textSize="14sp" android:textColor="#141414" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginRight="24dp" android:text="背景" />
+            <ImageView android:id="@id/bg_color1" android:background="@drawable/shareimage_white_bg" android:layout_width="UNKNOWN_DATA_0x4601" android:layout_height="UNKNOWN_DATA_0x1801" android:src="@drawable/shareimage_bg_checked" android:scaleType="center" android:layout_weight="1.0" />
+            <ImageView android:id="@id/bg_color2" android:background="@drawable/shareimage_pink_bg" android:layout_width="UNKNOWN_DATA_0x4601" android:layout_height="UNKNOWN_DATA_0x1801" android:layout_marginLeft="14dp" android:scaleType="center" android:layout_weight="1.0" />
+            <ImageView android:id="@id/bg_color3" android:background="@drawable/shareimage_black_bg" android:layout_width="UNKNOWN_DATA_0x4601" android:layout_height="UNKNOWN_DATA_0x1801" android:layout_marginLeft="14dp" android:scaleType="center" android:layout_weight="1.0" />
+            <ImageView android:background="@drawable/shareimage_black_bg" android:visibility="invisible" android:layout_width="UNKNOWN_DATA_0x4601" android:layout_height="UNKNOWN_DATA_0x1801" android:layout_marginLeft="14dp" android:scaleType="center" android:layout_weight="1.0" />
+        </LinearLayout>
+        <View android:background="@a/common_divider" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x40000031" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0702a9">
+            <Button android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/sureButton" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3201" android:text="@string/note_text_share" android:layout_weight="1.0" style="@style/button_big_blue_base" />
+            <Button android:id="@id/cancelButton" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/cancel" android:layout_weight="1.0" style="@style/button_big_white_base" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

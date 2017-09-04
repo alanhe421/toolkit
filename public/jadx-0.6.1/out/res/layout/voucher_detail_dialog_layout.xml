@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@id/current_available_area" android:background="@a/localstore_bg" android:paddingBottom="12.5dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:id="@id/current_available" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/common_dp_12" />
+            <TextView android:textSize="@dimen/text_size_class_2" android:textColor="@color/text_color_c103" android:id="@id/tv_voucher_comment" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/common_dp_5" android:text="" />
+        </LinearLayout>
+        <ScrollView android:id="@id/scroll" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0700e5">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/voucher_container_a" android:background="@color/white" android:paddingRight="@dimen/common_dp_16" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x7f0701f3">
+                    <FrameLayout android:id="@id/left_class_container_a" android:background="#b23399ff" android:layout_width="UNKNOWN_DATA_0x7f0701d0" android:layout_height="match_parent">
+                        <TextView android:textSize="@c/text_size_class_1" android:textColor="@color/text_color_c104" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/tv_left_class_a" android:layout_width="wrap_content" android:layout_height="match_parent" android:maxEms="1" android:ems="1" android:lineSpacingExtra="0dp" android:lineSpacingMultiplier="0.85" />
+                    </FrameLayout>
+                    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/common_dp_12" android:layout_toRightOf="@id/left_class_container_a" android:layout_centerVertical="true">
+                        <TextView android:textSize="@dimen/text_size_class_4" android:textColor="@color/text_color_c101" android:ellipsize="end" android:id="@id/voucher_available_a" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" />
+                        <TextView android:ellipsize="end" android:id="@id/voucher_limit_a" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/common_dp_3" android:maxLines="1" />
+                    </LinearLayout>
+                </RelativeLayout>
+                <include android:id="@id/line_a" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" layout="@layout/localstore_card_divider" />
+                <RelativeLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/voucher_container_b" android:background="@color/white" android:paddingRight="@dimen/common_dp_16" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x7f0701f3">
+                    <FrameLayout android:id="@id/left_class_container_b" android:background="#b23399ff" android:layout_width="UNKNOWN_DATA_0x7f0701d0" android:layout_height="match_parent">
+                        <TextView android:textSize="@c/text_size_class_1" android:textColor="@color/text_color_c104" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/tv_left_class_b" android:layout_width="wrap_content" android:layout_height="match_parent" android:maxEms="1" android:ems="1" android:lineSpacingExtra="0dp" android:lineSpacingMultiplier="0.85" />
+                    </FrameLayout>
+                    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/common_dp_12" android:layout_toRightOf="@id/left_class_container_b" android:layout_centerVertical="true">
+                        <TextView android:textSize="@dimen/text_size_class_4" android:textColor="@color/text_color_c101" android:ellipsize="end" android:id="@id/voucher_available_b" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" />
+                        <TextView android:ellipsize="end" android:id="@id/voucher_limit_b" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/common_dp_3" android:maxLines="1" />
+                    </LinearLayout>
+                </RelativeLayout>
+                <include android:id="@id/line_b" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" layout="@layout/localstore_card_divider" />
+                <RelativeLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/voucher_container_c" android:background="@color/white" android:paddingRight="@dimen/common_dp_16" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x7f0701f3">
+                    <FrameLayout android:id="@id/left_class_container_c" android:background="#b23399ff" android:layout_width="UNKNOWN_DATA_0x7f0701d0" android:layout_height="match_parent">
+                        <TextView android:textSize="@c/text_size_class_1" android:textColor="@color/text_color_c104" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/tv_left_class_c" android:layout_width="wrap_content" android:layout_height="match_parent" android:maxEms="1" android:ems="1" android:lineSpacingExtra="0dp" android:lineSpacingMultiplier="0.85" />
+                    </FrameLayout>
+                    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/common_dp_12" android:layout_toRightOf="@id/left_class_container_c" android:layout_centerVertical="true">
+                        <TextView android:textSize="@dimen/text_size_class_4" android:textColor="@color/text_color_c101" android:ellipsize="end" android:id="@id/voucher_available_c" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" />
+                        <TextView android:ellipsize="end" android:id="@id/voucher_limit_c" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/common_dp_3" android:maxLines="1" />
+                    </LinearLayout>
+                </RelativeLayout>
+                <include android:id="@id/line_c" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" layout="@layout/localstore_card_divider" />
+                <RelativeLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/voucher_container_d" android:background="@color/white" android:paddingRight="@dimen/common_dp_16" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x7f0701f3">
+                    <FrameLayout android:id="@id/left_class_container_d" android:background="#b23399ff" android:layout_width="UNKNOWN_DATA_0x7f0701d0" android:layout_height="match_parent">
+                        <TextView android:textSize="@c/text_size_class_1" android:textColor="@color/text_color_c104" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/tv_left_class_d" android:layout_width="wrap_content" android:layout_height="match_parent" android:maxEms="1" android:ems="1" android:lineSpacingExtra="0dp" android:lineSpacingMultiplier="0.85" />
+                    </FrameLayout>
+                    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/common_dp_12" android:layout_toRightOf="@id/left_class_container_d" android:layout_centerVertical="true">
+                        <TextView android:textSize="@dimen/text_size_class_4" android:textColor="@color/text_color_c101" android:ellipsize="end" android:id="@id/voucher_available_d" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" />
+                        <TextView android:ellipsize="end" android:id="@id/voucher_limit_d" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/common_dp_3" android:maxLines="1" />
+                    </LinearLayout>
+                </RelativeLayout>
+            </LinearLayout>
+        </ScrollView>
+        <include android:id="@id/line_c" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" android:layout_below="@id/scroll" layout="@layout/localstore_card_divider" />
+        <TextView android:textSize="@dimen/text_size_class_2" android:textColor="@color/text_color_c103" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/bottom_area" android:background="@color/white" android:paddingLeft="@dimen/common_dp_16" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0701f0" />
+    </LinearLayout>
+</FrameLayout>

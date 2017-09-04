@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ImageView android:id="@id/localstore_adv_divider" android:background="@drawable/feed_listview_divider" android:visibility="gone" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x801" android:contentDescription="0x0" />
+    <FrameLayout android:background="@drawable/concept_card_bg_selector" android:paddingTop="12dp" android:paddingBottom="12dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:orientation="vertical" android:id="@id/concept_img" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:scaleType="fitXY" android:contentDescription="0x0" />
+    </FrameLayout>
+</LinearLayout>

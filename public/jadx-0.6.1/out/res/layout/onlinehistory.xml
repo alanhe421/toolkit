@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/online_history" android:background="@a/common_backgraound_white" android:layout_width="match_parent" android:layout_height="match_parent"
+    <RelativeLayout android:id="@id/online_history_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+        <include layout="@g/common_titler" />
+    </RelativeLayout>
+    <ListView android:id="@id/online_history_list" android:visibility="gone" android:fadingEdge="UNKNOWN_DATA_0x0" android:fadingEdgeLength="0dp" android:layout_width="match_parent" android:layout_height="match_parent" android:listSelector="#00000000" android:scrollingCache="false" android:layout_below="@id/online_history_title" style="@style/list_view_divider" />
+    <com.qq.reader.view.EmptyView empty:id="@id/online_no_history_view" empty:visibility="gone" empty:layout_width="match_parent" empty:layout_height="match_parent" empty:layout_below="@id/online_history_title" empty:contentTitle="暂无历史" empty:contentText="@string/online_null_history" empty:mIcon="@drawable/empty06" empty:type="radial" />
+</RelativeLayout>

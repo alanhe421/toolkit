@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1e01">
+    <LinearLayout android:orientation="horizontal" android:background="@a/book_store_card_bg" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1e01">
+        <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:src="@drawable/stacktab_title_icon" android:scaleType="centerInside" />
+        <TextView android:textSize="@dimen/text_size_class_2" android:textColor="@color/text_color_c103" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:includeFontPadding="false" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <include android:id="@id/localstore_card_divider" layout="@layout/localstore_card_divider" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x5d01">
+        <RelativeLayout android:id="@id/game_banner_a_container" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1.0">
+            <ImageView android:id="@id/game_banner_a" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitXY" />
+        </RelativeLayout>
+        <View android:id="@id/game_banner_divider" android:background="@a/common_divider" android:layout_width="UNKNOWN_DATA_0x7f0701fd" android:layout_height="match_parent" />
+        <RelativeLayout android:id="@id/game_banner_b_container" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1.0">
+            <ImageView android:id="@id/game_banner_b" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitXY" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:id="@id/tv_comprehensive" android:paddingLeft="@dimen/search_tab_container_padding" android:paddingRight="@dimen/search_tab_container_padding" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3201" style="@style/search_tab_compre_item_style" />
+    <View android:background="@a/concept_divider_line" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f07002f" />
+</LinearLayout>

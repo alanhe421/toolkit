@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/font_style_layout" android:background="@a/screen_bg_color" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:id="@e/common_titler" layout="@g/common_titler" />
+    <ImageView android:id="@id/font_list_banner" android:clickable="true" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x5d01" android:src="@drawable/plugin_font_banner" android:scaleType="fitXY" android:layout_below="@e/common_titler" />
+    <GridView android:id="@id/font_grid_view" android:padding="16dp" android:scrollbars="UNKNOWN_DATA_0x0" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:listSelector="#00000000" android:horizontalSpacing="16dp" android:verticalSpacing="24dp" android:numColumns="UNKNOWN_DATA_0x2" android:layout_below="@id/font_list_banner" />
+</RelativeLayout>

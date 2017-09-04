@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x3001" layout="@g/common_titler" />
+    <RelativeLayout android:id="@id/content" android:background="#ffffff" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.qq.reader.liveshow.views.customviews.FixedWebView android:id="@e/webview" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent" />
+        <com.qq.reader.liveshow.views.customviews.ProgressBar android:id="@e/webprogress" android:visibility="gone" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x201" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" fcf:orientation="vertical" fcf:background="@a/common_backgraound_white" fcf:layout_width="match_parent" fcf:layout_height="match_parent">
+    <include fcf:id="@id/localstore_adv_divider" layout="@layout/localstore_card_divider" />
+    <LinearLayout fcf:orientation="vertical" fcf:layout_width="match_parent" fcf:layout_height="wrap_content" fcf:layout_marginTop="14dp">
+        <com.qq.reader.module.bookstore.qnative.card.impl.CardTitle fcf:id="@id/card_title" fcf:background="@a/translucent" fcf:paddingBottom="18dp" fcf:layout_width="match_parent" fcf:layout_height="wrap_content" style="@style/cardtitlestyle" />
+        <com.qq.reader.view.scrollcover.FancyCoverFlow fcf:id="@id/fancyCoverFlow" fcf:paddingLeft="16dp" fcf:paddingRight="16dp" fcf:layout_width="match_parent" fcf:layout_height="UNKNOWN_DATA_0x7f0700e9" fcf:unselectedAlpha="1.0" fcf:unselectedSaturation="0.0" fcf:unselectedScale="0.775" fcf:maxRotation="20" fcf:enableRotate="true" fcf:enableAutoScroll="true" fcf:scaleDownGravity="0.5" />
+        <LinearLayout fcf:orientation="vertical" fcf:id="@id/info_area" fcf:layout_width="match_parent" fcf:layout_height="wrap_content">
+            <TextView fcf:textSize="@dimen/text_size_class_4" fcf:textColor="@color/text_color_c101" fcf:ellipsize="end" fcf:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" fcf:id="@id/info1" fcf:paddingLeft="@dimen/common_left_right_margin" fcf:paddingRight="@dimen/common_left_right_margin" fcf:layout_width="wrap_content" fcf:layout_height="wrap_content" fcf:layout_marginTop="10.5dp" fcf:maxLines="1" />
+            <TextView fcf:textSize="@dimen/text_size_class_3" fcf:textColor="@color/text_color_c103" fcf:ellipsize="end" fcf:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" fcf:id="@id/info2" fcf:paddingLeft="@dimen/common_left_right_margin" fcf:paddingRight="@dimen/common_left_right_margin" fcf:layout_width="wrap_content" fcf:layout_height="wrap_content" fcf:layout_marginTop="4dp" fcf:maxLines="1" />
+        </LinearLayout>
+        <com.qq.reader.view.FlowIndicator fcf:id="@id/flowindicator" fcf:background="@a/textcolor_white" fcf:paddingBottom="12dp" fcf:layout_width="match_parent" fcf:layout_height="wrap_content" fcf:layout_marginTop="10dp" />
+        <View fcf:background="@a/bookclub_divider_backgroundcolor" fcf:layout_width="match_parent" fcf:layout_height="UNKNOWN_DATA_0x40000031" />
+        <Button fcf:id="@id/btn_more" fcf:background="@drawable/more_button_bg_selector" fcf:text="查看全部作品" style="@style/more_button_style_1" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@e/root" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.qrcomic.widget.reader.QRComicTouchImageView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@e/img_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:adjustViewBounds="true" />
+    <com.qrcomic.widget.reader.QRComicPagerLoading android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@e/loading_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <RelativeLayout android:id="@e/recommend_container" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ViewStub android:id="@e/recommend_layout" android:layout="@f/reader_recommend_layout_portrait_page" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</RelativeLayout>

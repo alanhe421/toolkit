@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:layout_width="match_parent" app:layout_height="match_parent"
+    <RelativeLayout app:orientation="horizontal" app:id="@id/bookstore_title" app:background="@drawable/title_bg" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f07016a"
+        <RelativeLayout app:id="@id/bookstore_logo_area" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginLeft="14dp" app:layout_alignParentLeft="true" app:layout_centerVertical="true">
+            <ImageView app:id="@id/bookstore_logo" app:background="@drawable/bookstore_title_logo" app:visibility="gone" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_alignParentLeft="true" app:layout_centerVertical="true" />
+            <TextView app:textSize="@c/text_size_class_6" app:textColor="@a/textcolor_black" app:id="@id/bookstore_logo_text" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="@string/bookstore_title_logo" app:layout_toRightOf="@id/bookstore_logo" app:layout_centerVertical="true" />
+            <TextView app:textSize="@dimen/text_size_class_3" app:textColor="@a/bookstore_title_setting_textcolor" app:id="@id/recommendSettingTV" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginLeft="14dp" app:text="@string/bookstore_title_set0" app:layout_toRightOf="@id/bookstore_logo_text" app:layout_centerVertical="true" />
+            <ImageView app:id="@id/recommendSettingTipIV" app:background="@drawable/bookstore_title_arrow" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginLeft="2dp" app:layout_toRightOf="@id/recommendSettingTV" app:layout_centerVertical="true" />
+        </RelativeLayout>
+        <ImageView app:id="@id/bookstore_search" app:background="@drawable/titler_btn_bg" app:layout_width="UNKNOWN_DATA_0x3801" app:layout_height="match_parent" app:layout_marginRight="56dp" app:src="@drawable/titlebar_icon_blue_search" app:scaleType="centerInside" app:layout_alignParentRight="true" app:layout_centerVertical="true" />
+        <FrameLayout app:layout_width="UNKNOWN_DATA_0x3801" app:layout_height="match_parent" app:layout_alignParentRight="true" app:layout_centerVertical="true">
+            <ImageView app:id="@id/bookstore_more" app:background="@drawable/titler_btn_bg" app:layout_width="UNKNOWN_DATA_0x3801" app:layout_height="match_parent" app:src="@drawable/bookstore_title_plus" app:scaleType="centerInside" />
+            <ImageView app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@id/bookstore_more_new" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="4dp" app:layout_marginRight="8dp" app:src="@drawable/bookshelf_news_newtip" />
+        </FrameLayout>
+    </RelativeLayout>
+    <com.qq.reader.common.widget.PagerSlidingTabStrip app:id="@id/bookstore_tabs" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f070168" app:layout_marginTop="@dimen/bookstore_titlerbar_height" app:layout_weight="1.0" app:pstsIndicatorColor="@a/skin_set_common_textcolor" app:pstsIndicatorHeight="2dp" app:pstsIndicatorBottomPadding="4dp" />
+    <TextView app:id="@id/bookstore_line" app:background="@a/bookstore_tab_line" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x100" app:layout_below="@id/bookstore_tabs" />
+    <com.qq.reader.module.bookstore.qweb.WebAdViewPager app:id="@id/bookstore_page" app:layout_width="match_parent" app:layout_height="match_parent" app:layout_below="@id/bookstore_line" />
+</RelativeLayout>

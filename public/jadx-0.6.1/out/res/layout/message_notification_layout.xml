@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/concept_card_bg_selector_nonormal" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ImageView android:id="@id/localstore_adv_divider" android:background="@a/concept_divider_line" android:visibility="visible" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x40000031" android:contentDescription="0x0" />
+    <FrameLayout android:id="@id/icon_layout" android:layout_width="UNKNOWN_DATA_0x1c01" android:layout_height="UNKNOWN_DATA_0x1c01" android:layout_marginLeft="16dp" android:layout_marginTop="14dp" android:layout_below="@id/localstore_adv_divider" android:layout_alignParentLeft="true">
+        <ImageView android:id="@a/icon" android:layout_width="match_parent" android:layout_height="match_parent" android:src="#123466" />
+        <ImageView android:id="@id/icon_mask" android:background="@drawable/bookclub_avatar_small_bg_selector" android:layout_width="match_parent" android:layout_height="match_parent" />
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:id="@a/line1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6dp" android:layout_marginTop="14dp" android:layout_toRightOf="@id/icon_layout" android:layout_below="@id/localstore_adv_divider">
+        <TextView android:textSize="@dimen/text_size_class_2" android:textColor="@color/text_color_c101" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@a/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="活动通知" android:includeFontPadding="false" />
+        <TextView android:textSize="@c/text_size_class_1" android:textColor="@color/text_color_c103" android:id="@a/time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:text="1分钟前" android:includeFontPadding="false" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/text_size_class_3" android:textColor="@color/text_color_c102" android:id="@id/content" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:layout_marginRight="16dp" android:layout_marginBottom="10dp" android:text="asdfasdfasdfadsf
+asdfasdfasdf" android:includeFontPadding="false" android:layout_below="@a/line1" android:layout_alignLeft="@a/line1" android:lineSpacingExtra="4dp" />
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/content" android:layout_alignLeft="@a/line1">
+        <ImageView android:id="@a/image" android:background="#765763" android:visibility="visible" android:layout_width="UNKNOWN_DATA_0x12201" android:layout_height="UNKNOWN_DATA_0x4c01" android:layout_marginRight="16dp" android:layout_marginBottom="14dp" android:scaleType="fitXY" />
+    </FrameLayout>
+</RelativeLayout>

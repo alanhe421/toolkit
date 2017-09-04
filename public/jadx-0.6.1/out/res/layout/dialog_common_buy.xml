@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:background="#f8f8f8" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="15dp" android:layout_marginTop="70dp" android:layout_marginRight="15dp" android:layout_marginBottom="70dp"
+    <RelativeLayout android:id="@id/dialog_common_buy_title_p" android:background="#eaeaea" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2c01">
+        <TextView android:textSize="16sp" android:textColor="#00b386" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/dialog_common_buy_title" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2c01" android:text="订单详情" android:singleLine="true" />
+        <Button android:id="@id/dialog_common_buy_close" android:background="@drawable/dialog_buy_comment_close_btn" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <View android:id="@e/line" android:background="#1cba92" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x101" android:layout_below="@id/dialog_common_buy_title_p" />
+    <FrameLayout android:background="#ffffff" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@e/line">
+        <com.qq.reader.view.FixedWebView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/dialog_common_buy_webview" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <RelativeLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/dialog_common_buy_load" android:layout_width="match_parent" android:layout_height="match_parent">
+            <ProgressBar android:id="@id/dialog_common_buy_loadprogress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="28dp" android:maxHeight="28dp" android:indeterminateOnly="true" android:indeterminateDrawable="@drawable/progress_big_indeterminate" android:indeterminateDuration="1000" android:minWidth="28dp" android:minHeight="28dp" android:layout_centerHorizontal="true" />
+            <TextView android:textColor="#564d45" android:id="@id/dialog_common_buy_progressHint" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="正在加载页面..." android:layout_below="@id/dialog_common_buy_loadprogress" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </FrameLayout>
+</RelativeLayout>

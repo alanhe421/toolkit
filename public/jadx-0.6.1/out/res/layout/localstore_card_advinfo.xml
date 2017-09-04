@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ImageView android:id="@id/advinfo_cover" android:layout_marginRight="12dp" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/bigavatar_style" />
+    <TextView android:id="@id/advinfo_title" android:layout_toRightOf="@id/advinfo_cover" android:layout_alignTop="@id/advinfo_cover" style="@style/bookname_style" />
+    <TextView android:ellipsize="end" android:id="@id/advinfo_introduction" android:layout_marginTop="12dp" android:maxLines="3" android:layout_toRightOf="@id/advinfo_cover" android:layout_below="@id/advinfo_title" android:lineSpacingExtra="@dimen/localstore_lineSpacingExtra_4" style="@style/text_13_gray_style" />
+</merge>

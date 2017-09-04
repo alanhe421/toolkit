@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+		<dataPage>
+			<cmd>update</cmd>
+			<data>
+				<userId>${user_id}</userId> 
+				<pageId>${view}</pageId> 
+				<update_type>${version.type}</update_type>
+				<update_version>${version.version}</update_version>
+				<update_intro>${version.intro}</update_intro>
+				<update_url>${downloadUrl}</update_url>
+			</data>	
+			<page/>
+		</dataPage>

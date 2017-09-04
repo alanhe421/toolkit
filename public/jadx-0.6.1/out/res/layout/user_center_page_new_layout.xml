@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent"
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x12001">
+        <ImageView android:id="@id/out_frame" android:background="@drawable/user_center_default_bg" android:layout_width="match_parent" android:layout_height="match_parent" />
+        <ImageView android:id="@id/out_frame_mask" android:background="#4c666666" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.qq.reader.widget.titler.StateChangeTitler android:id="@id/titler" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <com.qq.reader.common.widget.SwipeRefreshLayout android:id="@id/detail_pull_down_list" android:layout_width="match_parent" android:layout_height="match_parent">
+            <ListView android:id="@id/user_center_list" android:scrollbars="UNKNOWN_DATA_0x0" android:fadingEdge="UNKNOWN_DATA_0x0" android:layout_width="match_parent" android:layout_height="match_parent" android:listSelector="@a/translucent" android:cacheColorHint="#00000000" android:divider="@a/localstore_linecolor_divider" android:dividerHeight="0px" android:overScrollMode="never" />
+        </com.qq.reader.common.widget.SwipeRefreshLayout>
+    </LinearLayout>
+    <include android:id="@e/loading_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="71dp" android:layout_below="@e/common_titler" android:layout_centerHorizontal="true" layout="@layout/localstore_user_center_loading" />
+    <include android:id="@id/loading_failed_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="71dp" android:layout_below="@e/common_titler" layout="@layout/localstore_loading_failed" />
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textColor="0x106000b" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/cputxt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:layout_marginBottom="5dp" android:text="CPU使用率:" android:layout_alignParentTop="true" />
+    <com.qq.reader.common.monitor.debug.WaveView android:id="@id/waveview" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x4601" android:layout_below="@id/cputxt" />
+    <TextView android:textColor="0x106000b" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/memtxt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:layout_marginBottom="5dp" android:text="内存使用率:" android:layout_below="@id/waveview" />
+    <FrameLayout android:id="@id/circleprogressview_layout" android:layout_width="UNKNOWN_DATA_0x7b01" android:layout_height="UNKNOWN_DATA_0x7b01" android:layout_below="@id/memtxt" android:layout_alignParentLeft="true">
+        <com.qq.reader.common.monitor.debug.CircleProgressView android:id="@id/circleprogressview" android:layout_width="UNKNOWN_DATA_0x7b01" android:layout_height="UNKNOWN_DATA_0x7b01" />
+        <TextView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/circleprogressview_txt" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <TextView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/memtxt1" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="绿色为未使用内存，灰色为已使用内存" android:layout_below="@id/circleprogressview_layout" />
+</RelativeLayout>

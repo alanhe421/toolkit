@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@a/concept_card_bg" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <View android:background="@a/dind_page_zone_divider_color" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x801" />
+    <include android:id="@id/detail_common_title" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/detail_common_title_layout" />
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_publish_sec" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginRight="16dp">
+        <TextView android:textSize="@dimen/text_size_class_3" android:textColor="@color/text_color_c103" android:id="@id/tv_translator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="6dp" />
+        <TextView android:textSize="@dimen/text_size_class_3" android:textColor="@color/text_color_c103" android:id="@id/tv_publish_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="6dp" />
+        <TextView android:textSize="@dimen/text_size_class_3" android:textColor="@color/text_color_c103" android:id="@id/tv_publish_press" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="6dp" />
+        <TextView android:textSize="@dimen/text_size_class_3" android:textColor="@color/text_color_c103" android:id="@id/tv_paperbook_price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="6dp" />
+        <TextView android:textSize="@dimen/text_size_class_3" android:textColor="@color/text_color_c103" android:id="@id/tv_copyright_publish" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="6dp" />
+        <TextView android:textSize="@dimen/text_size_class_3" android:textColor="@color/text_color_c103" android:id="@id/textView5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="14dp" android:text="@string/rights_info" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_origin_sec" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginRight="16dp">
+        <TextView android:textSize="@dimen/text_size_class_3" android:textColor="@color/text_color_c103" android:id="@id/tv_origin_copyright" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="6dp" />
+        <TextView android:textSize="@dimen/text_size_class_3" android:textColor="@color/text_color_c103" android:id="@id/tv_copyright_origin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="6dp" />
+        <TextView android:textSize="@dimen/text_size_class_3" android:textColor="@color/text_color_c103" android:id="@id/textView3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="14dp" android:text="@string/rights_info" />
+        <RelativeLayout android:visibility="gone" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3201">
+            <ImageView android:id="@id/img_press_logo" android:background="0x1080033" android:layout_width="UNKNOWN_DATA_0x1801" android:layout_height="UNKNOWN_DATA_0x1801" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+            <TextView android:textSize="@dimen/text_size_class_3" android:textColor="@color/text_color_c103" android:id="@id/tv_press_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6dp" android:text="起点读书" android:layout_toRightOf="@id/img_press_logo" android:layout_centerVertical="true" />
+            <ImageView android:id="@id/img_arrow" android:background="@drawable/list_item_enter_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            <TextView android:textSize="@dimen/text_size_class_3" android:textColor="@color/text_color_c103" android:id="@id/textView4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="6dp" android:text="连载热门，等等扥等" android:layout_toLeftOf="@id/img_arrow" android:layout_centerVertical="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <View android:id="@id/copy_bottom_line" android:background="@a/bookclub_divider_linecolor" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" />
+</LinearLayout>

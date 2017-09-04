@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="@dimen/localstore_textsize_16" android:textColor="@a/textcolor_black" android:id="@id/book_name" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="22dp" android:layout_marginBottom="20dp" android:text="@string/buy_book_name" />
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="8dp">
+        <TextView android:textSize="@dimen/localstore_textsize_13" android:textColor="@a/textcolor_black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/buy_book_price" />
+        <TextView android:textSize="@dimen/localstore_textsize_18" android:textColor="@a/buy_book_dialog_price_textcolor" android:id="@id/tv_rent_price" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="@dimen/localstore_textsize_13" android:textColor="@a/buy_book_dialog_price_textcolor" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="书币，在线免费读" />
+        <TextView android:textSize="@dimen/localstore_textsize_18" android:textColor="@a/buy_book_dialog_price_textcolor" android:id="@id/tv_rent_day" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="3" />
+        <TextView android:textSize="@dimen/localstore_textsize_13" android:textColor="@a/buy_book_dialog_price_textcolor" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/book_discount_msg" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="天" />
+    </LinearLayout>
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="12dp">
+        <TextView android:textSize="@dimen/localstore_textsize_13" android:textColor="@a/textcolor_black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="余额：" />
+        <TextView android:textSize="@dimen/localstore_textsize_13" android:textColor="@a/textcolor_black" android:id="@id/tv_user_balance" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ProgressBar android:id="@id/pb_user_balance" android:layout_width="UNKNOWN_DATA_0x1001" android:layout_height="UNKNOWN_DATA_0x1001" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:maxWidth="16dp" android:maxHeight="16dp" android:indeterminateOnly="true" android:indeterminateDrawable="@d/progress_40_blue_anim" android:indeterminateDuration="1000" android:minWidth="16dp" android:minHeight="16dp" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="UNKNOWN_DATA_0x14001" android:layout_height="UNKNOWN_DATA_0x9601">
+    <TextView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/comm_progress_dialog_title" android:background="@drawable/dialog_top" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1401" />
+    <RelativeLayout android:background="@drawable/dialog_mid" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7801" android:layout_below="@id/comm_progress_dialog_title">
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:layout_centerHorizontal="true">
+            <ProgressBar android:id="@id/custom_progress_dialog_progressbar" android:layout_width="UNKNOWN_DATA_0x1c01" android:layout_height="UNKNOWN_DATA_0x1c01" android:maxWidth="28dp" android:maxHeight="28dp" android:indeterminateOnly="true" android:indeterminateDrawable="@d/progress_40_blue_anim" android:indeterminateDuration="1000" android:minWidth="28dp" android:minHeight="28dp" />
+            <TextView android:textSize="@dimen/text_size_class_4" android:textColor="#ff555555" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/custom_progress_dialog_loading_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="18dp" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

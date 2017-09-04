@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/root_comment" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:background="@a/common_backgraound_white" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="35dp">
+        <TextView android:textSize="@dimen/text_size_class_3" android:textColor="@color/text_color_c401" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/extra_info" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="45dp" android:includeFontPadding="false" android:layout_below="@id/title_divide_line" />
+        <EditText android:textSize="@dimen/text_size_class_3" android:textColorHint="@color/text_color_c801" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/vote_comment" android:background="@drawable/shap_edit_text" android:paddingLeft="12dp" android:paddingTop="11dp" android:paddingRight="12dp" android:paddingBottom="11dp" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x4c01" android:layout_marginLeft="16dp" android:layout_marginTop="14dp" android:layout_marginRight="16dp" android:layout_marginBottom="16dp" android:hint="这本书太棒了！鼓励一下，希望后续更加精彩！" android:includeFontPadding="false" android:layout_above="@id/btn_divide_line" android:layout_below="@id/extra_info" />
+        <ImageView android:background="@a/common_divider" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f07002f" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/btn_layout" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3201" android:layout_alignParentBottom="true">
+            <TextView android:id="@id/btn_commit" android:text="发表" android:layout_weight="1.0" style="@style/button_b16_blue" />
+            <TextView android:id="@e/btn_cancel" android:text="取消" android:layout_weight="1.0" style="@style/button_b16_white" />
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/img_avatar" android:layout_width="UNKNOWN_DATA_0x7f0703b7" android:layout_height="UNKNOWN_DATA_0x7f0703b6" android:scaleType="fitXY" android:layout_centerHorizontal="true" />
+        <LinearLayout android:orientation="vertical" android:id="@id/ll_fans_add_number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-4dp" android:layout_toRightOf="@id/img_avatar">
+            <TextView android:textSize="@c/text_size_class_5" android:textColor="@color/text_color_c401" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/tv_fan_add_number" android:padding="0dp" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="+1000" android:includeFontPadding="false" android:lineSpacingExtra="0dp" />
+            <TextView android:textSize="@dimen/text_size_class_2" android:textColor="@color/text_color_c104" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:padding="0dp" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3dp" android:layout_marginTop="-2dp" android:text="粉丝值" android:includeFontPadding="false" android:lineSpacingExtra="0dp" />
+        </LinearLayout>
+        <ImageView android:id="@id/img_fans_level" android:layout_width="UNKNOWN_DATA_0x1e01" android:layout_height="UNKNOWN_DATA_0xf01" android:layout_marginTop="54dp" android:scaleType="fitXY" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</RelativeLayout>

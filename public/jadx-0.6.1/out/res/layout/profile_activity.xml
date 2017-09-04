@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="#f2f2f2" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:background="@drawable/title_bg" android:visibility="gone" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3001">
+        <Button android:textSize="15sp" android:textColor="@a/textcolor_gray" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/settingbtn" android:background="@drawable/setting_goback_btn" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x3c01" android:layout_height="UNKNOWN_DATA_0x2801" android:layout_marginRight="15dp" android:text="@string/setting_titile" android:layout_alignParentRight="true" android:layout_centerInParent="true" />
+        <TextView android:textSize="@c/text_size_class_6" android:textColor="@a/textcolor_black" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14dp" android:text="@h/profile_title" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <com.qq.reader.common.widget.SwipeRefreshLayout android:id="@id/profile_refreshlayout" android:layout_width="match_parent" android:layout_height="match_parent" />
+</LinearLayout>

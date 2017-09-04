@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x3901">
+    <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:id="@e/content_layout" android:background="@d/live_audience_gift_bg" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x2901" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true">
+        <ImageView android:id="@e/avatar_icon" android:layout_width="UNKNOWN_DATA_0x2001" android:layout_height="UNKNOWN_DATA_0x2001" android:layout_marginLeft="4dp" android:src="@d/default_avatar" />
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6dp">
+            <TextView android:textSize="@dimen/text_size_class_2" android:textColor="@color/text_color_c102" android:ellipsize="end" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@e/user_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="86dp" android:singleLine="true" />
+            <TextView android:textSize="@dimen/text_size_class_3" android:textColor="@color/text_color_c401" android:ellipsize="end" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@e/content_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1dp" android:maxWidth="86dp" android:singleLine="true" />
+        </LinearLayout>
+        <View android:id="@e/content_stub" android:layout_width="UNKNOWN_DATA_0x3901" android:layout_height="match_parent" android:layout_marginLeft="4dp" android:layout_marginRight="2dp" android:layout_toRightOf="@e/text_stub" />
+    </LinearLayout>
+    <FrameLayout android:id="@e/num_layout" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x2901" android:layout_marginLeft="8dp" android:layout_toRightOf="@e/content_layout" android:layout_alignParentBottom="true">
+        <com.qq.reader.liveshow.views.customviews.MultiClickNumberWidget android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@e/num_widget" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <ImageView android:id="@e/gift_img" android:layout_width="UNKNOWN_DATA_0x3901" android:layout_height="UNKNOWN_DATA_0x3901" android:layout_marginLeft="4dp" android:layout_marginRight="2dp" android:layout_toLeftOf="@e/num_layout" />
+</RelativeLayout>

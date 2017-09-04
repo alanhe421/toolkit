@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@drawable/concept_card_bg_selector" android:paddingBottom="12dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ImageView android:id="@id/localstore_adv_divider" android:background="@drawable/feed_listview_divider" android:visibility="gone" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x801" android:contentDescription="0x0" />
+    <ImageView android:id="@id/author_icon" android:background="@drawable/feed_avatar_mask_selector" android:padding="1dp" android:layout_width="UNKNOWN_DATA_0x3201" android:layout_height="UNKNOWN_DATA_0x3201" android:layout_marginLeft="16dp" android:layout_marginTop="12dp" android:layout_below="@id/topline" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="16dp" android:layout_marginTop="15dp" android:layout_marginRight="16dp" android:layout_toRightOf="@id/author_icon" android:layout_below="@id/topline"
+        <LinearLayout android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/text_size_class_4" android:textColor="@a/search_tool_item_textcolor" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@a/title" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <ImageView android:id="@id/tag" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="1dp" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/text_size_class_3" android:textColor="@color/text_color_c103" android:ellipsize="end" android:id="@id/intro" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:singleLine="true" />
+    </LinearLayout>
+</RelativeLayout>

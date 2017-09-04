@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <View android:background="@a/common_divider" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" />
+    <RelativeLayout android:orientation="horizontal" android:background="@drawable/concept_card_bg_selector_nonormal" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x4e01">
+        <ImageView android:id="@id/community_chosen_sub_item_pic" android:background="#e5e5e5" android:padding="1px" android:layout_width="UNKNOWN_DATA_0x3c01" android:layout_height="UNKNOWN_DATA_0x3201" android:layout_marginLeft="12dp" android:layout_marginRight="16dp" android:scaleType="fitXY" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="@dimen/text_size_class_3" android:textColor="@color/text_color_c102" android:ellipsize="end" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/community_chosen_sub_item_description" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:maxLines="2" android:layout_toLeftOf="@id/community_chosen_sub_item_pic" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</FrameLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@id/feed_column_personality_noopen_layout" android:background="@drawable/concept_card_3bg_selector" android:paddingLeft="16dp" android:paddingTop="12dp" android:paddingRight="16dp" android:paddingBottom="14dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/text_size_class_4" android:textColor="@color/text_color_c101" android:id="@id/column_noopen_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="开启专属推荐" android:maxLines="1" android:includeFontPadding="false" android:layout_centerVertical="true" />
+            <TextView android:textSize="@c/text_size_class_1" android:textColor="@color/text_color_c104" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/column_noopen_date" android:background="@drawable/feed_column_personality_books_date_background" android:paddingLeft="5dp" android:layout_width="UNKNOWN_DATA_0x2801" android:layout_height="UNKNOWN_DATA_0x1001" android:layout_marginLeft="5dp" android:layout_toRightOf="@id/column_noopen_name" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <TextView android:textSize="@dimen/text_size_class_2" android:textColor="@color/text_color_c103" android:id="@id/column_noopen_des" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:text="个性化推荐喜好全搜罗" android:maxLines="1" android:includeFontPadding="false" />
+        <ImageView android:id="@id/column_noopen_pic" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3601" android:layout_marginTop="10.5dp" android:scaleType="fitXY" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/feed_column_personality_open_layout" android:background="@drawable/concept_card_3bg_selector" android:paddingLeft="16dp" android:paddingTop="12dp" android:paddingRight="16dp" android:paddingBottom="14dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/text_size_class_4" android:textColor="@color/text_color_c101" android:id="@id/column_open_name" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false" />
+        <TextView android:textSize="@dimen/text_size_class_2" android:textColor="@color/text_color_c103" android:id="@id/column_open_des" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:maxLines="1" android:includeFontPadding="false" />
+        <RelativeLayout android:background="@drawable/feed_column_personality_books_login_background" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3601" android:layout_marginTop="10.5dp">
+            <ImageView android:layout_width="UNKNOWN_DATA_0x2801" android:layout_height="UNKNOWN_DATA_0x2601" android:layout_marginLeft="12dp" android:src="@drawable/feed_column_personality_books_calendar" android:scaleType="fitXY" android:layout_centerVertical="true" />
+            <RelativeLayout android:paddingTop="6dp" android:paddingBottom="2dp" android:layout_width="UNKNOWN_DATA_0x2801" android:layout_height="UNKNOWN_DATA_0x2601" android:layout_marginLeft="12dp" android:layout_centerVertical="true">
+                <TextView android:textSize="@c/text_size_class_1" android:textColor="@color/text_color_c401" android:id="@id/column_open_month" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:layout_centerHorizontal="true" />
+                <TextView android:textSize="@dimen/text_size_class_4" android:textColor="@color/text_color_c401" android:id="@id/column_open_day" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-2dp" android:includeFontPadding="false" android:layout_below="@id/column_open_month" android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="UNKNOWN_DATA_0x7f070037" android:layout_height="match_parent" android:layout_alignParentRight="true">
+                <ImageView android:id="@id/column_open_cover_left" android:layout_width="UNKNOWN_DATA_0x14400021" android:layout_height="match_parent" android:scaleType="fitXY" />
+                <ImageView android:id="@id/column_open_cover_center" android:layout_width="UNKNOWN_DATA_0x14400021" android:layout_height="match_parent" android:layout_marginLeft="@i/J" android:scaleType="fitXY" android:layout_alignParentLeft="true" />
+                <ImageView android:id="@id/column_open_cover_right" android:layout_width="UNKNOWN_DATA_0x14400021" android:layout_height="match_parent" android:scaleType="fitXY" android:layout_alignParentRight="true" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

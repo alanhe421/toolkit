@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:background="#f2f2f2" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1e01">
+        <TextView android:textSize="@dimen/text_size_class_2" android:textColor="@color/text_color_c103" android:id="@id/tv_checked_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/ll_time" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_alignParentRight="true" android:layout_centerVertical="true"
+            <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:background="@drawable/limit_time_count_down_bg" android:layout_width="UNKNOWN_DATA_0x7f070211" android:layout_height="UNKNOWN_DATA_0x7f070210">
+                <TextView android:textSize="@c/text_size_class_1" android:textColor="@color/text_color_c104" android:id="@id/tv_hour" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <TextView android:textSize="@c/text_size_class_1" android:textColor="@color/text_color_c101" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:layout_marginRight="4dp" android:text=":" />
+            <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:background="@drawable/limit_time_count_down_bg" android:layout_width="UNKNOWN_DATA_0x7f070211" android:layout_height="UNKNOWN_DATA_0x7f070210">
+                <TextView android:textSize="@c/text_size_class_1" android:textColor="@color/text_color_c104" android:id="@id/tv_minute" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <TextView android:textSize="@c/text_size_class_1" android:textColor="@color/text_color_c101" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:layout_marginRight="4dp" android:text=":" />
+            <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:background="@drawable/limit_time_count_down_bg" android:layout_width="UNKNOWN_DATA_0x7f070211" android:layout_height="UNKNOWN_DATA_0x7f070210">
+                <TextView android:textSize="@c/text_size_class_1" android:textColor="@color/text_color_c104" android:id="@id/tv_second" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+        <TextView android:textSize="@dimen/text_size_class_2" android:textColor="@color/text_color_c103" android:id="@id/tv_count_down_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="6dp" android:layout_toLeftOf="@id/ll_time" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@a/bookclub_cube_backgroundcolor" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="18dp">
+    <RelativeLayout android:background="@drawable/bookclub_slidbg" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="12dp" android:layout_marginRight="12dp">
+        <android.support.v4.view.ViewPager android:id="@id/commentveiwpage" android:background="0x106000b" android:fadingEdge="UNKNOWN_DATA_0x0" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x6c01" android:layout_margin="1px" />
+        <com.qq.reader.view.FlowIndicator android:id="@id/flowindicator" android:background="@a/textcolor_white" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <View android:background="@a/bookclub_divider_color" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" android:layout_marginLeft="12dp" android:layout_marginRight="12dp" />
+    <View android:id="@id/bottom_divider" android:background="@a/bookclub_cube_backgroundcolor" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1201" />
+</LinearLayout>

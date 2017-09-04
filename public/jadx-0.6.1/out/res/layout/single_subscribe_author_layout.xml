@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:background="@drawable/common_card_background" android:layout_width="match_parent" android:layout_height="match_parent"
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <RelativeLayout android:layout_width="UNKNOWN_DATA_0x2a01" android:layout_height="UNKNOWN_DATA_0x2a01" android:layout_marginLeft="16dp" android:layout_marginTop="14dp" android:layout_marginRight="12dp" android:layout_marginBottom="14dp">
+                <com.qq.reader.widget.UserCircleImageView android:id="@id/img_icon" android:layout_width="UNKNOWN_DATA_0x2a01" android:layout_height="UNKNOWN_DATA_0x2a01" />
+                <ImageView android:id="@id/img_level" android:layout_width="UNKNOWN_DATA_0x1a01" android:layout_height="UNKNOWN_DATA_0xe01" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/text_size_class_4" android:textColor="@color/text_color_c101" android:ellipsize="end" android:id="@id/tv_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" />
+            <TextView android:textSize="@dimen/text_size_class_3" android:textColor="@color/text_color_c103" android:ellipsize="end" android:id="@id/tv_content" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" />
+        </LinearLayout>
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginRight="16dp" android:src="@drawable/list_item_enter_icon" />
+    </LinearLayout>
+    <View style="@style/line_divider_horizontal_style" />
+</LinearLayout>

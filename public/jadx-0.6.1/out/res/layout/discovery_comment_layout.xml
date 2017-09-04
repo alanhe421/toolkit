@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/discovery_comment_layout_root" android:background="@a/screen_bg_color" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:id="@e/common_titler" layout="@g/common_titler" />
+    <ListView android:id="@id/discovery_comment_layout_list" android:focusableInTouchMode="true" android:fadingEdge="UNKNOWN_DATA_0x0" android:fadingEdgeLength="0dp" android:layout_width="match_parent" android:layout_height="match_parent" android:listSelector="#00000000" android:scrollingCache="false" android:layout_below="@e/common_titler" android:fastScrollEnabled="false" android:headerDividersEnabled="false" android:footerDividersEnabled="true" style="@style/list_view_divider" />
+    <include android:id="@id/discovery_comment_layout_list_no_book_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="150dp" android:layout_marginBottom="50dp" android:layout_below="@e/common_titler" layout="@layout/bookshelf_list_footer" />
+</RelativeLayout>

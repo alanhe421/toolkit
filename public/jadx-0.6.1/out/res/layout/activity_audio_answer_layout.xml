@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:layout_width="match_parent" app:layout_height="match_parent">
+    <include app:id="@e/common_titler" layout="@g/common_titler" />
+    <com.qq.reader.module.question.card.view.AudioControllerPanel app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="vertical" app:id="@id/audio_controller" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x12c01" app:layout_alignParentBottom="true" />
+</RelativeLayout>

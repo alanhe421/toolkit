@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/translucent" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:id="@id/content_view" android:background="@drawable/personality_pop_down_bg" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginRight="8dp">
+        <RelativeLayout android:orientation="horizontal" android:id="@id/top_area" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/text_size_class_3" android:textColor="@color/text_color_c103" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/tip_text" android:paddingLeft="@dimen/common_left_right_margin" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x7f0702bf" android:text="选择理由，精确屏蔽" />
+            <Button android:textSize="@dimen/text_size_class_3" android:textColor="@color/text_color_c104" android:id="@id/no_interesting" android:background="@drawable/skin_btn_download_bg" android:layout_width="UNKNOWN_DATA_0x5a01" android:layout_height="UNKNOWN_DATA_0x7f0702bf" android:layout_marginRight="@dimen/common_left_right_margin" android:text="不感兴趣" android:layout_alignParentRight="true" style="@style/button_b5" />
+        </RelativeLayout>
+        <GridView android:id="@id/grid_view" android:paddingBottom="9dp" android:scrollbars="UNKNOWN_DATA_0x0" android:fadingEdge="UNKNOWN_DATA_0x0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginTop="9dp" android:layout_marginRight="8dp" android:cacheColorHint="0x0" android:horizontalSpacing="@dimen/common_left_right_margin" android:verticalSpacing="@dimen/common_dp_14" android:numColumns="UNKNOWN_DATA_0x2" />
+    </LinearLayout>
+</RelativeLayout>

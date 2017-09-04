@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.qq.reader.module.bookstore.qnative.card.impl.BookInfo4Detail android:id="@id/colcard3_bookinfo" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" />
+    <HorizontalScrollView android:id="@id/entry_view" android:background="@a/concept_card_bg" android:visibility="visible" android:scrollbars="UNKNOWN_DATA_0x0" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f070034" android:overScrollMode="never">
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="match_parent">
+            <com.qq.reader.module.bookstore.qnative.card.impl.EntryItemView android:id="@id/entry_item0" android:layout_width="wrap_content" android:layout_height="match_parent" />
+            <com.qq.reader.module.bookstore.qnative.card.impl.EntryItemView android:id="@id/entry_item1" android:layout_width="wrap_content" android:layout_height="match_parent" />
+            <com.qq.reader.module.bookstore.qnative.card.impl.EntryItemView android:id="@id/entry_item2" android:layout_width="wrap_content" android:layout_height="match_parent" />
+            <com.qq.reader.module.bookstore.qnative.card.impl.EntryItemView android:id="@id/entry_item3" android:layout_width="wrap_content" android:layout_height="match_parent" />
+            <com.qq.reader.module.bookstore.qnative.card.impl.EntryItemView android:id="@id/entry_item4" android:layout_width="wrap_content" android:layout_height="match_parent" />
+            <com.qq.reader.module.bookstore.qnative.card.impl.EntryItemView android:id="@id/entry_item5" android:layout_width="wrap_content" android:layout_height="match_parent" />
+        </LinearLayout>
+    </HorizontalScrollView>
+    <LinearLayout android:orientation="horizontal" android:id="@id/entry_view_fixed" android:background="@a/concept_card_bg" android:visibility="gone" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3c01">
+        <com.qq.reader.module.bookstore.qnative.card.impl.EntryItemView android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_weight="1.0" />
+        <com.qq.reader.module.bookstore.qnative.card.impl.EntryItemView android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_weight="1.0" />
+        <com.qq.reader.module.bookstore.qnative.card.impl.EntryItemView android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_weight="1.0" />
+        <com.qq.reader.module.bookstore.qnative.card.impl.EntryItemView android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/detail_statisticsinfo_layout" android:paddingTop="13.5dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/text_size_class_3" android:textColor="@color/text_color_c101" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/detail_statisticsinfo_item1_number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" />
+            <TextView android:textSize="@c/text_size_class_1" android:textColor="@color/text_color_c103" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/detail_statisticsinfo_item1_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1dp" />
+        </LinearLayout>
+        <View android:background="@a/common_divider" android:paddingTop="5.5dp" android:layout_width="UNKNOWN_DATA_0x40000031" android:layout_height="UNKNOWN_DATA_0x1901" />
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/text_size_class_3" android:textColor="@color/text_color_c101" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/detail_statisticsinfo_item2_number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" />
+            <TextView android:textSize="@c/text_size_class_1" android:textColor="@color/text_color_c103" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/detail_statisticsinfo_item2_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1dp" />
+        </LinearLayout>
+        <View android:background="@a/common_divider" android:paddingTop="5.5dp" android:layout_width="UNKNOWN_DATA_0x40000031" android:layout_height="UNKNOWN_DATA_0x1901" />
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/text_size_class_3" android:textColor="@color/text_color_c101" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/detail_statisticsinfo_item3_number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" />
+            <TextView android:textSize="@c/text_size_class_1" android:textColor="@color/text_color_c103" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/detail_statisticsinfo_item3_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1dp" />
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView android:background="@a/common_divider" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x40000031" android:layout_marginLeft="16dp" android:layout_marginTop="12dp" android:layout_marginRight="16dp" />
+    <LinearLayout android:orientation="vertical" android:background="@a/concept_card_bg" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@id/rl_book_intro" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10.5dp" android:layout_marginBottom="@i/ae">
+            <com.qq.reader.view.JustifyTextView android:textSize="@dimen/text_size_class_3" android:textColor="@color/text_color_c102" android:id="@id/colcard3_bookinfo_intro" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginRight="16dp" android:lineSpacingExtra="6dp" />
+            <ImageView android:id="@id/colcard3_bookinfo_intro_arrow_down" android:background="@drawable/editor_comment_unfold" android:visibility="invisible" android:layout_width="UNKNOWN_DATA_0xa01" android:layout_height="UNKNOWN_DATA_0x501" android:layout_marginRight="10dp" android:layout_marginBottom="7dp" android:layout_alignRight="@id/colcard3_bookinfo_intro" android:layout_alignBottom="@id/colcard3_bookinfo_intro" android:contentDescription="0x0" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/ll_editor_comment" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginRight="16dp">
+            <TextView android:textSize="@dimen/text_size_class_2" android:textColor="@a/text_color_c201" android:id="@id/tv_editor_comment" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@i/ac" android:layout_weight="1.0" android:lineSpacingExtra="6dp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:id="@id/localstore_adv_divider" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" layout="@layout/localstore_card_divider" />
+    <com.qq.reader.module.game.card.view.GameHorizontalView android:id="@id/gameItem" android:background="@drawable/common_card_background_translate_normal" android:layout_width="match_parent" android:layout_height="wrap_content" />
+</LinearLayout>

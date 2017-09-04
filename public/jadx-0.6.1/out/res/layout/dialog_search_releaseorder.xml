@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textSize="@c/text_size_class_5" android:textColor="@color/text_color_c101" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/message_dialog_title" android:background="@a/common_backgraound_white" android:paddingLeft="16dp" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3201" android:text="书籍上架提醒" />
+    <ImageView android:id="@id/message_dialog_title_divider" android:background="@a/common_divider" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" android:contentDescription="0x0" />
+    <FrameLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/body" android:background="@a/common_backgraound_white" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="100dp">
+        <RelativeLayout android:paddingTop="16dp" android:paddingBottom="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:id="@id/input_bookname" android:background="@drawable/login_out_rect" android:padding="1dp" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2801" android:layout_marginLeft="21dp" android:layout_marginTop="4dp" android:layout_marginRight="21dp">
+                <FrameLayout android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:background="#fafafa" android:layout_width="UNKNOWN_DATA_0x2801" android:layout_height="UNKNOWN_DATA_0x2801">
+                    <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:background="@drawable/search_input_bookname" android:layout_width="UNKNOWN_DATA_0x1401" android:layout_height="UNKNOWN_DATA_0x1401" />
+                </FrameLayout>
+                <EditText android:textSize="@dimen/text_size_class_4" android:textColor="@color/text_color_c101" android:textColorHint="@color/text_color_c801" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/input_bookname_edittext" android:background="0x0" android:paddingLeft="8dp" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2a01" android:hint="请输入书名" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/input_authorname" android:background="@drawable/login_out_rect" android:padding="1dp" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2801" android:layout_marginLeft="21dp" android:layout_marginTop="16dp" android:layout_marginRight="21dp" android:layout_below="@id/input_bookname">
+                <FrameLayout android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:background="#fafafa" android:padding="3dp" android:layout_width="UNKNOWN_DATA_0x2801" android:layout_height="UNKNOWN_DATA_0x2801">
+                    <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:background="@drawable/search_input_authorname" android:layout_width="UNKNOWN_DATA_0x1401" android:layout_height="UNKNOWN_DATA_0x1401" />
+                </FrameLayout>
+                <EditText android:textSize="@dimen/text_size_class_4" android:textColor="@color/text_color_c101" android:textColorHint="@color/text_color_c801" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/input_authorname_edittext" android:background="0x0" android:paddingLeft="8dp" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2a01" android:hint="请输入作者名" />
+            </LinearLayout>
+        </RelativeLayout>
+    </FrameLayout>
+    <ImageView android:background="@a/common_divider" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" android:contentDescription="0x0" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0702a9">
+        <Button android:id="@id/sureButton" android:layout_width="match_parent" android:layout_height="match_parent" android:text="上架后提醒我" android:layout_weight="1.0" style="@style/button_big_blue_base" />
+        <Button android:id="@id/cancelButton" android:layout_width="match_parent" android:layout_height="match_parent" android:text="取消" android:layout_weight="1.0" style="@style/button_big_white_base" />
+    </LinearLayout>
+</LinearLayout>

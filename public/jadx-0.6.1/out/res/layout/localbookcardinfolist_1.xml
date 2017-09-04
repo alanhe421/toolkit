@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/card_list" android:background="@a/concept_card_bg" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <View android:background="@a/dind_page_zone_divider_color" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x801" />
+    <include android:id="@id/detail_common_title" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/detail_common_title_layout" />
+</LinearLayout>

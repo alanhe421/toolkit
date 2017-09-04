@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@drawable/emoicon_normal_background" android:layout_width="match_parent" android:layout_height="match_parent"
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:layout_marginRight="5dp">
+        <android.support.v4.view.ViewPager android:id="@id/emotion_viewpager" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="16dp" android:layout_marginBottom="12dp" android:layout_weight="1.0" android:overScrollMode="never" />
+        <com.qq.reader.common.emotion.EmoticonRadioGroup android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:id="@id/emotion_radiogroup" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="18dp" />
+    </LinearLayout>
+</LinearLayout>

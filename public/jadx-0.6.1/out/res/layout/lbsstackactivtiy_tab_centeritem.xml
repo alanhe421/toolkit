@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:background="@drawable/stacktab_center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <TextView android:textSize="@dimen/text_size_class_3" android:textColor="@a/stacktab_textcolor" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/tab_text" android:paddingLeft="9dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+        <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/red_icon" android:background="@drawable/bookshelf_news_newtip" android:visibility="invisible" android:layout_width="UNKNOWN_DATA_0x7f070363" android:layout_height="UNKNOWN_DATA_0x7f070363" android:layout_marginLeft="@dimen/sliding_tab_red_dot_left_margin" android:layout_marginTop="@dimen/sliding_tab_red_dot_top_margin" />
+    </LinearLayout>
+</RelativeLayout>

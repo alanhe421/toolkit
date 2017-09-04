@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@a/screen_bg_color" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:id="@e/common_titler" layout="@layout/common_titler_for_find_page" />
+    <com.qq.reader.view.LinearListView android:orientation="vertical" android:id="@id/left_tab_list" android:background="#f2f2f2" android:layout_width="UNKNOWN_DATA_0x5001" android:layout_height="match_parent" android:layout_below="@e/common_titler" />
+    <RelativeLayout android:clipChildren="true" android:clipToPadding="true" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_toRightOf="@id/left_tab_list" android:layout_below="@e/common_titler">
+        <com.qq.reader.module.bookstore.qweb.WebAdViewPager android:id="@id/common_tab_viewpager" android:layout_width="match_parent" android:layout_height="match_parent" />
+    </RelativeLayout>
+    <ImageView android:id="@id/common_tab_top_shadow" android:background="@d/bottom_shadow" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x301" android:layout_below="@e/common_titler" android:contentDescription="0x0" />
+    <com.qq.reader.view.AudioFloatingWindowView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/img_audio_floating" android:visibility="gone" android:clipChildren="false" android:clipToPadding="false" android:layout_width="UNKNOWN_DATA_0x7f070125" android:layout_height="UNKNOWN_DATA_0x7f070124" android:layout_marginRight="16dp" android:layout_marginBottom="72dp" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+</RelativeLayout>

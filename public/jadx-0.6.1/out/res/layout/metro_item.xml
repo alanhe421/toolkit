@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.qq.reader.view.metro.MetroItemView xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/category_item_bg" android:focusable="true" android:clickable="true" android:layout_width="UNKNOWN_DATA_0x7f0702aa" android:layout_height="UNKNOWN_DATA_0x7f0702aa">
+    <TextView android:textSize="@dimen/text_size_class_3" android:textColor="#ffffffff" android:ellipsize="end" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/category_name" android:layout_width="UNKNOWN_DATA_0x7f0702ab" android:layout_height="UNKNOWN_DATA_0x7f0702ab" android:maxLines="2" android:layout_centerInParent="true" />
+    <ImageView android:id="@id/category_selected" android:background="@drawable/category_item_selected" android:visibility="invisible" android:layout_width="UNKNOWN_DATA_0x7f0702ab" android:layout_height="UNKNOWN_DATA_0x7f0702ab" android:layout_alignLeft="@id/category_name" android:layout_alignTop="@id/category_name" />
+</com.qq.reader.view.metro.MetroItemView>

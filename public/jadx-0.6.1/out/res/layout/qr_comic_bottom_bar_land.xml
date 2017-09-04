@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <View android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3c01" />
+    <LinearLayout android:orientation="horizontal" android:clickable="true" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3c01">
+        <View android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:id="@e/mode_select_layout" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x3c01"
+            <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@e/section_selector" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_marginLeft="60dp" android:layout_weight="1.0">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <TextView android:textSize="10dp" android:textColor="@color/vip_comic_text_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="@g/reader_section_selector" />
+            </LinearLayout>
+            <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@e/drag_progress" android:clickable="true" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_marginLeft="60dp" android:layout_weight="1.0">
+                <TextView android:textSize="10dp" android:textColor="@color/vip_comic_text_selector" android:id="@e/brightness_mode_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="@g/reader_brightness_mode_day" />
+            </LinearLayout>
+            <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@e/reader_settings" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_marginLeft="60dp" android:layout_marginRight="40dp" android:layout_weight="1.0">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <TextView android:textSize="10dp" android:textColor="@color/vip_comic_text_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="@g/reader_settings" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</merge>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/bottom_part" android:background="#f9f9f9" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:id="@id/progress_info" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3401" android:layout_marginLeft="24dp" android:layout_marginRight="24dp" android:layout_below="@id/author_info">
+        <TextView android:textSize="@c/text_size_class_1" android:textColor="@color/text_color_c103" android:id="@id/current_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/default_time" />
+        <SeekBar android:id="@id/progressSeekBar" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="6dp" android:layout_marginRight="6dp" android:maxHeight="2dp" android:secondaryProgress="0" android:progressDrawable="@drawable/listen_book_progressbar" android:minHeight="2dp" android:thumb="@drawable/audio_play_progress_thumb" android:thumbOffset="3dp" android:layout_weight="1.0" style="@*style/Widget.ProgressBar.Horizontal" />
+        ;
+        <TextView android:textSize="@c/text_size_class_1" android:textColor="@color/text_color_c103" android:id="@id/total_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/default_time" />
+    </LinearLayout>
+    <ImageView android:id="@id/img_divider" android:layout_below="@id/progress_info" style="@style/line_divider_horizontal_style" />
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:id="@id/ctrl_panel" android:paddingLeft="24dp" android:paddingRight="24dp" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x5801" android:layout_below="@id/img_divider">
+        <RelativeLayout android:id="@id/layout_timer" android:clickable="true" android:layout_width="wrap_content" android:layout_height="match_parent">
+            <ImageView android:id="@id/timer_btn" android:clickable="true" android:layout_width="UNKNOWN_DATA_0x7f070069" android:layout_height="UNKNOWN_DATA_0x7f070067" android:src="@drawable/timer_btn" android:scaleType="fitXY" android:layout_centerInParent="true" />
+            <TextView android:textSize="@c/text_size_class_1" android:textColor="@color/text_color_c103" android:id="@id/tv_timer" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="定时" android:layout_below="@id/timer_btn" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1.0">
+            <ImageView android:id="@id/prev_btn" android:layout_width="UNKNOWN_DATA_0x7f070069" android:layout_height="UNKNOWN_DATA_0x7f070067" android:src="@drawable/prev_btn" android:scaleType="fitXY" />
+        </LinearLayout>
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="wrap_content" android:layout_height="match_parent">
+            <ImageView android:id="@id/play_pause_btn" android:layout_width="UNKNOWN_DATA_0x3001" android:layout_height="UNKNOWN_DATA_0x3001" android:src="@drawable/play_btn" android:scaleType="fitXY" />
+        </LinearLayout>
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1.0">
+            <ImageView android:id="@id/next_btn" android:layout_width="UNKNOWN_DATA_0x7f070069" android:layout_height="UNKNOWN_DATA_0x7f070067" android:src="@drawable/next_btn" android:scaleType="fitXY" />
+        </LinearLayout>
+        <RelativeLayout android:id="@id/layout_download" android:clickable="true" android:layout_width="wrap_content" android:layout_height="match_parent">
+            <ImageView android:id="@id/download_btn" android:layout_width="UNKNOWN_DATA_0x7f070069" android:layout_height="UNKNOWN_DATA_0x7f070067" android:src="@drawable/download_btn" android:scaleType="fitXY" android:layout_centerInParent="true" />
+            <TextView android:textSize="@c/text_size_class_1" android:textColor="@color/text_color_c103" android:id="@id/tv_download" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="下载" android:layout_below="@id/download_btn" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

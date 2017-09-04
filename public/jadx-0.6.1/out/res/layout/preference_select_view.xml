@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@a/select_preference_bg" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="@dimen/preference_intro_textSize" android:textColor="@a/textcolor_green" android:id="@id/intro" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/preference_intro_marginTop" android:layout_marginBottom="@dimen/preference_intro_marginBottom" android:text="请选择您常看的书籍类型" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+    <RadioGroup android:id="@id/rg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/intro" android:layout_centerHorizontal="true">
+        <RadioButton android:id="@id/boy" android:background="@drawable/boy_select_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="0x0" />
+        <RadioButton android:id="@id/girl" android:background="@drawable/girl_select_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/preference_button_margin_top" android:button="0x0" />
+        <RadioButton android:id="@id/publish" android:background="@drawable/publish_select_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/preference_button_margin_top" android:button="0x0" />
+    </RadioGroup>
+</RelativeLayout>
