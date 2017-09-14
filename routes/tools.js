@@ -69,4 +69,9 @@ router.get('/info', function (req, res) {
         forwards: JSON.stringify(forwards)
     });
 });
+
+router.get('/words', function (req, res) {
+    res.render('words', {menu: 'words'});
+});
+
 module.exports = router;

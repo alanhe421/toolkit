@@ -42,6 +42,13 @@
             class="active"
             <% } %>
             ><a href="t/crypto"><i class="fa fa-link"></i> <span>加密解密</span></a></li>
+
+            <li
+            <% if(menu == 'words') { %>
+            class="active"
+            <% } %>
+            ><a href="t/words"><i class="fa fa-link"></i> <span>字符数统计</span></a></li>
+
             <li
 
             <% if(menu == 'json') { %>

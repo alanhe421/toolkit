@@ -1,0 +1,35 @@
+{{extend './layout/layout.art'}}
+{{block 'content'}}
+<div class="content-header">
+    在线单词数统计
+</div>
+<div class="content body">
+    <div class="col-sm-6 col-xs-12">
+    <textarea title="box" id="box" class="form-control" rows="15" onkeyup="cal(this)">
+
+    </textarea>
+    </div>
+
+    <div class="col-sm-3 col-xs-12">
+        <ul class="list-unstyled">
+            <li class="bg-green">统计结果</li>
+            <li><span>Characters</span><strong id="character_count" class="badge">0</strong></li>
+            <li><span>Words</span><strong id="word_count">0</strong></li>
+            <li><span>Characters (no spaces)</span><strong id="character_count_no_spaces">0</strong></li>
+            <li><span>Chinese (中文汉字数)</span><strong id="chinese_count_no_spaces">0</strong></li>
+            <li><span>Paragraphs</span><strong id="paragraph_count">0</strong></li>
+            <li><span>Avg. Sentence (chars)</span><strong id="avg_sentence_chars">0</strong></li>
+            <li><span>Avg. Sentence (words)</span><strong id="avg_sentence_words">0</strong></li>
+            <li><span>Sentences</span><strong id="sentence_count">0</strong></li>
+        </ul>
+    </div>
+</div>
+
+<script>
+    function cal() {
+        var txt = $('#box').val();
+        $('#character_count').text(txt.length);
+        $('#word_count').text(txt.split(' ').length);
+    }
+</script>
+{{/block}}
