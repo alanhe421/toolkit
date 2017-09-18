@@ -29,6 +29,7 @@
   },
   "devDependencies": {
     "crypto-js": "^3.1.9-1",
-    "mark.js": "github:julmot/mark.js"
+    "mark.js": "github:julmot/mark.js",
+    "supertest": "^3.0.0"
   }
 }
