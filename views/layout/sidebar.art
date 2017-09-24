@@ -43,6 +43,14 @@
             <% } %>
             ><a href="t/crypto"><i class="fa fa-link"></i> <span>加密解密</span></a></li>
 
+
+            <li
+            <% if(menu == 'random') { %>
+            class="active"
+            <% } %>
+            ><a href="t/random"><i class="fa fa-link"></i> <span>随机密码</span></a></li>
+
+
             <li
             <% if(menu == 'words') { %>
             class="active"

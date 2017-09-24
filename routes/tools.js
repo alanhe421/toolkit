@@ -74,4 +74,9 @@ router.get('/words', function (req, res) {
     res.render('words', {menu: 'words'});
 });
 
+router.get('/random', function (req, res) {
+    res.render('random', {menu: 'random'});
+});
+
+
 module.exports = router;

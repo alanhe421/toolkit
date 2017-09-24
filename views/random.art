@@ -1,0 +1,111 @@
+{{extend './layout/layout.art'}}
+{{block 'content'}}
+<div class="container">
+    <div class="row">
+        <div class="col-md-8">
+            <table class="table">
+                <tr>
+                    <td>
+                        密码长度:
+                    </td>
+                    <td>
+                        <select id="pgLength">
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10" selected>10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                            <option value="13">13</option>
+                            <option value="14">14</option>
+                            <option value="15">15</option>
+                            <option value="16">16</option>
+                            <option value="17">17</option>
+                            <option value="18">18</option>
+                            <option value="19">19</option>
+                            <option value="20">20</option>
+                            <option value="21">21</option>
+                            <option value="22">22</option>
+                            <option value="23">23</option>
+                            <option value="24">24</option>
+                            <option value="25">25</option>
+                            <option value="26">26</option>
+                            <option value="27">27</option>
+                            <option value="28">28</option>
+                            <option value="29">29</option>
+                            <option value="30">30</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        小写字母(a..z)
+                    </td>
+                    <td>
+                        <input type="checkbox" id="chkl" name="chku" checked="checked" class="span4">
+                    </td>
+                </tr>
+                <tr>
+
+                    <td>
+                        大写字母(A..Z)
+                    </td>
+                    <td>
+                        <input type="checkbox" id="chku" name="chku" class="span4">
+                    </td>
+                </tr>
+                <tr>
+                    <td>数字(0..9)</td>
+                    <td>
+                        <input type="checkbox" id="chkn" name="chku" checked="checked" class="span4"></td>
+                </tr>
+                <tr>
+
+                    <td>特殊字符（()`~!@#$%^&*-+=|{}[]:;'<>,.?/）</td>
+                    <td>
+                        <input type="checkbox" id="chksc" name="chku" class="span4">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button type="button" class="btn btn-success" onclick="btnClicked()">生成密码</button>
+                    </td>
+                    <td>
+                        <input type="text" id="generatedPwd" class="form-control">
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+<script>
+    var charset = "";
+    var length = 10;
+    function btnClicked() {
+        charset = "";
+        length = $('#pgLength').val();
+        if ($('#chkl').is(':checked')) {
+            charset += 'abcdefghijklmnopqrstuvwxyz';
+        }
+        if ($('#chku').is(':checked')) {
+            charset += 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+        }
+        if ($('#chkn').is(':checked')) {
+            charset += '0123456789';
+        }
+        if ($('#chksc').is(':checked')) {
+            charset += '（()`~!@#$%^&*-+=|{}[]:;\'<>,.?/）';
+        }
+        $('#generatedPwd').val(generatePassword);
+    }
+
+    function generatePassword() {
+        var retVal = "";
+        for (var i = 0, n = charset.length; i < length; ++i) {
+            retVal += charset.charAt(Math.floor(Math.random() * n));
+        }
+        return retVal;
+    }
+</script>
+{{/block}}
