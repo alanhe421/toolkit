@@ -34,6 +34,9 @@
         <div class="info-box-content">
             <span class="info-box-text">加密后信息</span>
             <span class="info-box-number" id="crypted-info"></span>
+            <button id="copy-button" class="btn pull-right" data-clipboard-target="#crypted-info" title="已复制">
+                <i class="fa fa-clone"></i>
+            </button>
         </div>
         <!-- /.info-box-content -->
     </div>
@@ -52,6 +55,20 @@
             }
         });
     }
+
+    //回车事件绑定
+    $('#inputText').bind('keyup', function (event) {
+        if (event.keyCode == "13") {
+            //回车执行查询
+            crypto();
+        }
+    });
+
+    var clipboard = new Clipboard('#copy-button');
+    clipboard.on('success', function (e) {
+        $('#copy-button').tooltip('show');
+        e.clearSelection();
+    });
 </script>
 {{/block}}
 
