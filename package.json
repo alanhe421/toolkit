@@ -12,7 +12,7 @@
     "blueimp-md5": "^2.7.0",
     "connect-redis": "^3.1.0",
     "cookie-parser": "^1.4.3",
-    "express": "^4.15.4",
+    "express": "^4.16.1",
     "express-art-template": "^1.0.0",
     "express-session": "^1.14.2",
     "jquery-file-upload-middleware": "^0.1.8",
