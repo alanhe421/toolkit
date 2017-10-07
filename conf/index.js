@@ -3,6 +3,11 @@
  * 主配置文件
  */
 const conf = {
-    port: 3001
+    production: {
+        port: 3001,
+    },
+    development: {
+        port: 3001
+    }
 };
 module.exports = conf;
