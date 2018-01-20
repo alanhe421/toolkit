@@ -1,17 +1,18 @@
 {{extend './layout/layout.art'}}
 {{block 'content'}}
 <ul class="nav nav-tabs" id="myTabs">
-    <li role="presentation" class="active"><a href="#base64">base64</a></li>
+    <li role="presentation"><a href="#base64">base64</a></li>
     <li role="presentation"><a href="#md5">MD5</a></li>
     <li role="presentation"><a href="#uri">URL编码</a></li>
     <li role="presentation"><a href="#timestamp">Unix时间戳</a></li>
     <li role="presentation"><a href="#utf8">UTF-8</a></li>
+    <li role="presentation"><a href="#unicode">Unicode编码</a></li>
 </ul>
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="base64">
         <div class="row">
             <div class="col-sm-6">
-                <textarea name="encodeCnt" id="encodeCnt" class=" mtext-input form-control" rows="16"
+                <textarea name="encodeCnt" id="encodeCnt" class="mtext-input form-control" rows="16"
                           placeholder="加密内容粘贴到这里"></textarea>
             </div>
             <div class="col-sm-6">
@@ -96,6 +97,24 @@
             </div>
         </div>
     </div>
+    <div role="tabpanel" class="tab-pane" id="unicode">
+        <div class="row">
+            <div class="col-sm-6">
+                <textarea name="encodeCnt" id="unicodeEncodeCnt" class="mtext-input form-control" rows="16"
+                          placeholder="编码内容粘贴到这里"></textarea>
+            </div>
+            <div class="col-sm-6">
+                <textarea name="decodeCnt" id="unicodeDecodeCnt" class="mtext-input form-control" rows="16"
+                          placeholder="解码内容粘贴到这里"></textarea>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <button class="btn btn-primary" onclick="cnToUnicode()">中文转Unicode</button>
+                <button class="btn btn-primary" onclick="unicodeToCN()">Unicode转中文</button>
+            </div>
+        </div>
+    </div>
 </div>
 <script src="/js/base64.min.js" type="text/javascript"></script>
 <script src="/js/md5.min.js" type="text/javascript"></script>
@@ -104,9 +123,11 @@
     function encodeContent() {
         $('#decodeCnt').val(Base64.encode($('#encodeCnt').val()));
     }
+
     function decodeContent() {
         $('#encodeCnt').val(Base64.decode($('#decodeCnt').val()));
     }
+
     function md5Content() {
         $('#md5GenCnt').val(md5($('#md5SourceCnt').val()));
     }
@@ -114,9 +135,11 @@
     function uriEncode() {
         $('#uriDecodeCnt').val(encodeURI($('#uriEncodeCnt').val()));
     }
+
     function uriDecode() {
         $('#uriEncodeCnt').val(decodeURI($('#uriDecodeCnt').val()));
     }
+
     function unixToUTC8() {
         var dateStr = moment.unix($('#timestampInput').val()).format('YYYY-MM-DD HH:mm Z');
         $('#unixtoutc8').val(dateStr);
@@ -132,12 +155,40 @@
         $("#utf8EncodeCnt").val(unescape($("#utf8DecodeCnt").val().replace(/&#x/g, '%u').replace(/;/g, '')));
     }
 
-    $(document).ready(function () {
-        $('#myTabs a').click(function (e) {
-            e.preventDefault()
-            $(this).tab('show');
-        })
+    function unicode(str) {
+        var value = '';
+        for (var i = 0; i < str.length; i++) {
+            value += '\\u' + left_zero_4(parseInt(str.charCodeAt(i)).toString(16));
+        }
+        return value;
+    }
 
+    function left_zero_4(str) {
+        if (str != null && str != '' && str != 'undefined') {
+            if (str.length == 2) {
+                return '00' + str;
+            }
+        }
+        return str;
+    }
+
+    function cnToUnicode() {
+        $("#unicodeDecodeCnt").val(unicode($("#unicodeEncodeCnt").val()));
+    }
+
+    function unicodeToCN() {
+        $("#unicodeEncodeCnt").val(unescape($("#unicodeDecodeCnt").val().replace(/\\u/g, '%u')));
+    }
+
+    $(document).ready(function () {
+        var url = document.location.toString();
+        if (url.match('#')) {
+            $('.nav-tabs a[href*=\\#' + url.split('#')[1] + ']').tab('show');
+        }
+        $('#myTabs a').click(function (e) {
+            e.preventDefault();
+            $(this).tab('show')
+        });
         window.setInterval(function () {
             $('#currentunixtime').html(Math.ceil(new Date().getTime() / 1000));
         }, 1000);
