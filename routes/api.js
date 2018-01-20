@@ -22,7 +22,7 @@ const exec = require('child_process').exec;
 //whois
 router.get('/whois', function (req, res) {
         whois.lookup('alanhe.me', function (err, data) {
-            res.send(data);
+            res.json({data:data});
         })
     });
 
@@ -32,7 +32,7 @@ router.get('/aes', function (req, res) {
     var cipher = crypto.createCipher('aes-256-cbc', SECRET_KEY);
     var crypted = cipher.update(text, 'utf8', 'hex');
     crypted += cipher.final('hex');//AES对称加密
-    res.jsonp({
+    res.json({
         data: crypted
     });
 });

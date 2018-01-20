@@ -10,7 +10,7 @@ const path = require('path');
 const sharp = require('sharp');
 const parser = require('ua-parser-js');
 router.get('/', function (req, res) {
-    res.redirect('/t/encode');
+    res.redirect('/t/encode#base64');
 });
 router.get('/encode', function (req, res) {
     res.render('tools', {menu: 'encode'});

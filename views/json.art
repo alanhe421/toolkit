@@ -21,6 +21,7 @@
 
     </div>
 </div>
+<script src="https://cdn.bootcss.com/jquery-jsonview/1.2.3/jquery.jsonview.min.js"></script>
 <script type="text/javascript">
     function jsonView() {
         try {
@@ -35,4 +36,3 @@
     }
 </script>
 {{/block}}
-<script src="/js/jsonview/jquery.jsonview.js" type="text/javascript"></script>

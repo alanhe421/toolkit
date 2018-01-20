@@ -80,7 +80,7 @@
             <% } %>
             ><a href="t/js"><i class="fa fa-jsfiddle"></i> <span>JavaScript执行</span></a></li>
             <li
-            <% if(menu == 'js') { %>
+            <% if(menu == 'palette') { %>
             class="active"
             <% } %>
             >
