@@ -1,0 +1,25 @@
+language: node_js
+node_js: stable
+
+# S: Build Lifecycle
+# install:
+  - npm install
+
+
+#before_script:
+ # - npm install -g gulp
+
+#script:
+
+after_script:
+    - rsync -rv --delete -e 'ssh -o stricthostkeychecking=no -p ${DEPLOY_PORT}' **/** ${DEPLOY_USER}@${DEPLOY_HOST}:${DEPLOY_PATH}
+    - pm2 restart toolkit
+
+# E: Build LifeCycle
+
+branches:
+  only:
+    - master
+env:
+ global:
+   - GH_REF: github.com/alanhg/toolkit.git
