@@ -3,9 +3,6 @@ node_js: stable
 branchs:
   only:
   - master
-cache:
-  directories:
-  - node_modules
 addons:
     ssh_known_hosts: ${DEPLOY_HOST}
 before_install:
