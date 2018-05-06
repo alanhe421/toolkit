@@ -6,12 +6,12 @@ branchs:
 cache:
   directories:
   - node_modules
+addons:
+    ssh_known_hosts: ${DEPLOY_HOST}
 before_install:
 - openssl aes-256-cbc -K $encrypted_62e9ddb2e48f_key -iv $encrypted_62e9ddb2e48f_iv
   -in id_rsa.enc -out id_rsa -d
 - chmod 600 ~/.ssh/id_rsa
-addons:
-  ssh_known_hosts: ${DEPLOY_HOST}
 
 after_success:
 - scp ./** root@DEPLOY_HOST ${DEPLOY_PATH}
