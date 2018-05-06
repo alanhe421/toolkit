@@ -1,6 +1,6 @@
 /**
  * Created by He on 18/09/2017.
- *
+ * API请求测试
  */
 var request = require("supertest");
 var express = require("express");

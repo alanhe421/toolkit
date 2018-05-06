@@ -40,3 +40,4 @@
  |log4js|日志框架
  |admin-lte|响应式管理模板
  |mocha|测试框架
+ |clipboardjs|剪贴板
