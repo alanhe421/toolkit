@@ -6,7 +6,6 @@ branchs:
 addons:
     ssh_known_hosts:
      - 45.78.58.109:29554
-     - 1.1.1.1:29554
 script:
 - rsync -az -vv --delete -e 'ssh -p 29554' ./** root@45.78.58.109:/var/www/toolkit
 
