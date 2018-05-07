@@ -9,7 +9,7 @@ const cookieParser = require('cookie-parser');
 const path = require('path');
 const routes = require('./routes/index');
 const env = process.env.NODE_ENV ? process.env.NODE_ENV : 'development';
-const conf = require('./conf')[env];
+const conf = require('./config')[env];
 app.engine('art', require('express-art-template'));
 app.set('view engine', 'art');
 app.set('views', __dirname + '/views');
@@ -26,7 +26,7 @@ app.use(session({
 app.use('/', routes);
 app.use('/', express.static(path.join(__dirname, '/public')));
 
-// var log = require('./conf/log');
+// var log = require('./config/log');
 // log.use(app);
 // respond with "hello world" when a GET request is made to the homepage
 
