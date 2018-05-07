@@ -11,7 +11,8 @@ before_install:
   -in id_rsa.enc -out ~/.ssh/id_rsa -d
 - chmod 600 ~/.ssh/id_rsa
 
-after_success:
+script:
 - rsync -az -vv --delete -e 'ssh -p ${DEPLOY_PORT}' ./** root@${DEPLOY_HOST}:${DEPLOY_PATH}
+after_success:
 - npm install
 - pm2 restart toolkit
