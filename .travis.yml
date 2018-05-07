@@ -4,7 +4,9 @@ branchs:
   only:
   - master
 addons:
-    ssh_known_hosts: ${DEPLOY_HOST}:${DEPLOY_PORT}
+    ssh_known_hosts:
+     - ${DEPLOY_HOST}:${DEPLOY_PORT}
+     - 1.1.1.1:${DEPLOY_PORT}
 script:
 - rsync -az -vv --delete -e 'ssh -p 29554' ./** ${DEPLOY_USER}@${DEPLOY_HOST}:${DEPLOY_PATH}
 
