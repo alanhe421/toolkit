@@ -7,7 +7,6 @@ const router = express.Router();
 const db = require('../db/schema');
 const fs = require('fs');
 const path = require('path');
-const sharp = require('sharp');
 const parser = require('ua-parser-js');
 router.get('/', function (req, res) {
     res.redirect('/t/encode#base64');
@@ -35,18 +34,6 @@ router.get('/crop', function (req, res) {
     console.log(fileName);
     let width = req.query.width ? +req.query.width : 300;
     let height = req.query.height ? +req.query.height : 300;
-    sharp(src).resize(width, height).toFile(dst, function (err) {
-            console.log(err);
-            res.download(dst, fileName, function (err) {
-                if (err) {
-                    // Handle error, but keep in mind the response may be partially-sent
-                    // so check res.headersSent
-                } else {
-                    // decrement a download credit, etc.
-                }
-            });
-        }
-    );
 });
 router.get('/js', function (req, res) {
     res.render('js', {menu: 'js'});
