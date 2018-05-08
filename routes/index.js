@@ -3,7 +3,7 @@
  */
 var express = require('express');
 var router = express.Router();
-var upload = require('../config/upload');
+var upload = require('../config/plugin/upload');
 router.get('/', function (req, res) {
     res.redirect('/t');
 });
