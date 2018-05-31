@@ -53,4 +53,9 @@ router.get('/dex', function (req, res) {
             console.log('反编译完毕!');
         });
 });
+
+router.get('/ttt', function (req, res) {
+    res.render('ttt');
+});
+
 module.exports = router;
