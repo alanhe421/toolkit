@@ -16,10 +16,10 @@ app.set('views', __dirname + '/views');
 app.set('trust proxy', 1); // trust first proxy
 app.use(cookieParser());
 app.use(session({
-    // store: redisClient,
-    secret: 'toolkit',
-    saveUninitialized: true,
-    resave: false
+	// store: redisClient,
+	secret: 'toolkit',
+	saveUninitialized: true,
+	resave: false
 }));
 var sass = require('node-sass');
 
@@ -32,5 +32,5 @@ app.use('/', express.static(path.join(__dirname, '/static')));
 // respond with "hello world" when a GET request is made to the homepage
 
 app.listen(conf.port, '0.0.0.0', function () {
-    console.log(`toolkit app listening on port ${conf.port}!`);
+	console.log(`toolkit app listening on port ${conf.port}!`);
 });
