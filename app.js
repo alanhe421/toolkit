@@ -9,7 +9,7 @@ const cookieParser = require('cookie-parser');
 const path = require('path');
 const routes = require('./routes/index');
 const env = process.env.NODE_ENV ? process.env.NODE_ENV : 'development';
-const conf = require('./conf')[env];
+const conf = require('./config/index')[env];
 app.engine('art', require('express-art-template'));
 app.set('view engine', 'art');
 app.set('views', __dirname + '/views');
@@ -21,10 +21,11 @@ app.use(session({
     saveUninitialized: true,
     resave: false
 }));
+var sass = require('node-sass');
 
 // mount the router on the app
 app.use('/', routes);
-app.use('/', express.static(path.join(__dirname, '/public')));
+app.use('/', express.static(path.join(__dirname, '/static')));
 
 // var log = require('./conf/log');
 // log.use(app);

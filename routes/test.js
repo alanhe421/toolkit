@@ -43,7 +43,7 @@ router.get('/dex', function (req, res) {
     const exec = require('child_process').exec;
     exec('bin/jadx -d out ../uploads/com.qq.reader.apk',
         {
-            cwd: path.join(__dirname, '../public/jadx-0.6.1'),
+            cwd: path.join(__dirname, '../static/jadx-0.6.1'),
             maxBuffer: 500 * 1024
         }, (error, stdout, stderr) => {
             if (error) {
