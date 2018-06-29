@@ -7,6 +7,10 @@
   },
   "extends": "eslint:recommended",
   "rules": {
+    "eqeqeq": [
+      "error",
+      "always"
+    ],
     "no-const-assign": "warn",
     "no-this-before-super": "warn",
     "no-undef": "warn",
